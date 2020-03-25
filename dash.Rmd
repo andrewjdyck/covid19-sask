@@ -1,0 +1,64 @@
+---
+title: "COVID in Saskatchewan"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(readr)
+library(dygraphs)
+library(xts)
+
+indata <- readr::read_csv('./data/cases-sk.csv')
+df <- xts(indata$Cases, order.by=indata$Date)
+colnames(df) <- c('Cases')
+```
+
+Row 
+-----------------------------------------------------------------------
+
+### Current cases
+```{r}
+casesCurr <- df[nrow(df)]
+valueBox(casesCurr, 
+         icon = "fa-stethoscope",
+         color = ifelse(casesCurr > 5, "warning", "primary"))
+```
+
+### Daily growth
+```{r}
+dailyGrowth <- df[nrow(df)][[1]]/df[nrow(df)-1][[1]]-1
+valueBox(round(dailyGrowth*100,0), 
+         icon = "fa-percent",
+         color = ifelse(dailyGrowth > 0.3, "danger", "warning"))
+```
+
+### Deaths
+```{r}
+deathsCurr <- 0
+valueBox(deathsCurr, 
+         icon = "fa-skull",
+         color = ifelse(deathsCurr == 0, "success", "danger"))
+```
+
+### Recovered
+```{r}
+recoverCurr <- 0
+valueBox(recoverCurr, 
+         icon = "fa-syringe",
+         color = ifelse(recoverCurr > 0, "primary", "success"))
+```
+
+
+Row
+-----------------------------------------------------------------------
+
+### Cases
+
+```{r}
+dygraph(df, main = "COVID-19 Cases in Saskatchewan") 
+```
+
