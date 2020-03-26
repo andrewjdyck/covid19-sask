@@ -1,7 +1,8 @@
 library(rvest)
 library(jsonlite)
 
-dt <- '20200325'
+# Current date
+dt <- as.character(format(Sys.Date(), '%Y%m%d'))
 url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan'
 
 
