@@ -23,10 +23,11 @@ Row
 
 ### Current cases
 ```{r}
-casesCurr <- df[nrow(df)]
+casesCurr <- indata[nrow(indata), "Cases"]
 valueBox(casesCurr, 
          icon = "fa-stethoscope",
-         color = ifelse(casesCurr > 5, "warning", "primary"))
+         color = ifelse(casesCurr > 5, "warning", ifelse(casesCurr > 100, "danger", "primary"))
+)
 ```
 
 ### Daily growth
@@ -39,7 +40,7 @@ valueBox(round(dailyGrowth*100,0),
 
 ### Deaths
 ```{r}
-deathsCurr <- 0
+deathsCurr <- indata[nrow(indata), "Deaths"]
 valueBox(deathsCurr, 
          icon = "fa-skull",
          color = ifelse(deathsCurr == 0, "success", "danger"))
@@ -47,7 +48,7 @@ valueBox(deathsCurr,
 
 ### Recovered
 ```{r}
-recoverCurr <- 0
+recoverCurr <- indata[nrow(indata), "Recovered"]
 valueBox(recoverCurr, 
          icon = "fa-syringe",
          color = ifelse(recoverCurr > 0, "primary", "success"))
