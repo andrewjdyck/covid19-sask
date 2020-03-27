@@ -11,10 +11,23 @@ dd <- read_html(url) %>%
   html_nodes('.compacttable') %>%
   html_table()
 
-tt <- dd[[1]][2:nrow(dd[[1]]), ]
-names(tt) <- dd[[1]][1, ]
+# Cases table
+cases <- dd[[1]][2:nrow(dd[[1]]), ]
+names(cases) <- dd[[1]][1, ]
 
-write.csv(tt, paste0('./data/covid_sk_', dt, '.csv'), row.names=FALSE)
+write.csv(cases, paste0('./data/covid_sk_', dt, '.csv'), row.names=FALSE)
+
+# age distribution table
+ages <- dd[[2]][2:nrow(dd[[2]]), ]
+names(ages) <- dd[[2]][1, ]
+
+write.csv(ages, paste0('./data/covid_sk_age_dist_', dt, '.csv'), row.names=FALSE)
+
+# testing table
+testing <- dd[[3]][2:nrow(dd[[3]]), ]
+names(testing) <- dd[[3]][1, ]
+
+write.csv(testing, paste0('./data/covid_sk_testing_', dt, '.csv'), row.names=FALSE)
 
 # Read summary
 summ <- read_html(url) %>%
