@@ -1,0 +1,8 @@
+"Region","Total Cases","Confirmed Cases","Inpatient Hospitalization","ICU Hospitalizations","Recovered*","Deaths"
+"Far North","3","3","0","0","0","0"
+"North","13","13","1","0","0","0"
+"Central (excluding Saskatoon)","8","8","0","0","1","0"
+"Saskatoon","48","48","1","1","1","0"
+"South (excluding Regina)","4","4","0","0","1","0"
+"Regina","28","28","2","1","0","0"
+"Total Saskatchewan","104","104","4","2","3","0"
