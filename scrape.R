@@ -5,8 +5,12 @@ library(jsonlite)
 dt <- as.character(format(Sys.Date(), '%Y%m%d'))
 url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan'
 
+# general content summary
+readdate <- read_html(url) %>%
+  html_nodes('.general-content p strong')
 
 
+# read tables from html
 dd <- read_html(url) %>%
   html_nodes('.compacttable') %>%
   html_table()
@@ -43,5 +47,3 @@ l1 <- ll %>%
   unlist()
 
 write(toJSON(l1), paste0('./data/lst_', dt, '.json'))
-
-readdate <- html_nodes(summ, 'p strong')

@@ -12,10 +12,11 @@ library(flexdashboard)
 library(readr)
 library(dygraphs)
 library(xts)
+source('./utils.R')
 
 indata <- readr::read_csv('./data/cases-sk.csv')
-df <- xts(indata$Cases, order.by=indata$Date)
-colnames(df) <- c('Cases')
+cases <- xts(indata$Cases, order.by=indata$Date)
+colnames(cases) <- c('Cases')
 ```
 
 Row 
@@ -32,7 +33,7 @@ valueBox(casesCurr,
 
 ### Daily growth
 ```{r}
-dailyGrowth <- df[nrow(df)][[1]]/df[nrow(df)-1][[1]]-1
+dailyGrowth <- cases[nrow(cases)][[1]]/cases[nrow(cases)-1][[1]]-1
 valueBox(round(dailyGrowth*100,0), 
          icon = "fa-percent",
          color = ifelse(dailyGrowth > 0.3, "danger", "warning"))
@@ -55,12 +56,48 @@ valueBox(recoverCurr,
 ```
 
 
+Row 
+-----------------------------------------------------------------------
+
+### Detection rate
+```{r}
+# detRate <- 0.7765
+detRate <- round(estDetRate(indata$Cases, (indata$Hospitalized+indata$ICU))*100,0)
+valueBox(detRate, 
+         icon = "fa-percent",
+         color = ifelse(detRate > .5, "success", ifelse(detRate > .25, "primary", "danger"))
+)
+```
+
+### Doubling rate (days)
+```{r}
+doubRate <- round(doubTime(indata$Cases, 1:length(indata$Cases)), 1)
+valueBox(doubRate, 
+         icon = "fa-stethoscope",
+         color = ifelse(doubRate > 5, "success", ifelse(doubRate < 2.5, "danger", "warning"))
+)
+```
+
+### Forecasted cases (10-day)
+```{r}
+projectedCases <- floor(as.data.frame(projSimple(cases, 1:length(cases))$y)$fit)
+fcastCases <- projectedCases[length(projectedCases)]
+valueBox(fcastCases, 
+         icon = "fa-stethoscope",
+         color = "danger"
+)
+```
+
 Row
 -----------------------------------------------------------------------
 
-### Cases
+### Cases chart
 
 ```{r}
-dygraph(df, main = "COVID-19 Cases in Saskatchewan") 
+indata$inferredCases <- floor(indata$Cases/(detRate/100))
+dta <- cbind(cases, indata$inferredCases)
+dygraph(dta, main = "COVID-19 Cases in Saskatchewan") 
 ```
+
+
 
