@@ -6,7 +6,7 @@
 estDetRate <- function(confirmedCases, hospitalizations, tts=5, hospitalizationRate=.07) {
   casesLessTTS <- confirmedCases[length(confirmedCases)-tts]
   inferredCases <- floor(hospitalizations[length(hospitalizations)]/hospitalizationRate)
-  detectionRate <- casesLessTTS/inferredCases
+  detectionRate <- min(casesLessTTS/inferredCases, 1)
   return(detectionRate)
 }
 
