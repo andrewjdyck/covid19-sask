@@ -96,6 +96,7 @@ Row
 ```{r}
 indata$inferredCases <- floor(indata$Cases/(detRate/100))
 dta <- cbind(cases, indata$inferredCases)
+names(dta) <- c('Cases', 'InferredCases')
 dygraph(dta, main = "COVID-19 Cases in Saskatchewan") 
 ```
 
