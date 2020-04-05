@@ -19,6 +19,9 @@ cases <- xts(indata$Cases, order.by=indata$Date)
 colnames(cases) <- c('Cases')
 ```
 
+Summary
+======================================================================
+
 Row 
 -----------------------------------------------------------------------
 
@@ -61,11 +64,11 @@ Row
 
 ### Detection rate
 ```{r}
-# detRate <- 0.7765
-detRate <- round(estDetRate(indata$Cases, (indata$Hospitalized+indata$ICU))*100,0)
-valueBox(detRate, 
+# detRate <- round(estDetRate(indata$Cases, (indata$Hospitalized+indata$ICU))*100,0)
+detectionRate <- detRate(indata$Cases, indata$Deaths)
+valueBox(round(detectionRate*100, 2), 
          icon = "fa-percent",
-         color = ifelse(detRate > .5, "success", ifelse(detRate > .25, "primary", "danger"))
+         color = ifelse(detectionRate > 50, "success", ifelse(detectionRate > 25, "primary", "danger"))
 )
 ```
 
@@ -88,17 +91,44 @@ valueBox(fcastCases,
 )
 ```
 
+### Inferred actual current cases
+```{r}
+indata$inferredCases <- floor(indata$Cases/detectionRate)
+inferredCases <- indata$inferredCases[length(indata$Cases)]
+valueBox(inferredCases, 
+         icon = "fa-stethoscope",
+         color = "danger"
+)
+```
+
 Row
 -----------------------------------------------------------------------
 
-### Cases chart
+### Official cases chart
 
 ```{r}
-indata$inferredCases <- floor(indata$Cases/(detRate/100))
-dta <- cbind(cases, indata$inferredCases)
-names(dta) <- c('Cases', 'InferredCases')
-dygraph(dta, main = "COVID-19 Cases in Saskatchewan") 
+# dta <- cbind(cases, indata$inferredCases)
+# names(dta) <- c('Cases', 'InferredCases')
+# dygraph(dta, main = "Official COVID-19 Cases in Saskatchewan") %>%
+#   dySeries("InferredCases", axis = "y2")
+dygraph(cases, main = "Official COVID-19 Cases in Saskatchewan", group='covidCases')
 ```
 
 
 
+
+Policy tools
+======================================================================
+
+Row
+-----------------------------------------------------------------------
+
+### Unofficial inferred actual cases chart
+
+```{r}
+dta <- cbind(cases, indata$inferredCases)
+names(dta) <- c('Cases', 'InferredCases')
+# dygraph(dta, main = "Official COVID-19 Cases in Saskatchewan") %>%
+#   dySeries("InferredCases", axis = "y2")
+dygraph(dta$InferredCases, main = "Unofficial Actual COVID-19 Cases in Saskatchewan", group='covidCases')
+```
