@@ -1,0 +1,21 @@
+
+
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(reshape2)
+library(gganimate)
+indata <- read_csv('./data/cases-sk.csv')
+indata$Active <- indata$Cases-indata$Recovered-indata$Deaths
+ggdata <- indata %>%
+  select(Date, Recovered, Active, Deaths) %>%
+  melt(id="Date")
+  
+anim <- ggplot(ggdata, aes(x=Date, y=value, fill=variable)) + 
+  geom_area() +
+  scale_fill_manual(values=c("green", "orange", "red")) + 
+  labs(title = 'COVID-19 Cases in Saskatchewan', y = 'Cases') + 
+  transition_reveal(Date)
+
+anim_out <- animate(anim, end_pause=10)
+anim_save('./output/cases_gif.gif', anim_out)
