@@ -45,11 +45,11 @@ projSimpleSlope<-function(rawN, rawTime, inWindow=10){
 
 # Simple projection based on growth over last inWindow days
 # returns extended plotting data
-projSimple<-function(rawN, rawTime, inWindow=10){
+projSimple<-function(rawN, rawTime, inWindow=10, outWindow=10){
   nn <- length(rawN)
   ss <- (nn-inWindow+1):nn
   # x <- c(rawTime[ss], rawTime[nn]+1:inWindow)
-  x <- c(rawTime, rawTime[nn]+1:inWindow)
+  x <- c(rawTime, rawTime[nn]+1:outWindow)
   lnN <- log(rawN[ss])
   lnN[is.infinite(lnN)]<-NA
   tIn <- rawTime[ss]
@@ -64,4 +64,73 @@ projSimple<-function(rawN, rawTime, inWindow=10){
 doubTime <- function(cases, time, inWindow = 10){
   r <- projSimpleSlope(cases, time)[2]
   log(2)/r
+}
+
+# calculates the curve flatenning index.
+# it is the second derivative of logA wrt t (the change in growth rate) divided by first differential (the current growth rate).
+cfi <- function(active){
+  lnact <-log(active)
+  cfiInd <- -diff(diff(lnact))/abs(diff(lnact)[-1])
+  cfiInd[abs(cfiInd)>10]<-NA # remove crazy values associated with changed test/diagnosis
+  cfiInd
+}
+
+
+# to identify the date columns in ts dataframes
+dateCols<-function(x){
+  grepl(pattern = "\\d", x = colnames(x))
+}
+
+
+# Adjusts cumulative infections to get active cases
+# cumulative infections and deaths, ttr = time to recovery
+recLag <- function(infections, deaths, datCols = dateCols(infections), ttr = 22){
+  matI<-as.matrix(infections[, datCols])
+  matD<-as.matrix(deaths[, datCols])
+  matA<-matI-matD #remove deaths
+  matR <- cbind(matrix(0, nrow = nrow(matA), ncol = 22), matA[, -((ncol(matA)-21):ncol(matA))]) # recovered
+  matA <- matA - matR
+  
+  out <- data.frame(infections[,!datCols], matA) # active cases
+  colnames(out) <- colnames(infections)
+  out
+}
+
+# aggregates results to country
+countryAgg<-function(x){
+  xSelect<-x[, dateCols(x)]
+  aggregate(xSelect, by = list(Country = x$Country.Region), FUN = sum)
+}
+
+
+# To subset time series data and aggregate totals
+tsSub <- function(x, subset){
+  xSub<-x[subset, dateCols(x)]
+  colSums(xSub)
+}
+
+# convert a provincial time series
+convertTs <- function(ts) {
+  temp <- ts[, 5:ncol(ts)]
+  dts <- as.Date(names(temp), format = '%m/%d/%y')
+  dta <- as.vector(t(temp))
+  xts(dta, order.by=dts)
+}
+
+alignDf <- function(xtsDta) {
+  tt <- as.data.frame(xtsDta)
+  on <- tt$on[5:nrow(tt)]
+  nn <- length(on)
+  sk <- c(tt$sk[tt$sk>0], rep(NA, nn-length(tt$sk[tt$sk>0])))
+  ab <- c(tt$ab[tt$ab>0], rep(NA, nn-length(tt$ab[tt$ab>0])))
+  bc <- c(tt$bc[tt$bc>0], rep(NA, nn-length(tt$bc[tt$bc>0])))
+  it <- c(tt$it[tt$it>0], rep(NA, nn-length(tt$it[tt$it>0])))
+  outData <- data.frame(
+    on=on,
+    sk=sk,
+    ab=ab,
+    bc=bc,
+    it=it
+  )
+  return(outData)
 }
