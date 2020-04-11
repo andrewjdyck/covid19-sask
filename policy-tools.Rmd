@@ -1,0 +1,130 @@
+---
+title: "Detailed Policy Tools for COVID-19 in Saskatchewan"
+output: 
+  flexdashboard::flex_dashboard:
+    storyboard: true
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(readr)
+library(dygraphs)
+library(xts)
+library(zoo)
+source('./utils.R')
+
+indata <- readr::read_csv('./data/cases-sk.csv')
+cases <- xts(indata$Cases, order.by=indata$Date)
+colnames(cases) <- c('Cases')
+```
+
+### Comparing per capita cases across Canada from first case
+
+```{r}
+load('./data/cacheData.RData')
+ab <- tsA[which(tsA$Province.State == 'Alberta'),]
+bc <- tsA[which(tsA$Province.State == 'British Columbia'),]
+on <- tsA[which(tsA$Province.State == 'Ontario'),]
+sk <- tsA[which(tsA$Province.State == 'Saskatchewan'),]
+it <- tsA[which(tsA$Country.Region == 'Italy'),]
+
+xtsDta <- cbind(
+  bc=convertTs(bc),
+  ab=convertTs(ab),
+  sk=convertTs(sk),
+  on=convertTs(on),
+  it=convertTs(it)
+)
+aa <- alignDf(xtsDta)
+
+popn <- data.frame(
+  on = 14.57,
+  sk = 1.174,
+  ab = 4.371,
+  bc = 5.071,
+  it = 60.48
+)
+
+pc <- ts(data.frame(
+  on=aa$on/popn$on,
+  sk=aa$sk/popn$sk,
+  ab=aa$ab/popn$ab,
+  bc=aa$bc/popn$bc,
+  it=aa$it/popn$it
+))
+dygraph(pc, main='Cases per capita from first case')
+```
+
+*** 
+
+There has been a slower per-capita exponential growth period in Saskatchewan, when compared to other regions.
+
+### Comparing per capita deaths across Canada from first case {data-commentary-width=400}
+
+```{r}
+load('./data/cacheData.RData')
+abd <- tsD[which(tsD$Province.State == 'Alberta'),]
+bcd <- tsD[which(tsD$Province.State == 'British Columbia'),]
+ond <- tsD[which(tsD$Province.State == 'Ontario'),]
+skd <- tsD[which(tsD$Province.State == 'Saskatchewan'),]
+itd <- tsD[which(tsD$Country.Region == 'Italy'),]
+
+xtsDtaD <- cbind(
+  bc=convertTs(bcd),
+  ab=convertTs(abd),
+  sk=convertTs(skd),
+  on=convertTs(ond),
+  it=convertTs(itd)
+)
+
+popn <- data.frame(
+  on = 14.57,
+  sk = 1.174,
+  ab = 4.371,
+  bc = 5.071,
+  it = 60.48
+)
+
+pcd <- ts(data.frame(
+  on=xtsDtaD$on/popn$on,
+  sk=xtsDtaD$sk/popn$sk,
+  ab=xtsDtaD$ab/popn$ab,
+  bc=xtsDtaD$bc/popn$bc
+))
+dygraph(pcd[, c('sk', 'ab', 'bc', 'on')], main='Deaths per capita from first case') 
+```
+*** 
+
+Deaths comparison aligned.
+
+
+### Comparing per capita deaths across Canada from first case {data-commentary-width=400}
+
+```{r}
+gr <- 100*diff(cases)/c(NA,cases[1:(nrow(cases)-1)])
+names(gr) <- 'Growth'
+# dygraph(dta, main = "Official COVID-19 Cases in Saskatchewan") %>%
+#   dySeries("InferredCases", axis = "y2")
+dygraph(gr, main = "Growth rate of confirmed cases") %>%
+  dyLimit(7, label = '5-day doubling', color = "orange") %>%
+  dyLimit(5, label = '10-day doubling', color = 'red')
+```
+*** 
+
+Deaths comparison aligned.
+
+
+<!-- ```{r} -->
+<!-- itt <- data.frame(cases=xtsDta$it/popn$it, deaths=xtsDtaD$it/popn$it) -->
+<!-- names(itt) <- c('cases', 'deaths') -->
+<!-- dygraph(ts(itt), main='Cases and deaths per capita (Italy)') %>% -->
+<!--   dySeries("deaths", axis = "y2") -->
+<!-- ``` -->
+
+<!-- ```{r} -->
+<!-- itt <- data.frame(cases=xtsDta$on/popn$on, deaths=xtsDtaD$on/popn$on) -->
+<!-- names(itt) <- c('cases', 'deaths') -->
+<!-- dygraph(ts(itt), main='Cases and deaths per capita (Ontario)') %>% -->
+<!--   dySeries("deaths", axis = "y2") -->
+<!-- ``` -->
+
