@@ -12,6 +12,7 @@ library(flexdashboard)
 library(readr)
 library(dygraphs)
 library(xts)
+library(zoo)
 source('./utils.R')
 
 indata <- readr::read_csv('./data/cases-sk.csv')
@@ -59,12 +60,30 @@ valueBox(recoverCurr,
 ```
 
 
+Row
+-----------------------------------------------------------------------
+
+### Official cases chart
+
+```{r}
+# dta <- cbind(cases, indata$inferredCases)
+# names(dta) <- c('Cases', 'InferredCases')
+# dygraph(dta, main = "Official COVID-19 Cases in Saskatchewan") %>%
+#   dySeries("InferredCases", axis = "y2")
+dygraph(cases, main = "Official COVID-19 Cases in Saskatchewan", group='covidCases')
+```
+
+
+
+
+Policy tools
+======================================================================
+
 Row 
 -----------------------------------------------------------------------
 
 ### Detection rate
 ```{r}
-# detRate <- round(estDetRate(indata$Cases, (indata$Hospitalized+indata$ICU))*100,0)
 detectionRate <- detRate(indata$Cases, indata$Deaths)
 valueBox(round(detectionRate*100, 2), 
          icon = "fa-percent",
@@ -104,31 +123,25 @@ valueBox(inferredCases,
 Row
 -----------------------------------------------------------------------
 
-### Official cases chart
+### Growth rate of confirmed cases
 
 ```{r}
-# dta <- cbind(cases, indata$inferredCases)
-# names(dta) <- c('Cases', 'InferredCases')
+gr <- 100*diff(cases)/c(NA,cases[1:(nrow(cases)-1)])
+names(gr) <- 'Growth'
 # dygraph(dta, main = "Official COVID-19 Cases in Saskatchewan") %>%
 #   dySeries("InferredCases", axis = "y2")
-dygraph(cases, main = "Official COVID-19 Cases in Saskatchewan", group='covidCases')
+dygraph(gr, main = "Growth rate of confirmed cases") %>%
+  dyRoller(rollPeriod = 3) %>%
+  dyLimit(7, label = '5-day doubling', color = "orange") %>%
+  dyLimit(5, label = '10-day doubling', color = 'red')
 ```
-
-
-
-
-Policy tools
-======================================================================
 
 Row
 -----------------------------------------------------------------------
 
-### Unofficial inferred actual cases chart
+### Are we flattening the curve?
 
 ```{r}
-dta <- cbind(cases, indata$inferredCases)
-names(dta) <- c('Cases', 'InferredCases')
-# dygraph(dta, main = "Official COVID-19 Cases in Saskatchewan") %>%
-#   dySeries("InferredCases", axis = "y2")
-dygraph(dta$InferredCases, main = "Unofficial Actual COVID-19 Cases in Saskatchewan", group='covidCases')
+dygraph(log(cases), main = "Is Saskatchewan flattening the curve? (Log of confirmed cases)")
 ```
+
