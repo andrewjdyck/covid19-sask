@@ -3,6 +3,8 @@ library(readr)
 # library(xts)
 # library(zoo)
 library(plyr)
+library(ggplot2)
+library(gganimate)
 source('./utils.R')
 
 indata <- readr::read_csv('./data/cases-sk.csv')
