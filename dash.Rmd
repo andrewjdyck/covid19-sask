@@ -11,11 +11,13 @@ output:
 library(flexdashboard)
 library(readr)
 library(dygraphs)
+library(highcharter)
 library(xts)
 library(zoo)
 source('./utils.R')
 
 indata <- readr::read_csv('./data/cases-sk.csv')
+indata$Active <- indata$Cases - indata$Recovered - indata$Deaths
 cases <- xts(indata$Cases, order.by=indata$Date)
 colnames(cases) <- c('Cases')
 ```
@@ -70,7 +72,22 @@ Row
 # names(dta) <- c('Cases', 'InferredCases')
 # dygraph(dta, main = "Official COVID-19 Cases in Saskatchewan") %>%
 #   dySeries("InferredCases", axis = "y2")
-dygraph(cases, main = "Official COVID-19 Cases in Saskatchewan", group='covidCases')
+# dygraph(cases, main = "Official COVID-19 Cases in Saskatchewan", group='covidCases')
+
+highchart() %>%
+  hc_title(text = "Official COVID-19 Cases in Saskatchewan",
+           style = list(fontSize = "15px")) %>% 
+  hc_chart(type = "area", polar=FALSE) %>% 
+  hc_xAxis(categories = indata$Date) %>%
+  hc_plotOptions(
+    area = list(
+      stacking = "normal"
+    )
+  ) %>%
+  hc_add_series(indata$Recovered, name= "Recovered") %>%
+  hc_add_series(indata$Active, name = "Active cases") %>%
+  hc_add_series(indata$Deaths, name="Deaths")
+
 ```
 
 
