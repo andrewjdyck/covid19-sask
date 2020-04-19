@@ -1,3 +1,6 @@
+# Custom ignore files
+data/cacheData.RData
+
 # Ignore html files
 *.html
 
