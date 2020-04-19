@@ -2,6 +2,8 @@
 
 A repository for tracking COVID-19 stats for Saskatchewan. Non-government affiliated crowd sourced
 
+![sask COVID-19 cases over time](output/cases_gif.gif)
+
 ## Predictive stats
 
 ### Background 
