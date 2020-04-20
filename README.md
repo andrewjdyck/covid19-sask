@@ -20,6 +20,8 @@ Unlike others, I'm going to use a less conservative estimate of the case fatalit
 
 
 
+# Notes and links
+
 ## General Government info
 
 https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus
