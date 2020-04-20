@@ -22,7 +22,7 @@ anim <- ggplot(ggdata, aes(x=Date, y=value, fill=variable)) +
   transition_reveal(Date)
 
 anim_out <- animate(anim, end_pause=30)
-anim_save('../output/cases_gif.gif', anim_out)
+anim_save('./output/cases_gif.gif', anim_out)
 
 
 
