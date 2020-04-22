@@ -1,23 +1,31 @@
 # COVID-19 in Saskatchewan
 
-A repository for tracking COVID-19 stats for Saskatchewan. Non-government affiliated crowd sourced
+A repository for tracking COVID-19 stats for Saskatchewan. Non-government affiliated. Crowd sourced.
 
 ![sask COVID-19 cases over time](output/cases_gif.gif)
+
+## The data
+
+###  Collection
+
+On March 16, 2020 I began putting COVID-19 number from Saskatchewan into a spreadsheet and I updated it every day after the numbers were released in the afternoon (See Notes and links below). The file [cases-sk.csv](https://github.com/SaskOpenData/covid19-sask/blob/master/data/cases-sk.csv) is that spreadsheet that I've continued to update every day since, augmented by some data for the period March 12-15, 2020 that I compiled from the Excel charts that the SK Government posts on its website and a handful of posts on the r/saskatchewan subreddit. This period may not be accurate.
+
+On March 22, 2020 I wrote a webscraper that collects the same data in a more detailed fashion in this repository. I run the scraper daily and output the datasets generated into the [/data](https://github.com/SaskOpenData/covid19-sask/tree/master/data) directory of this repository. There are 4 types of datestamped datasets in this directory:
+
+- covid_sk_yyyymmdd.csv: The main table tracked with confirmed cases broken out regionally.
+- covid_sk_age_dist_yyyymmdd.csv: A table showing the age distribution of confirmed cases in SK.
+- covid_sk_testing_yyyymmdd.csv: A table of COVID-19 testing broken out regionally.
+- lst_yyyymmdd.json: This is the list of bullet points at the top of the [government update page](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan). Sometimes  they put important info in here, but I haven't been using it for anything. Might be useful at some point down the line.
+
+
 
 ## Predictive stats
 
 ### Background 
 
-I'm not an expert in epidemiology ... by a long shot. All predictive analysis is largely based on the forecast work done by [Ben Phillips](https://github.com/benflips/nCovForecast).
+I'm not an expert in epidemiology ... by a long shot. All predictive analysis is largely based on the forecast work done by [Ben Phillips](https://github.com/benflips/nCovForecast). 
 
-### Assumptions
-
-This is going to be a bit on the dark side. Until there is a fatality in SK, some predictive analysis is a bit limited.....I guess that's a good position to be in. That said, without this data, I'm going to use some Canadian averages. For example, I'll use an estimate of the Canadian detection rate of 6% of COVID-19 cases making their way into the official stats. 
-
-I'm also going to assume that any social distancing measures take 14 days to be effective and, like others, assume that the median time from infection to symptoms is 5 days. Also like others, the time from infection to fatality is assumed to be 17 days.
-
-Unlike others, I'm going to use a less conservative estimate of the case fatality rate (CFR) for COVID-19, that is based on as close as we have to an experiment, the Diamond Princess, which was 1%. Some notes on this come from: https://www.statnews.com/2020/03/17/a-fiasco-in-the-making-as-the-coronavirus-pandemic-takes-hold-we-are-making-decisions-without-reliable-data/, and, a very trustworthy source, https://www.nature.com/articles/d41586-020-00885-w.
-
+There is some additional info in the [/forecast/](https://github.com/SaskOpenData/covid19-sask/tree/master/forecast) directory.
 
 
 # Notes and links
