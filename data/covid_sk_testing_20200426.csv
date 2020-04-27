@@ -1,0 +1,8 @@
+"Region","# of Patients with Tests Ordered","# of Patients with Tests Ordered","# Patients Presumptive Positive","# Patients Confirmed Positive","# Patients Confirmed Negative","Total # of Tests Performed"
+"Far North",NA,NA,"0","35",NA,NA
+"North",NA,NA,"0","68",NA,NA
+"Central (excluding Saskatoon)",NA,NA,"0","11",NA,NA
+"Saskatoon",NA,NA,"0","150",NA,NA
+"South (excluding Regina)",NA,NA,"0","15",NA,NA
+"Regina",NA,NA,"0","74",NA,NA
+"Total",NA,NA,"0","353",NA,"27,884"
