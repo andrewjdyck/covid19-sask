@@ -28,9 +28,9 @@ Summary
 Row 
 -----------------------------------------------------------------------
 
-### Current cases
+### Active cases
 ```{r}
-casesCurr <- indata[nrow(indata), "Cases"]
+casesCurr <- indata[nrow(indata), "Active"]
 valueBox(casesCurr, 
          icon = "fa-stethoscope",
          color = ifelse(casesCurr > 5, "warning", ifelse(casesCurr > 100, "danger", "primary"))
@@ -39,7 +39,7 @@ valueBox(casesCurr,
 
 ### Daily growth
 ```{r}
-dailyGrowth <- cases[nrow(cases)][[1]]/cases[nrow(cases)-1][[1]]-1
+dailyGrowth <- indata[nrow(indata), 'Active']/indata[nrow(indata)-1, 'Active']-1
 valueBox(round(dailyGrowth*100,0), 
          icon = "fa-percent",
          color = ifelse(dailyGrowth > 0.3, "danger", "warning"))
@@ -68,12 +68,6 @@ Row
 ### Official cases chart
 
 ```{r}
-# dta <- cbind(cases, indata$inferredCases)
-# names(dta) <- c('Cases', 'InferredCases')
-# dygraph(dta, main = "Official COVID-19 Cases in Saskatchewan") %>%
-#   dySeries("InferredCases", axis = "y2")
-# dygraph(cases, main = "Official COVID-19 Cases in Saskatchewan", group='covidCases')
-
 highchart() %>%
   hc_title(text = "Official COVID-19 Cases in Saskatchewan",
            style = list(fontSize = "15px")) %>% 
@@ -110,7 +104,7 @@ valueBox(round(detectionRate*100, 2),
 
 ### Doubling rate (days)
 ```{r}
-doubRate <- round(doubTime(indata$Cases, 1:length(indata$Cases)), 1)
+doubRate <- round(doubTime(indata$Active, 1:length(indata$Active)), 1)
 valueBox(doubRate, 
          icon = "fa-stethoscope",
          color = ifelse(doubRate > 5, "success", ifelse(doubRate < 2.5, "danger", "warning"))
@@ -119,7 +113,7 @@ valueBox(doubRate,
 
 ### Forecasted cases (10-day)
 ```{r}
-projectedCases <- floor(as.data.frame(projSimple(cases, 1:length(cases))$y)$fit)
+projectedCases <- floor(as.data.frame(projSimple(indata$Active, 1:length(indata$Active))$y)$fit)
 fcastCases <- projectedCases[length(projectedCases)]
 valueBox(fcastCases, 
          icon = "fa-stethoscope",
@@ -129,8 +123,8 @@ valueBox(fcastCases,
 
 ### Inferred actual current cases
 ```{r}
-indata$inferredCases <- floor(indata$Cases/detectionRate)
-inferredCases <- indata$inferredCases[length(indata$Cases)]
+indata$inferredCases <- floor(indata$Active/detectionRate)
+inferredCases <- indata$inferredCases[length(indata$Active)]
 valueBox(inferredCases, 
          icon = "fa-stethoscope",
          color = "danger"
@@ -143,14 +137,18 @@ Row
 ### Growth rate of confirmed cases
 
 ```{r}
-gr <- 100*diff(cases)/c(NA,cases[1:(nrow(cases)-1)])
-names(gr) <- 'Growth'
-# dygraph(dta, main = "Official COVID-19 Cases in Saskatchewan") %>%
-#   dySeries("InferredCases", axis = "y2")
-dygraph(gr, main = "Growth rate of confirmed cases") %>%
-  dyRoller(rollPeriod = 3) %>%
-  dyLimit(7, label = '5-day doubling', color = "orange") %>%
-  dyLimit(5, label = '10-day doubling', color = 'red')
+indata$Growth <- c(NA, 100*diff(indata$Active)/indata$Active[1:(nrow(indata)-1)])
+# names(gr) <- 'Growth'
+highchart() %>%
+  hc_title(text = "COVID-19 Growth rate",
+           style = list(fontSize = "15px")) %>% 
+  hc_chart(type = "line") %>%
+  hc_xAxis(categories = indata$Date) %>%
+  hc_add_series(indata$Growth, name = "Growth rate")
+# dygraph(gr, main = "Growth rate of confirmed cases") %>%
+#   dyRoller(rollPeriod = 3) %>%
+#   dyLimit(7, label = '5-day doubling', color = "orange") %>%
+#   dyLimit(5, label = '10-day doubling', color = 'red')
 ```
 
 Row
