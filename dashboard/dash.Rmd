@@ -145,18 +145,7 @@ highchart() %>%
   hc_chart(type = "line") %>%
   hc_xAxis(categories = indata$Date) %>%
   hc_add_series(indata$Growth, name = "Growth rate")
-# dygraph(gr, main = "Growth rate of confirmed cases") %>%
-#   dyRoller(rollPeriod = 3) %>%
-#   dyLimit(7, label = '5-day doubling', color = "orange") %>%
-#   dyLimit(5, label = '10-day doubling', color = 'red')
 ```
 
-Row
------------------------------------------------------------------------
 
-### Are we flattening the curve?
-
-```{r}
-dygraph(log(cases), main = "Is Saskatchewan flattening the curve? (Log of confirmed cases)")
-```
 
