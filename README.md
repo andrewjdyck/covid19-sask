@@ -4,6 +4,10 @@ A repository for tracking COVID-19 stats for Saskatchewan. Non-government affili
 
 ![sask COVID-19 cases over time](output/cases_gif.gif)
 
+## UPDATE NOTES
+
+As of May 15, 2020, there is a new format for COVID-19 data by the SK government. Daily files created for SK cases and testing are no longer available. Instead, there is additional data available in CSV & JSON files.
+
 ## The data
 
 ###  Collection
