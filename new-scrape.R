@@ -2,24 +2,28 @@ library(rvest)
 library(readr)
 
 # Downloading CSV & JSON
+cases_num <- 1080
+test_num <- 1081
+hosp_num <- 1082
+
 # Cases
-cases_url_csv <- 'https://dashboard.saskatchewan.ca/export/cases/1077.csv'
-cases_url_json <- 'https://dashboard.saskatchewan.ca/export/cases/1077.json'
-download.file(cases_url_csv, destfile = "./data/1077.csv", method="curl")
-download.file(cases_url_json, destfile = "./data/1077.json", method="curl")
+cases_url_csv <- paste0('https://dashboard.saskatchewan.ca/export/cases/', cases_num, '.csv')
+cases_url_json <- paste0('https://dashboard.saskatchewan.ca/export/cases/', cases_num, '.json')
+download.file(cases_url_csv, destfile = paste0("./data/", cases_num, ".csv"), method="curl")
+download.file(cases_url_json, destfile = paste0("./data/", cases_num, ".json"), method="curl")
 
 
 # Tests
-tests_url_csv <- 'https://dashboard.saskatchewan.ca/export/tests/1054.csv'
-tests_url_json <- 'https://dashboard.saskatchewan.ca/export/tests/1054.json'
-download.file(tests_url_csv, destfile = "./data/1054.csv", method="curl")
-download.file(tests_url_json, destfile = "./data/1054.json", method="curl")
+tests_url_csv <- paste0('https://dashboard.saskatchewan.ca/export/tests/', test_num, '.csv')
+tests_url_json <- paste0('https://dashboard.saskatchewan.ca/export/tests/', test_num, '.json')
+download.file(tests_url_csv, destfile = paste0("./data/", test_num, ".csv"), method="curl")
+download.file(tests_url_json, destfile = paste0("./data/", test_num, ".json"), method="curl")
 
 # Hospitalizations
-hospitals_url_csv <- 'https://dashboard.saskatchewan.ca/export/hospitalized/1060.csv'
-hospitals_url_json <- 'https://dashboard.saskatchewan.ca/export/hospitalized/1060.json'
-download.file(hospitals_url_csv, destfile = "./data/1060.csv", method="curl")
-download.file(hospitals_url_json, destfile = "./data/1060.json", method="curl")
+hospitals_url_csv <- paste0('https://dashboard.saskatchewan.ca/export/hospitalized/', hosp_num, '.csv')
+hospitals_url_json <- paste0('https://dashboard.saskatchewan.ca/export/hospitalized/', hosp_num, '.json')
+download.file(hospitals_url_csv, destfile = paste0("./data/", hosp_num, ".csv"), method="curl")
+download.file(hospitals_url_json, destfile = paste0("./data/", hosp_num, ".csv"), method="curl")
 
 
 
@@ -69,3 +73,74 @@ names(ages) <- dd[[1]][1, ]
 write.csv(ages, paste0('./data/covid_sk_age_dist_', dt, '.csv'), row.names=FALSE)
 
 
+
+##################
+# Older updates scraper
+##################
+##################
+
+
+latest_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates'
+older_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/step-details/news-releases/older-covid-19-news-releases'
+
+library(stringr)
+d1 <- read_html(older_updates_url) %>%
+  html_nodes('li') %>%
+  html_nodes('a') %>%
+  html_attr('href') %>%
+  tbl_df() %>%
+  filter(str_detect(value, 'covid-19-update'))
+
+d2 <- read_html(latest_updates_url) %>%
+  html_nodes('li') %>%
+  html_nodes('a') %>%
+  html_attr('href') %>%
+  tbl_df() %>%
+  filter(str_detect(value, 'covid-19-update'))
+
+uu <- d2$value[1]
+
+extract_date_from_url <- function(url) {
+  mm <- str_match(url, "news-and-media/\\s*(.*?)\\s*/covid-19-update")[,2]
+  return(as.Date(mm, '%Y/%B/%d'))
+}
+extract_date_from_url(uu)
+
+gen_case_typs_df <- function(url) {
+  case_types <- read_html(url) %>%
+    html_nodes('.general-content') %>%
+    html_nodes('li') %>%
+    html_text() %>%
+    tbl_df() %>%
+    filter(
+      str_detect(value, 'cases are travellers') |
+        str_detect(value, 'are community contacts') |
+        str_detect(value, 'have no known exposures') |
+        str_detect(value, 'are under investigation by local public health')
+    ) %>%
+    mutate(vv = as.numeric(str_trim(gsub("([0-9]+).*$", "\\1", value)))) %>%
+    mutate(variable = ifelse(
+      str_detect(value, 'travellers'), 'Travellers', ifelse(
+        str_detect(value, 'community contacts'), 'Contacts', ifelse(
+          str_detect(value, 'no known exposures'), 'Community', ifelse(
+            str_detect(value, 'under investigation'), 'Investigation', ''
+          )
+        )
+      )
+    )) %>%
+    select('variable', 'vv') %>%
+    rename(value = 'vv') %>%
+    mutate(date = extract_date_from_url(url))
+}
+
+tt <- lapply(d2$value, gen_case_typs_df)
+
+library(tidyr)
+dd <- bind_rows(tt) %>%
+  spread(variable, value)
+dd
+
+ddd <- lapply(d1$value, gen_case_typs_df) %>%
+  bind_rows() %>%
+  spread(variable, value)
+ddd
