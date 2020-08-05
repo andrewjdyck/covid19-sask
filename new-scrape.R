@@ -84,6 +84,7 @@ latest_updates_url <- 'https://www.saskatchewan.ca/government/health-care-admini
 older_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/step-details/news-releases/older-covid-19-news-releases'
 
 library(stringr)
+library(rvest)
 d1 <- read_html(older_updates_url) %>%
   html_nodes('li') %>%
   html_nodes('a') %>%
@@ -98,13 +99,12 @@ d2 <- read_html(latest_updates_url) %>%
   tbl_df() %>%
   filter(str_detect(value, 'covid-19-update'))
 
-uu <- d2$value[1]
 
 extract_date_from_url <- function(url) {
   mm <- str_match(url, "news-and-media/\\s*(.*?)\\s*/covid-19-update")[,2]
   return(as.Date(mm, '%Y/%B/%d'))
 }
-extract_date_from_url(uu)
+
 
 gen_case_typs_df <- function(url) {
   case_types <- read_html(url) %>%
@@ -133,10 +133,11 @@ gen_case_typs_df <- function(url) {
     mutate(date = extract_date_from_url(url))
 }
 
-tt <- lapply(d2$value, gen_case_typs_df)
+
 
 library(tidyr)
-dd <- bind_rows(tt) %>%
+dd <- lapply(d2$value, gen_case_typs_df) %>%
+  bind_rows() %>%
   spread(variable, value)
 dd
 
@@ -144,3 +145,7 @@ ddd <- lapply(d1$value, gen_case_typs_df) %>%
   bind_rows() %>%
   spread(variable, value)
 ddd
+
+
+
+qq <- dd %>% bind_rows(ddd) %>% arrange(date)
