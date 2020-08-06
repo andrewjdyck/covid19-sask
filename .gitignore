@@ -1,5 +1,6 @@
 # Custom ignore files
 data/cacheData.RData
+output.log
 
 # Ignore html files
 *.html
