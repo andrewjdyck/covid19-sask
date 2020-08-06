@@ -131,6 +131,17 @@ valueBox(inferredCases,
 )
 ```
 
+
+### Positive testing rate
+```{r}
+indata$pos_test_rate <- indata$New/indata$Tests
+pos_rate <- round(100*tail(indata$pos_test_rate, 1), 2)
+valueBox(pos_rate, 
+         icon = "fa-percent",
+         color = "danger"
+)
+```
+
 Row
 -----------------------------------------------------------------------
 
@@ -146,6 +157,8 @@ highchart() %>%
   hc_xAxis(categories = indata$Date) %>%
   hc_add_series(indata$Growth, name = "Growth rate")
 ```
+
+
 
 
 
