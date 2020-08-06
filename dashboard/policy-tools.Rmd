@@ -11,9 +11,9 @@ library(readr)
 library(dygraphs)
 library(xts)
 library(zoo)
-source('./utils.R')
+source('../utils.R')
 
-indata <- readr::read_csv('./data/cases-sk.csv')
+indata <- readr::read_csv('../data/cases-sk.csv')
 cases <- xts(indata$Cases, order.by=indata$Date)
 colnames(cases) <- c('Cases')
 ```
@@ -21,7 +21,7 @@ colnames(cases) <- c('Cases')
 ### Comparing per capita cases across Canada from first case
 
 ```{r}
-load('./data/cacheData.RData')
+load('../data/cacheData.RData')
 ab <- tsA[which(tsA$Province.State == 'Alberta'),]
 bc <- tsA[which(tsA$Province.State == 'British Columbia'),]
 on <- tsA[which(tsA$Province.State == 'Ontario'),]
@@ -62,7 +62,7 @@ There has been a slower per-capita exponential growth period in Saskatchewan, wh
 ### Comparing per capita deaths across Canada from first case {data-commentary-width=400}
 
 ```{r}
-load('./data/cacheData.RData')
+load('../data/cacheData.RData')
 abd <- tsD[which(tsD$Province.State == 'Alberta'),]
 bcd <- tsD[which(tsD$Province.State == 'British Columbia'),]
 ond <- tsD[which(tsD$Province.State == 'Ontario'),]
