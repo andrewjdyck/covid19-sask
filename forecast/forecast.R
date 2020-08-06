@@ -7,7 +7,7 @@ library(ggplot2)
 library(gganimate)
 source('./utils.R')
 
-indata <- readr::read_csv('../data/cases-sk.csv')
+indata <- readr::read_csv('./data/cases-sk.csv')
 
 
 # forecasted series over time
@@ -28,9 +28,9 @@ projDf <- function(df, endDay) {
 
 # Prepare forecasted data for ggplot2 and save
 dd <- ldply(lapply(10:nrow(indata), function(x) projDf(indata, x)))
-write.csv(dd, paste0('./simple_forecasts.csv'), row.names=FALSE)
+write.csv(dd, paste0('./forecast/simple_forecasts.csv'), row.names=FALSE)
 
-forecastedCases <- read_csv('./simple_forecasts.csv')
+forecastedCases <- read_csv('./forecast/simple_forecasts.csv')
 fanim <- ggplot(forecastedCases, aes(x = Date, y = fit, group=fcastday)) + 
   geom_smooth(aes(group=fcastday, ymax=upr, ymin=lwr), 
                stat='identity') 
