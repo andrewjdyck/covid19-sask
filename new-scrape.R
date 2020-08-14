@@ -1,30 +1,59 @@
 library(rvest)
 library(readr)
 
-# Downloading CSV & JSON
-cases_num <- 1080
-test_num <- 1081
-hosp_num <- 1082
+# Downloading CSV
 
-# Cases
-cases_url_csv <- paste0('https://dashboard.saskatchewan.ca/export/cases/', cases_num, '.csv')
-cases_url_json <- paste0('https://dashboard.saskatchewan.ca/export/cases/', cases_num, '.json')
-download.file(cases_url_csv, destfile = paste0("./data/", cases_num, ".csv"), method="curl")
-download.file(cases_url_json, destfile = paste0("./data/", cases_num, ".json"), method="curl")
+get_cases_dl <- function() {
+  link_stub <- read_html('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases') %>%
+    html_nodes('.indicator-export') %>%
+    html_nodes('.list-unstyled') %>%
+    html_nodes('a') %>%
+    html_attr('href') %>%
+    tbl_df() %>%
+    filter(str_detect(value, 'csv')) %>%
+    unlist()
+  names(link_stub) <- NULL
+  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub))
+  return(outdf)
+}
 
+get_tests_dl <- function() {
+  link_stub <- read_html('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests') %>%
+    html_nodes('.indicator-export') %>%
+    html_nodes('.list-unstyled') %>%
+    html_nodes('a') %>%
+    html_attr('href') %>%
+    tbl_df() %>%
+    filter(str_detect(value, 'csv')) %>%
+    unlist()
+  names(link_stub) <- NULL
+  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub))
+  return(outdf)
+}
 
-# Tests
-tests_url_csv <- paste0('https://dashboard.saskatchewan.ca/export/tests/', test_num, '.csv')
-tests_url_json <- paste0('https://dashboard.saskatchewan.ca/export/tests/', test_num, '.json')
-download.file(tests_url_csv, destfile = paste0("./data/", test_num, ".csv"), method="curl")
-download.file(tests_url_json, destfile = paste0("./data/", test_num, ".json"), method="curl")
+get_hospitalizations_dl <- function() {
+  link_stub <- read_html('https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized') %>%
+    html_nodes('.indicator-export') %>%
+    html_nodes('.list-unstyled') %>%
+    html_nodes('a') %>%
+    html_attr('href') %>%
+    tbl_df() %>%
+    filter(str_detect(value, 'csv')) %>%
+    unlist()
+  names(link_stub) <- NULL
+  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub))
+  return(outdf)
+}
 
-# Hospitalizations
-hospitals_url_csv <- paste0('https://dashboard.saskatchewan.ca/export/hospitalized/', hosp_num, '.csv')
-hospitals_url_json <- paste0('https://dashboard.saskatchewan.ca/export/hospitalized/', hosp_num, '.json')
-download.file(hospitals_url_csv, destfile = paste0("./data/", hosp_num, ".csv"), method="curl")
-download.file(hospitals_url_json, destfile = paste0("./data/", hosp_num, ".csv"), method="curl")
+cases_export <- get_cases_dl()
+tests_export <- get_tests_dl()
+hospitalized_export <- get_hospitalizations_dl()
 
+readr::write_csv(cases_export, './data/dashboard-export-cases.csv')
+readr::write_csv(tests_export, './data/dashboard-export-tests.csv')
+readr::write_csv(hospitalized_export, './data/dashboard-export-hospitalized.csv')
+
+cases_export %>% filter(Date > "2020-08-07") %>% filter(Region == "Total")
 
 
 # Other stuff
