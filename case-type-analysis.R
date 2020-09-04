@@ -33,3 +33,5 @@ ct <- read_csv('./data/case-types.csv') %>%
 ggplot(ct, aes(x=date, y=value, fill=variable)) +
   geom_area(aes(color=variable)) +
   theme_gray()
+
+
