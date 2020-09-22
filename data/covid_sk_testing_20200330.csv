@@ -1,8 +1,0 @@
-"Region","# of Patients with Tests Ordered","# of Patients with Tests Pending","# Patients Presumptive Positive","# Patients Confirmed Positive","# Patients Confirmed Negative","Total # of Tests Performed"
-"Far North","163","0","0","3","160","174"
-"North","1,185","0","0","37","1,148","1,219"
-"Central (excluding Saskatoon)","592","0","0","10","582","605"
-"Saskatoon","4,009","6","0","84","3,919","4,117"
-"South (excluding Regina)","945","2","0","6","37","971"
-"Regina","2,463","53","0","36","2,374","2,550"
-"Total","9,372","61","0","176","9,135","9,651"
