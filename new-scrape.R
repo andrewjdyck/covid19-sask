@@ -1,5 +1,7 @@
 library(rvest)
 library(readr)
+library(stringr)
+library(dplyr)
 
 # Downloading CSV
 
@@ -53,55 +55,33 @@ readr::write_csv(cases_export, './data/dashboard-export-cases.csv')
 readr::write_csv(tests_export, './data/dashboard-export-tests.csv')
 readr::write_csv(hospitalized_export, './data/dashboard-export-hospitalized.csv')
 
-cases_export %>% filter(Date > "2020-08-07") %>% filter(Region == "Total")
+regina_new <- cases_export %>% filter(Region == "Regina") %>% tail(10)
+regina_new
+
+# update running aggregated total CSV
+agg_df <- readr::read_csv('./data/cases-sk.csv')
+max_agg_df_dt <- agg_df %>% summarize(dt = last(Date))
+
+new_cases <- cases_export %>% 
+  filter(Date > max_agg_df_dt$dt) %>%
+  select(-Region) %>%
+  group_by(Date) %>%
+  summarise_all(sum)
+new_tests <- tests_export %>% 
+  filter(Date > max_agg_df_dt$dt) %>%
+  select(-Region) %>%
+  group_by(Date) %>%
+  summarise_all(sum)
+
+update_df <- new_cases[, c('Date', 'New Cases', 'Total Cases', 'Inpatient Hospitalizations', 'ICU Hospitalizations', 'Recovered Cases', 'Deaths')]
+update_df$Tests <- new_tests$`New Tests`
+
+names(update_df) <- c('Date', 'New', 'Cases', 'Hospitalized', 'ICU', 'Recovered', 'Deaths', 'Tests')
+agg_df <- agg_df %>%
+  bind_rows(update_df)
 
 
-# Other stuff
-
-library(rvest)
-library(jsonlite)
-
-# Current date
-dt <- as.character(format(Sys.Date(), '%Y%m%d'))
-url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan'
-
-# Read summary highlight notes
-highlights_url <- 'https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases'
-summ <- read_html(highlights_url) %>%
-  html_nodes('.indicator-highlights')
-
-lst <- html_node(summ, 'ul')
-ll <- lst[[1]]
-
-l1 <- ll %>%
-  html_text() %>% 
-  strsplit(split = "\n") %>%
-  unlist()
-
-write(toJSON(l1), paste0('./data/lst_', dt, '.json'))
-
-
-
-##################
-# not used yet
-outbreaks_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates'
-
-##################
-##################
-
-
-# read age distribution
-dd <- read_html(url) %>%
-  html_nodes('.compacttable') %>%
-  html_table()
-
-# age distribution table
-ages <- dd[[1]][2:nrow(dd[[1]]), ]
-names(ages) <- dd[[1]][1, ]
-
-write.csv(ages, paste0('./data/covid_sk_age_dist_', dt, '.csv'), row.names=FALSE)
-
-
+readr::write_csv(agg_df, './data/cases-sk.csv')
 
 ##################
 # Older updates scraper
@@ -165,16 +145,84 @@ gen_case_typs_df <- function(url) {
 
 
 library(tidyr)
-dd <- lapply(d2$value, gen_case_typs_df) %>%
+# latest updates
+latest_case_types_df <- lapply(d2$value, gen_case_typs_df) %>%
   bind_rows() %>%
   spread(variable, value)
-dd
 
-ddd <- lapply(d1$value, gen_case_typs_df) %>%
+# older updates
+older_case_types_df <- lapply(d1$value, gen_case_typs_df) %>%
   bind_rows() %>%
   spread(variable, value)
-ddd
+
+# update running aggregated Case Types CSV
+agg_ct_df <- readr::read_csv('./data/case-types.csv')
+max_agg_ct_df_dt <- agg_ct_df %>% summarize(dt = last(date))
+
+update_ct_df <- latest_case_types_df %>% 
+  bind_rows(older_case_types_df) %>% 
+  arrange(date) %>%
+  filter(date > max_agg_ct_df_dt$dt)
+
+agg_ct_df <- agg_ct_df %>%
+  bind_rows(update_ct_df)
+
+
+readr::write_csv(agg_ct_df, './data/case-types.csv')
 
 
 
-qq <- dd %>% bind_rows(ddd) %>% arrange(date)
+
+
+
+
+
+################################
+################################
+# Other stuff
+
+library(rvest)
+library(jsonlite)
+
+# Current date
+dt <- as.character(format(Sys.Date(), '%Y%m%d'))
+url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan'
+
+# Read summary highlight notes
+highlights_url <- 'https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases'
+summ <- read_html(highlights_url) %>%
+  html_nodes('.indicator-highlights')
+
+lst <- html_node(summ, 'ul')
+ll <- lst[[1]]
+
+l1 <- ll %>%
+  html_text() %>% 
+  strsplit(split = "\n") %>%
+  unlist()
+
+write(toJSON(l1), paste0('./data/lst_', dt, '.json'))
+
+
+
+##################
+# not used yet
+outbreaks_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates'
+
+##################
+##################
+
+
+# read age distribution
+dd <- read_html(url) %>%
+  html_nodes('.compacttable') %>%
+  html_table()
+
+# age distribution table
+ages <- dd[[1]][2:nrow(dd[[1]]), ]
+names(ages) <- dd[[1]][1, ]
+
+write.csv(ages, paste0('./data/covid_sk_age_dist_', dt, '.csv'), row.names=FALSE)
+
+
+
