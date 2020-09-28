@@ -55,8 +55,12 @@ readr::write_csv(cases_export, './data/dashboard-export-cases.csv')
 readr::write_csv(tests_export, './data/dashboard-export-tests.csv')
 readr::write_csv(hospitalized_export, './data/dashboard-export-hospitalized.csv')
 
-regina_new <- cases_export %>% filter(Region == "Regina") %>% tail(10)
-regina_new
+# regina_new
+cases_export %>% filter(Region == "Regina") %>% tail(10)
+
+# total_new 
+cases_export %>% group_by(Date) %>% select(-Region) %>% summarize_all(sum) %>% tail(10)
+
 
 # update running aggregated total CSV
 agg_df <- readr::read_csv('./data/cases-sk.csv')
@@ -67,6 +71,7 @@ new_cases <- cases_export %>%
   select(-Region) %>%
   group_by(Date) %>%
   summarise_all(sum)
+
 new_tests <- tests_export %>% 
   filter(Date > max_agg_df_dt$dt) %>%
   select(-Region) %>%
