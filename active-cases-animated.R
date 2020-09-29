@@ -21,7 +21,7 @@ anim <- ggplot(ggdata, aes(x=Date, y=value, fill=variable)) +
   labs(title = 'COVID-19 Cases in Saskatchewan', y = 'Cases') + 
   transition_reveal(Date)
 
-anim_out <- animate(anim, end_pause=30)
+anim_out <- animate(anim, end_pause=30, renderer = gifski_renderer())
 anim_save('./output/covid-cases-growth-sk.gif', anim_out)
 
 
