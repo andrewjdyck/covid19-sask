@@ -1325,3 +1325,380 @@ Date,Region,Inpatient Hospitalizations,ICU Hospitalizations
 2020-11-13,South West,1,0
 2020-11-13,South Central,0,0
 2020-11-13,South East,3,0
+2020-11-14,Far North West,1,0
+2020-11-14,Far North Central,0,0
+2020-11-14,Far North East,1,0
+2020-11-14,North West,4,1
+2020-11-14,North Central,4,3
+2020-11-14,North East,4,0
+2020-11-14,Saskatoon,22,8
+2020-11-14,Central West,0,0
+2020-11-14,Central East,0,2
+2020-11-14,Regina,1,2
+2020-11-14,South West,1,0
+2020-11-14,South Central,0,0
+2020-11-14,South East,3,0
+2020-11-15,Far North West,1,0
+2020-11-15,Far North Central,0,0
+2020-11-15,Far North East,1,0
+2020-11-15,North West,3,1
+2020-11-15,North Central,4,3
+2020-11-15,North East,3,0
+2020-11-15,Saskatoon,25,7
+2020-11-15,Central West,0,0
+2020-11-15,Central East,0,2
+2020-11-15,Regina,2,3
+2020-11-15,South West,2,0
+2020-11-15,South Central,1,0
+2020-11-15,South East,4,0
+2020-11-16,Far North West,1,0
+2020-11-16,Far North Central,0,0
+2020-11-16,Far North East,0,0
+2020-11-16,North West,3,0
+2020-11-16,North Central,6,2
+2020-11-16,North East,5,0
+2020-11-16,Saskatoon,27,7
+2020-11-16,Central West,0,0
+2020-11-16,Central East,0,2
+2020-11-16,Regina,1,5
+2020-11-16,South West,2,0
+2020-11-16,South Central,1,0
+2020-11-16,South East,6,0
+2020-11-17,Far North West,1,0
+2020-11-17,Far North Central,0,0
+2020-11-17,Far North East,0,0
+2020-11-17,North West,3,0
+2020-11-17,North Central,6,2
+2020-11-17,North East,2,0
+2020-11-17,Saskatoon,30,7
+2020-11-17,Central West,0,0
+2020-11-17,Central East,0,2
+2020-11-17,Regina,3,4
+2020-11-17,South West,4,0
+2020-11-17,South Central,1,0
+2020-11-17,South East,6,0
+2020-11-18,Far North West,0,0
+2020-11-18,Far North Central,0,0
+2020-11-18,Far North East,0,0
+2020-11-18,North West,4,0
+2020-11-18,North Central,6,3
+2020-11-18,North East,2,0
+2020-11-18,Saskatoon,30,7
+2020-11-18,Central West,0,0
+2020-11-18,Central East,0,2
+2020-11-18,Regina,6,4
+2020-11-18,South West,4,1
+2020-11-18,South Central,1,0
+2020-11-18,South East,6,0
+2020-11-19,Far North West,0,0
+2020-11-19,Far North Central,0,0
+2020-11-19,Far North East,0,0
+2020-11-19,North West,5,0
+2020-11-19,North Central,5,4
+2020-11-19,North East,2,0
+2020-11-19,Saskatoon,30,9
+2020-11-19,Central West,0,0
+2020-11-19,Central East,0,2
+2020-11-19,Regina,6,5
+2020-11-19,South West,2,1
+2020-11-19,South Central,1,0
+2020-11-19,South East,11,0
+2020-11-20,Far North West,0,0
+2020-11-20,Far North Central,0,0
+2020-11-20,Far North East,0,0
+2020-11-20,North West,5,1
+2020-11-20,North Central,7,3
+2020-11-20,North East,1,0
+2020-11-20,Saskatoon,30,8
+2020-11-20,Central West,0,0
+2020-11-20,Central East,1,1
+2020-11-20,Regina,5,5
+2020-11-20,South West,0,1
+2020-11-20,South Central,1,0
+2020-11-20,South East,16,0
+2020-11-21,Far North West,0,0
+2020-11-21,Far North Central,0,0
+2020-11-21,Far North East,0,0
+2020-11-21,North West,8,0
+2020-11-21,North Central,7,3
+2020-11-21,North East,1,0
+2020-11-21,Saskatoon,32,11
+2020-11-21,Central West,0,0
+2020-11-21,Central East,1,1
+2020-11-21,Regina,5,5
+2020-11-21,South West,0,1
+2020-11-21,South Central,1,0
+2020-11-21,South East,17,0
+2020-11-22,Far North West,1,0
+2020-11-22,Far North Central,0,0
+2020-11-22,Far North East,0,0
+2020-11-22,North West,8,0
+2020-11-22,North Central,9,2
+2020-11-22,North East,1,0
+2020-11-22,Saskatoon,33,10
+2020-11-22,Central West,0,0
+2020-11-22,Central East,1,1
+2020-11-22,Regina,8,4
+2020-11-22,South West,1,2
+2020-11-22,South Central,1,0
+2020-11-22,South East,17,0
+2020-11-23,Far North West,0,0
+2020-11-23,Far North Central,0,0
+2020-11-23,Far North East,0,0
+2020-11-23,North West,7,1
+2020-11-23,North Central,10,2
+2020-11-23,North East,1,0
+2020-11-23,Saskatoon,36,9
+2020-11-23,Central West,0,0
+2020-11-23,Central East,1,1
+2020-11-23,Regina,11,4
+2020-11-23,South West,1,2
+2020-11-23,South Central,0,0
+2020-11-23,South East,20,0
+2020-11-24,Far North West,0,0
+2020-11-24,Far North Central,0,0
+2020-11-24,Far North East,0,0
+2020-11-24,North West,7,2
+2020-11-24,North Central,10,1
+2020-11-24,North East,1,0
+2020-11-24,Saskatoon,32,10
+2020-11-24,Central West,0,0
+2020-11-24,Central East,2,0
+2020-11-24,Regina,11,5
+2020-11-24,South West,2,2
+2020-11-24,South Central,0,0
+2020-11-24,South East,20,0
+2020-11-25,Far North West,1,0
+2020-11-25,Far North Central,0,0
+2020-11-25,Far North East,0,0
+2020-11-25,North West,8,2
+2020-11-25,North Central,9,0
+2020-11-25,North East,1,0
+2020-11-25,Saskatoon,36,11
+2020-11-25,Central West,0,0
+2020-11-25,Central East,2,0
+2020-11-25,Regina,14,4
+2020-11-25,South West,2,2
+2020-11-25,South Central,0,0
+2020-11-25,South East,19,0
+2020-11-26,Far North West,1,0
+2020-11-26,Far North Central,0,0
+2020-11-26,Far North East,0,0
+2020-11-26,North West,8,1
+2020-11-26,North Central,8,1
+2020-11-26,North East,1,0
+2020-11-26,Saskatoon,34,10
+2020-11-26,Central West,0,0
+2020-11-26,Central East,2,0
+2020-11-26,Regina,16,4
+2020-11-26,South West,1,2
+2020-11-26,South Central,0,0
+2020-11-26,South East,19,0
+2020-11-27,Far North West,1,0
+2020-11-27,Far North Central,0,0
+2020-11-27,Far North East,0,0
+2020-11-27,North West,8,1
+2020-11-27,North Central,12,0
+2020-11-27,North East,1,0
+2020-11-27,Saskatoon,32,11
+2020-11-27,Central West,0,0
+2020-11-27,Central East,2,0
+2020-11-27,Regina,16,3
+2020-11-27,South West,2,1
+2020-11-27,South Central,1,0
+2020-11-27,South East,20,0
+2020-11-28,Far North West,1,0
+2020-11-28,Far North Central,0,0
+2020-11-28,Far North East,0,0
+2020-11-28,North West,9,0
+2020-11-28,North Central,7,1
+2020-11-28,North East,1,0
+2020-11-28,Saskatoon,30,11
+2020-11-28,Central West,0,0
+2020-11-28,Central East,1,0
+2020-11-28,Regina,18,5
+2020-11-28,South West,1,1
+2020-11-28,South Central,1,0
+2020-11-28,South East,19,0
+2020-11-29,Far North West,1,0
+2020-11-29,Far North Central,0,0
+2020-11-29,Far North East,0,0
+2020-11-29,North West,8,1
+2020-11-29,North Central,8,2
+2020-11-29,North East,2,0
+2020-11-29,Saskatoon,32,13
+2020-11-29,Central West,0,0
+2020-11-29,Central East,1,0
+2020-11-29,Regina,21,6
+2020-11-29,South West,0,1
+2020-11-29,South Central,1,0
+2020-11-29,South East,18,0
+2020-11-30,Far North West,1,0
+2020-11-30,Far North Central,0,0
+2020-11-30,Far North East,0,0
+2020-11-30,North West,8,0
+2020-11-30,North Central,8,3
+2020-11-30,North East,3,0
+2020-11-30,Saskatoon,33,14
+2020-11-30,Central West,0,0
+2020-11-30,Central East,1,0
+2020-11-30,Regina,26,6
+2020-11-30,South West,1,0
+2020-11-30,South Central,1,0
+2020-11-30,South East,18,0
+2020-12-01,Far North West,1,0
+2020-12-01,Far North Central,0,0
+2020-12-01,Far North East,0,0
+2020-12-01,North West,7,0
+2020-12-01,North Central,7,4
+2020-12-01,North East,1,0
+2020-12-01,Saskatoon,33,13
+2020-12-01,Central West,0,0
+2020-12-01,Central East,1,0
+2020-12-01,Regina,26,7
+2020-12-01,South West,3,0
+2020-12-01,South Central,1,0
+2020-12-01,South East,17,0
+2020-12-02,Far North West,1,0
+2020-12-02,Far North Central,0,0
+2020-12-02,Far North East,0,0
+2020-12-02,North West,7,0
+2020-12-02,North Central,7,5
+2020-12-02,North East,1,0
+2020-12-02,Saskatoon,42,12
+2020-12-02,Central West,0,0
+2020-12-02,Central East,2,0
+2020-12-02,Regina,23,9
+2020-12-02,South West,2,0
+2020-12-02,South Central,1,0
+2020-12-02,South East,20,0
+2020-12-03,Far North West,1,0
+2020-12-03,Far North Central,0,0
+2020-12-03,Far North East,0,0
+2020-12-03,North West,8,1
+2020-12-03,North Central,9,3
+2020-12-03,North East,1,0
+2020-12-03,Saskatoon,41,11
+2020-12-03,Central West,0,0
+2020-12-03,Central East,2,0
+2020-12-03,Regina,20,9
+2020-12-03,South West,2,0
+2020-12-03,South Central,0,0
+2020-12-03,South East,20,0
+2020-12-04,Far North West,0,0
+2020-12-04,Far North Central,0,0
+2020-12-04,Far North East,0,0
+2020-12-04,North West,7,1
+2020-12-04,North Central,12,4
+2020-12-04,North East,1,0
+2020-12-04,Saskatoon,36,11
+2020-12-04,Central West,0,0
+2020-12-04,Central East,1,0
+2020-12-04,Regina,20,9
+2020-12-04,South West,3,0
+2020-12-04,South Central,0,0
+2020-12-04,South East,21,0
+2020-12-05,Far North West,0,0
+2020-12-05,Far North Central,0,0
+2020-12-05,Far North East,0,0
+2020-12-05,North West,9,0
+2020-12-05,North Central,10,5
+2020-12-05,North East,1,0
+2020-12-05,Saskatoon,34,11
+2020-12-05,Central West,0,0
+2020-12-05,Central East,1,0
+2020-12-05,Regina,15,9
+2020-12-05,South West,3,0
+2020-12-05,South Central,0,0
+2020-12-05,South East,18,0
+2020-12-06,Far North West,0,0
+2020-12-06,Far North Central,0,0
+2020-12-06,Far North East,0,0
+2020-12-06,North West,8,0
+2020-12-06,North Central,13,5
+2020-12-06,North East,1,0
+2020-12-06,Saskatoon,45,12
+2020-12-06,Central West,0,0
+2020-12-06,Central East,1,0
+2020-12-06,Regina,18,9
+2020-12-06,South West,3,0
+2020-12-06,South Central,1,0
+2020-12-06,South East,19,0
+2020-12-07,Far North West,0,0
+2020-12-07,Far North Central,0,0
+2020-12-07,Far North East,0,0
+2020-12-07,North West,9,0
+2020-12-07,North Central,12,6
+2020-12-07,North East,1,0
+2020-12-07,Saskatoon,48,11
+2020-12-07,Central West,0,0
+2020-12-07,Central East,1,0
+2020-12-07,Regina,24,8
+2020-12-07,South West,2,1
+2020-12-07,South Central,1,0
+2020-12-07,South East,19,0
+2020-12-08,Far North West,0,0
+2020-12-08,Far North Central,0,0
+2020-12-08,Far North East,0,0
+2020-12-08,North West,7,0
+2020-12-08,North Central,16,6
+2020-12-08,North East,2,0
+2020-12-08,Saskatoon,51,11
+2020-12-08,Central West,0,0
+2020-12-08,Central East,1,0
+2020-12-08,Regina,23,8
+2020-12-08,South West,1,1
+2020-12-08,South Central,1,1
+2020-12-08,South East,15,0
+2020-12-09,Far North West,0,0
+2020-12-09,Far North Central,0,0
+2020-12-09,Far North East,0,0
+2020-12-09,North West,7,0
+2020-12-09,North Central,16,6
+2020-12-09,North East,2,0
+2020-12-09,Saskatoon,51,11
+2020-12-09,Central West,0,0
+2020-12-09,Central East,1,0
+2020-12-09,Regina,23,8
+2020-12-09,South West,1,1
+2020-12-09,South Central,1,1
+2020-12-09,South East,15,0
+2020-12-10,Far North West,0,0
+2020-12-10,Far North Central,0,0
+2020-12-10,Far North East,0,0
+2020-12-10,North West,7,0
+2020-12-10,North Central,16,8
+2020-12-10,North East,2,0
+2020-12-10,Saskatoon,47,11
+2020-12-10,Central West,0,0
+2020-12-10,Central East,1,0
+2020-12-10,Regina,25,10
+2020-12-10,South West,1,1
+2020-12-10,South Central,1,1
+2020-12-10,South East,7,0
+2020-12-11,Far North West,1,0
+2020-12-11,Far North Central,0,0
+2020-12-11,Far North East,0,0
+2020-12-11,North West,6,0
+2020-12-11,North Central,16,6
+2020-12-11,North East,2,0
+2020-12-11,Saskatoon,45,11
+2020-12-11,Central West,0,0
+2020-12-11,Central East,2,0
+2020-12-11,Regina,26,8
+2020-12-11,South West,1,1
+2020-12-11,South Central,1,1
+2020-12-11,South East,6,0
+2020-12-12,Far North West,1,0
+2020-12-12,Far North Central,0,0
+2020-12-12,Far North East,0,0
+2020-12-12,North West,7,0
+2020-12-12,North Central,11,6
+2020-12-12,North East,0,0
+2020-12-12,Saskatoon,41,6
+2020-12-12,Central West,0,0
+2020-12-12,Central East,2,0
+2020-12-12,Regina,25,9
+2020-12-12,South West,0,1
+2020-12-12,South Central,2,0
+2020-12-12,South East,6,0
