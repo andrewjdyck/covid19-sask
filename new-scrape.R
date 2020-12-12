@@ -2,6 +2,8 @@ library(rvest)
 library(readr)
 library(stringr)
 library(dplyr)
+library(tidyr)
+
 
 # Downloading CSV
 
@@ -11,7 +13,7 @@ get_cases_dl <- function() {
     html_nodes('.list-unstyled') %>%
     html_nodes('a') %>%
     html_attr('href') %>%
-    tbl_df() %>%
+    as_tibble() %>%
     filter(str_detect(value, 'csv')) %>%
     unlist()
   names(link_stub) <- NULL
@@ -25,7 +27,7 @@ get_tests_dl <- function() {
     html_nodes('.list-unstyled') %>%
     html_nodes('a') %>%
     html_attr('href') %>%
-    tbl_df() %>%
+    as_tibble() %>%
     filter(str_detect(value, 'csv')) %>%
     unlist()
   names(link_stub) <- NULL
@@ -39,7 +41,7 @@ get_hospitalizations_dl <- function() {
     html_nodes('.list-unstyled') %>%
     html_nodes('a') %>%
     html_attr('href') %>%
-    tbl_df() %>%
+    as_tibble() %>%
     filter(str_detect(value, 'csv')) %>%
     unlist()
   names(link_stub) <- NULL
@@ -51,15 +53,17 @@ cases_export <- get_cases_dl()
 tests_export <- get_tests_dl()
 hospitalized_export <- get_hospitalizations_dl()
 
-readr::write_csv(cases_export, './data/dashboard-export-cases.csv')
-readr::write_csv(tests_export, './data/dashboard-export-tests.csv')
-readr::write_csv(hospitalized_export, './data/dashboard-export-hospitalized.csv')
-
 # regina_new
 cases_export %>% filter(Region == "Regina") %>% tail(10)
 
 # total_new 
 cases_export %>% group_by(Date) %>% select(-Region) %>% summarize_all(sum) %>% tail(10)
+
+# Output export datasets
+readr::write_csv(cases_export, './data/dashboard-export-cases.csv')
+readr::write_csv(tests_export, './data/dashboard-export-tests.csv')
+readr::write_csv(hospitalized_export, './data/dashboard-export-hospitalized.csv')
+
 
 
 # update running aggregated total CSV
@@ -93,29 +97,26 @@ readr::write_csv(agg_df, './data/cases-sk.csv')
 ##################
 ##################
 
-
 latest_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates'
 older_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/step-details/news-releases/older-covid-19-news-releases'
 
-library(stringr)
-library(rvest)
 d1 <- read_html(older_updates_url) %>%
   html_nodes('li') %>%
   html_nodes('a') %>%
   html_attr('href') %>%
   tbl_df() %>%
-  filter(str_detect(value, 'covid-19-update'))
+  filter(str_detect(value, 'covid-19-update') | str_detect(value, 'covid19-update'))
 
 d2 <- read_html(latest_updates_url) %>%
   html_nodes('li') %>%
   html_nodes('a') %>%
   html_attr('href') %>%
   tbl_df() %>%
-  filter(str_detect(value, 'covid-19-update'))
+  filter(str_detect(value, 'covid19-update'))
 
 
 extract_date_from_url <- function(url) {
-  mm <- str_match(url, "news-and-media/\\s*(.*?)\\s*/covid-19-update")[,2]
+  mm <- str_match(url, "news-and-media/\\s*(.*?)\\s*-update")[,2]
   return(as.Date(mm, '%Y/%B/%d'))
 }
 
@@ -132,7 +133,7 @@ gen_case_typs_df <- function(url) {
         str_detect(value, 'have no known exposures') |
         str_detect(value, 'are under investigation by local public health')
     ) %>%
-    mutate(vv = as.numeric(str_trim(gsub("([0-9]+).*$", "\\1", value)))) %>%
+    mutate(vv = as.numeric(str_trim(gsub("([0-9]+).*$", "\\1", gsub(",", "", value))))) %>%
     mutate(variable = ifelse(
       str_detect(value, 'travellers'), 'Travellers', ifelse(
         str_detect(value, 'community contacts'), 'Contacts', ifelse(
@@ -149,14 +150,13 @@ gen_case_typs_df <- function(url) {
 
 
 
-library(tidyr)
 # latest updates
 latest_case_types_df <- lapply(d2$value, gen_case_typs_df) %>%
   bind_rows() %>%
   spread(variable, value)
 
 # older updates
-older_case_types_df <- lapply(d1$value, gen_case_typs_df) %>%
+older_case_types_df <- lapply(d1$value[1:10], gen_case_typs_df) %>%
   bind_rows() %>%
   spread(variable, value)
 
@@ -176,15 +176,25 @@ agg_ct_df <- agg_ct_df %>%
 readr::write_csv(agg_ct_df, './data/case-types.csv')
 
 
+################################
+################################
+# Outbreaks
 
+outbreaks_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates'
+new_outbreak_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks'
 
+oo <- read_html(new_outbreak_url) %>%
+  html_table()
+oo1 <- oo[c(1:3, 6)] %>% bind_rows() %>% filter(X1 != 'Location') %>% setNames(c('Location', 'Name', 'Zone', 'DeclarationDate', 'Information'))
+oo2 <- oo[4:5] %>% bind_rows() %>% filter(X1 != 'Location') %>% setNames(c('Location', 'Name', 'DeclarationDate', 'Information'))
+oot <- oo1 %>% bind_rows(oo2)
 
-
-
+readr::write_csv(oot, './data/outbreaks.csv')
 
 ################################
 ################################
 # Other stuff
+
 
 library(rvest)
 library(jsonlite)
@@ -210,9 +220,6 @@ write(toJSON(l1), paste0('./data/lst_', dt, '.json'))
 
 
 
-##################
-# not used yet
-outbreaks_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates'
 
 ##################
 ##################
