@@ -99,6 +99,17 @@ readr::write_csv(agg_df, './data/cases-sk.csv')
 
 latest_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates'
 older_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/step-details/news-releases/older-covid-19-news-releases'
+# older updates url is deprecated. Notices are now located at the health ministry news pages
+health_min_news_updates_url <- 'https://www.saskatchewan.ca/government/news-and-media?text=%22COVID-19+Update%3a%22&ministry=5FD58D569A72474B8D543396985C0409&page=27'
+
+d0 <- read_html(health_min_news_updates_url) %>%
+  html_nodes('.results') %>%
+  html_children() %>%
+  html_nodes('a') %>%
+  html_attr('href') %>%
+  as_tibble() %>%
+  filter(str_detect(value, 'covid-19-update'))
+
 
 d1 <- read_html(older_updates_url) %>%
   html_nodes('li') %>%
@@ -189,11 +200,14 @@ oo1 <- oo[c(1:3, 6)] %>% bind_rows() %>% filter(X1 != 'Location') %>% setNames(c
 oo2 <- oo[4:5] %>% bind_rows() %>% filter(X1 != 'Location') %>% setNames(c('Location', 'Name', 'DeclarationDate', 'Information'))
 oot <- oo1 %>% bind_rows(oo2)
 
-readr::write_csv(oot, './data/outbreaks.csv')
+ymd <- format(Sys.time(), '%Y%m%d')
+
+readr::write_csv(oot, paste0('./data/outbreaks/outbreaks_', ymd, '.csv'))
 
 ################################
 ################################
 # Other stuff
+
 
 
 library(rvest)
@@ -237,4 +251,8 @@ names(ages) <- dd[[1]][1, ]
 write.csv(ages, paste0('./data/covid_sk_age_dist_', dt, '.csv'), row.names=FALSE)
 
 
+##################
+##################
+# Public health orders
 
+# https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/public-health-measures/public-health-ordershttps://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/public-health-measures/public-health-orders
