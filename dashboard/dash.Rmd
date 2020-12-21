@@ -14,9 +14,10 @@ library(dygraphs)
 library(highcharter)
 library(xts)
 library(zoo)
+library(dplyr)
 source('../utils.R')
 
-indata <- readr::read_csv('../data/cases-sk.csv')
+indata <- readr::read_csv('../data/cases-sk.csv') %>% filter(Cases >= 100)
 indata$Active <- indata$Cases - indata$Recovered - indata$Deaths
 cases <- xts(indata$Cases, order.by=indata$Date)
 colnames(cases) <- c('Cases')
