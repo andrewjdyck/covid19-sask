@@ -1803,3 +1803,16 @@ Date,Region,New Cases,Total Cases,Active Cases,Inpatient Hospitalizations,ICU Ho
 2020-12-20,South West,0,549,5,0,1,526,2
 2020-12-20,South Central,0,519,8,0,0,461,9
 2020-12-20,South East,6,424,77,7,0,300,10
+2020-12-21,Far North West,1,835,51,2,0,681,10
+2020-12-21,Far North Central,0,103,26,1,0,77,0
+2020-12-21,Far North East,11,532,149,0,0,327,1
+2020-12-21,North West,9,1247,68,7,1,773,11
+2020-12-21,North Central,12,1484,132,18,7,973,12
+2020-12-21,North East,5,455,49,2,0,344,5
+2020-12-21,Saskatoon,46,3997,1306,43,8,2668,23
+2020-12-21,Central West,0,330,18,1,0,304,2
+2020-12-21,Central East,0,536,17,5,0,385,1
+2020-12-21,Regina,26,2694,841,25,2,1817,36
+2020-12-21,South West,1,550,6,0,2,526,2
+2020-12-21,South Central,3,525,11,0,0,464,9
+2020-12-21,South East,1,428,78,7,0,300,10
