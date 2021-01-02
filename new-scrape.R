@@ -17,12 +17,13 @@ get_cases_dl <- function() {
     filter(str_detect(value, 'csv')) %>%
     unlist()
   names(link_stub) <- NULL
-  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub))
+  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub)) %>%
+    filter(!is.na(`Total Cases`))
   return(outdf)
 }
 
 get_tests_dl <- function() {
-  link_stub <- read_html('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests') %>%
+  link_stub <- read_html('https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests') %>%
     html_nodes('.indicator-export') %>%
     html_nodes('.list-unstyled') %>%
     html_nodes('a') %>%
@@ -31,7 +32,8 @@ get_tests_dl <- function() {
     filter(str_detect(value, 'csv')) %>%
     unlist()
   names(link_stub) <- NULL
-  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub))
+  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub)) %>%
+    filter(!is.na(`New Tests`))
   return(outdf)
 }
 
@@ -45,7 +47,8 @@ get_hospitalizations_dl <- function() {
     filter(str_detect(value, 'csv')) %>%
     unlist()
   names(link_stub) <- NULL
-  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub))
+  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub))%>%
+    filter(!is.na(`Inpatient Hospitalizations`))
   return(outdf)
 }
 
@@ -98,33 +101,24 @@ readr::write_csv(agg_df, './data/cases-sk.csv')
 ##################
 
 latest_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates'
-older_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/step-details/news-releases/older-covid-19-news-releases'
+# older_updates_url <- 'https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/step-details/news-releases/older-covid-19-news-releases'
 # older updates url is deprecated. Notices are now located at the health ministry news pages
-health_min_news_updates_url <- 'https://www.saskatchewan.ca/government/news-and-media?text=%22COVID-19+Update%3a%22&ministry=5FD58D569A72474B8D543396985C0409&page=27'
-
-d0 <- read_html(health_min_news_updates_url) %>%
-  html_nodes('.results') %>%
-  html_children() %>%
-  html_nodes('a') %>%
-  html_attr('href') %>%
-  as_tibble() %>%
-  filter(str_detect(value, 'covid-19-update'))
+health_min_news_updates_url <- 'https://www.saskatchewan.ca/government/news-and-media?text=%22COVID-19+Update%3a%22&ministry=5FD58D569A72474B8D543396985C0409'
+# health_min_news_updates_url <- 'https://www.saskatchewan.ca/government/news-and-media?text=%22COVID-19+Update%3a%22&ministry=5FD58D569A72474B8D543396985C0409&page=27'
 
 
-d1 <- read_html(older_updates_url) %>%
-  html_nodes('li') %>%
-  html_nodes('a') %>%
-  html_attr('href') %>%
-  tbl_df() %>%
-  filter(str_detect(value, 'covid-19-update') | str_detect(value, 'covid19-update'))
+extract_health_min_daily_update_urls <- function(base_url) {
+  read_html(base_url) %>%
+    html_nodes('.results') %>%
+    html_children() %>%
+    html_nodes('a') %>%
+    html_attr('href') %>%
+    as_tibble() %>%
+    filter(str_detect(value, 'covid19-update'))
+}
 
-d2 <- read_html(latest_updates_url) %>%
-  html_nodes('li') %>%
-  html_nodes('a') %>%
-  html_attr('href') %>%
-  tbl_df() %>%
-  filter(str_detect(value, 'covid19-update'))
-
+health_min_daily_update_urls <- extract_health_min_daily_update_urls(health_min_news_updates_url)
+  
 
 extract_date_from_url <- function(url) {
   mm <- str_match(url, "news-and-media/\\s*(.*?)\\s*-update")[,2]
@@ -137,9 +131,10 @@ gen_case_typs_df <- function(url) {
     html_nodes('.general-content') %>%
     html_nodes('li') %>%
     html_text() %>%
-    tbl_df() %>%
+    as_tibble() %>%
     filter(
       str_detect(value, 'cases are travellers') |
+        str_detect(value, 'cases are travelers') |
         str_detect(value, 'are community contacts') |
         str_detect(value, 'have no known exposures') |
         str_detect(value, 'are under investigation by local public health')
@@ -147,9 +142,11 @@ gen_case_typs_df <- function(url) {
     mutate(vv = as.numeric(str_trim(gsub("([0-9]+).*$", "\\1", gsub(",", "", value))))) %>%
     mutate(variable = ifelse(
       str_detect(value, 'travellers'), 'Travellers', ifelse(
-        str_detect(value, 'community contacts'), 'Contacts', ifelse(
-          str_detect(value, 'no known exposures'), 'Community', ifelse(
-            str_detect(value, 'under investigation'), 'Investigation', ''
+        str_detect(value, 'travelers'), 'Travellers', ifelse(
+          str_detect(value, 'community contacts'), 'Contacts', ifelse(
+            str_detect(value, 'no known exposures'), 'Community', ifelse(
+              str_detect(value, 'under investigation'), 'Investigation', ''
+            )
           )
         )
       )
@@ -157,26 +154,20 @@ gen_case_typs_df <- function(url) {
     select('variable', 'vv') %>%
     rename(value = 'vv') %>%
     mutate(date = extract_date_from_url(url))
+  return(case_types)
 }
 
-
-
-# latest updates
-latest_case_types_df <- lapply(d2$value, gen_case_typs_df) %>%
+# Health Ministry Updates
+latest_case_types_df <- lapply(health_min_daily_update_urls$value, gen_case_typs_df) %>%
   bind_rows() %>%
   spread(variable, value)
 
-# older updates
-older_case_types_df <- lapply(d1$value[1:10], gen_case_typs_df) %>%
-  bind_rows() %>%
-  spread(variable, value)
 
 # update running aggregated Case Types CSV
 agg_ct_df <- readr::read_csv('./data/case-types.csv')
 max_agg_ct_df_dt <- agg_ct_df %>% summarize(dt = last(date))
 
 update_ct_df <- latest_case_types_df %>% 
-  bind_rows(older_case_types_df) %>% 
   arrange(date) %>%
   filter(date > max_agg_ct_df_dt$dt)
 
@@ -186,6 +177,41 @@ agg_ct_df <- agg_ct_df %>%
 
 readr::write_csv(agg_ct_df, './data/case-types.csv')
 
+# To run a longer time series of updates
+all_updates <- lapply(1:27, function(x) 
+  extract_health_min_daily_update_urls(
+    paste0(health_min_news_updates_url, '&page=', x)
+  )
+) %>%
+  unlist() %>%
+  lapply(gen_case_typs_df) %>%
+  bind_rows() %>%
+  spread(variable, value)
+
+update_ct_df <- all_updates %>% 
+  arrange(date) %>%
+  filter(date > max_agg_ct_df_dt$dt)
+
+agg_ct_df <- agg_ct_df %>%
+  bind_rows(update_ct_df)
+
+
+readr::write_csv(agg_ct_df, './data/case-types.csv')
+
+# fixing up some old data
+agg_ct_df <- readr::read_csv('./data/case-types.csv')
+fix_df <- all_updates %>% filter(date >= '2020-10-24' & date <= '2020-11-03')
+
+agg_ct_df <- agg_ct_df %>%
+  left_join(fix_df[, c('date', 'Travellers')], by=c('date'), ) %>%
+  mutate(Travellers.x = ifelse(!is.na(Travellers.y), Travellers.y, Travellers.x))
+
+agg_ct_df$Travellers.y <- NULL
+
+agg_ct_df <- agg_ct_df %>%
+  rename(Travellers = Travellers.x)
+
+readr::write_csv(agg_ct_df, './data/case-types.csv')
 
 ################################
 ################################
@@ -256,3 +282,25 @@ write.csv(ages, paste0('./data/covid_sk_age_dist_', dt, '.csv'), row.names=FALSE
 # Public health orders
 
 # https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/public-health-measures/public-health-ordershttps://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/public-health-measures/public-health-orders
+
+##################
+##################
+# Vaccine roll-out
+
+# https://www.saskatchewan.ca/-/media/files/coronavirus/vaccine/saskatchewan-covid-19-vaccine-delivery-plan.pdf
+
+# Vaccine approved Dec 9, 2020.
+# Phase 0: Pilot of 1,950 doses in Regina
+# Phase 1: 202,052 planned administrations of doses to priority populations
+  # LTC residents and staff: 30, 584
+  # HCW: 10,000 - 15,000
+  # Older people: 
+    # 80+: 50,302
+    # 75-79: 32,474
+    # 70-74: 47,343
+  # > 50 yrs old in Northern communities: 8,921
+  # Pfizer plan was 10,725 doses per week.
+# Phase 2: Starting April 2021 admin to general population.
+
+
+
