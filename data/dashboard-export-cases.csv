@@ -1,2016 +1,2016 @@
 Date,Region,New Cases,Total Cases,Active Cases,Inpatient Hospitalizations,ICU Hospitalizations,Recovered Cases,Deaths
-2020-08-04,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-04,Central West,0,NA,75,NA,NA,NA,NA
+2020-08-04,Central East,0,28,3,0,0,24,1
+2020-08-04,Central West,0,158,75,0,0,83,0
 2020-08-04,Far North Central,0,0,0,0,0,0,0
-2020-08-04,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-04,Far North West,0,NA,4,NA,NA,NA,NA
-2020-08-04,North Central,1,NA,7,NA,NA,NA,NA
-2020-08-04,North East,0,NA,31,NA,NA,NA,NA
-2020-08-04,North West,1,NA,22,NA,NA,NA,NA
+2020-08-04,Far North East,0,6,0,0,0,6,0
+2020-08-04,Far North West,0,346,4,0,0,335,7
+2020-08-04,North Central,1,63,7,0,0,55,1
+2020-08-04,North East,0,62,31,0,0,31,0
+2020-08-04,North West,1,96,22,0,0,70,4
 2020-08-04,Regina,4,99,13,1,2,83,1
 2020-08-04,Saskatoon,2,216,24,3,5,190,2
-2020-08-04,South Central,0,NA,33,NA,NA,NA,NA
-2020-08-04,South East,0,NA,5,NA,NA,NA,NA
-2020-08-04,South West,1,NA,36,NA,NA,NA,NA
-2020-08-05,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-05,Central West,1,NA,73,NA,NA,NA,NA
+2020-08-04,South Central,0,134,33,0,0,99,2
+2020-08-04,South East,0,11,5,0,0,6,0
+2020-08-04,South West,1,149,36,3,0,113,0
+2020-08-05,Central East,0,28,3,1,0,24,1
+2020-08-05,Central West,1,159,73,0,0,86,0
 2020-08-05,Far North Central,0,0,0,0,0,0,0
-2020-08-05,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-05,Far North West,0,NA,4,NA,NA,NA,NA
-2020-08-05,North Central,0,NA,5,NA,NA,NA,NA
-2020-08-05,North East,3,NA,31,NA,NA,NA,NA
-2020-08-05,North West,0,NA,15,NA,NA,NA,NA
+2020-08-05,Far North East,0,6,0,0,0,6,0
+2020-08-05,Far North West,0,346,4,0,0,335,7
+2020-08-05,North Central,0,63,5,0,1,57,1
+2020-08-05,North East,3,65,31,0,0,34,0
+2020-08-05,North West,0,98,15,0,0,79,4
 2020-08-05,Regina,2,100,15,1,2,84,1
 2020-08-05,Saskatoon,2,217,19,3,5,196,2
-2020-08-05,South Central,0,NA,27,NA,NA,NA,NA
-2020-08-05,South East,0,NA,3,NA,NA,NA,NA
-2020-08-05,South West,0,NA,30,NA,NA,NA,NA
-2020-08-06,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-06,Central West,0,NA,64,NA,NA,NA,NA
+2020-08-05,South Central,0,134,27,0,0,105,2
+2020-08-05,South East,0,11,3,0,0,8,0
+2020-08-05,South West,0,149,30,2,0,119,0
+2020-08-06,Central East,0,28,3,1,0,24,1
+2020-08-06,Central West,0,159,64,0,0,95,0
 2020-08-06,Far North Central,0,0,0,0,0,0,0
-2020-08-06,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-06,Far North West,0,NA,2,NA,NA,NA,NA
-2020-08-06,North Central,0,NA,4,NA,NA,NA,NA
-2020-08-06,North East,0,NA,31,NA,NA,NA,NA
-2020-08-06,North West,0,NA,13,NA,NA,NA,NA
+2020-08-06,Far North East,0,6,0,0,0,6,0
+2020-08-06,Far North West,0,346,2,0,0,337,7
+2020-08-06,North Central,0,63,4,0,1,58,1
+2020-08-06,North East,0,65,31,0,0,34,0
+2020-08-06,North West,0,98,13,0,0,81,4
 2020-08-06,Regina,0,100,13,1,1,85,2
 2020-08-06,Saskatoon,1,218,17,3,4,199,2
-2020-08-06,South Central,9,NA,27,NA,NA,NA,NA
-2020-08-06,South East,0,NA,3,NA,NA,NA,NA
-2020-08-06,South West,1,NA,27,NA,NA,NA,NA
-2020-08-07,Central East,2,NA,5,NA,NA,NA,NA
-2020-08-07,Central West,0,NA,50,NA,NA,NA,NA
+2020-08-06,South Central,9,143,27,0,0,114,2
+2020-08-06,South East,0,11,3,0,0,8,0
+2020-08-06,South West,1,150,27,2,0,123,0
+2020-08-07,Central East,2,30,5,1,0,24,1
+2020-08-07,Central West,0,159,50,0,0,109,0
 2020-08-07,Far North Central,0,0,0,0,0,0,0
-2020-08-07,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-07,Far North West,0,NA,1,NA,NA,NA,NA
-2020-08-07,North Central,0,NA,4,NA,NA,NA,NA
-2020-08-07,North East,0,NA,17,NA,NA,NA,NA
-2020-08-07,North West,1,NA,10,NA,NA,NA,NA
+2020-08-07,Far North East,0,6,0,0,0,6,0
+2020-08-07,Far North West,0,346,1,0,0,338,7
+2020-08-07,North Central,0,63,4,0,1,58,1
+2020-08-07,North East,0,65,17,0,0,48,0
+2020-08-07,North West,1,99,10,0,0,85,4
 2020-08-07,Regina,2,102,14,1,0,86,2
 2020-08-07,Saskatoon,3,221,13,4,3,206,2
-2020-08-07,South Central,12,NA,28,NA,NA,NA,NA
-2020-08-07,South East,0,NA,3,NA,NA,NA,NA
-2020-08-07,South West,3,NA,23,NA,NA,NA,NA
-2020-08-08,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-08,Central West,0,NA,45,NA,NA,NA,NA
+2020-08-07,South Central,12,154,28,1,0,124,2
+2020-08-07,South East,0,11,3,0,0,8,0
+2020-08-07,South West,3,153,23,2,0,129,1
+2020-08-08,Central East,0,30,3,0,0,26,1
+2020-08-08,Central West,0,159,45,0,0,114,0
 2020-08-08,Far North Central,0,0,0,0,0,0,0
-2020-08-08,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-08,Far North West,0,NA,1,NA,NA,NA,NA
-2020-08-08,North Central,3,NA,4,NA,NA,NA,NA
-2020-08-08,North East,0,NA,13,NA,NA,NA,NA
-2020-08-08,North West,0,NA,8,NA,NA,NA,NA
+2020-08-08,Far North East,0,6,0,0,0,6,0
+2020-08-08,Far North West,0,346,1,0,0,338,7
+2020-08-08,North Central,3,66,4,0,1,61,1
+2020-08-08,North East,0,65,13,0,0,52,0
+2020-08-08,North West,0,99,8,0,0,87,4
 2020-08-08,Regina,3,113,25,1,0,86,2
 2020-08-08,Saskatoon,11,224,13,3,4,209,2
-2020-08-08,South Central,5,NA,28,NA,NA,NA,NA
-2020-08-08,South East,0,NA,3,NA,NA,NA,NA
-2020-08-08,South West,1,NA,24,NA,NA,NA,NA
-2020-08-09,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-09,Central West,1,NA,42,NA,NA,NA,NA
+2020-08-08,South Central,5,159,28,1,0,129,2
+2020-08-08,South East,0,11,3,0,0,8,0
+2020-08-08,South West,1,154,24,3,0,129,1
+2020-08-09,Central East,0,30,3,0,0,26,1
+2020-08-09,Central West,1,160,42,0,0,118,0
 2020-08-09,Far North Central,0,0,0,0,0,0,0
-2020-08-09,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-09,Far North West,0,NA,1,NA,NA,NA,NA
-2020-08-09,North Central,0,NA,4,NA,NA,NA,NA
-2020-08-09,North East,0,NA,13,NA,NA,NA,NA
-2020-08-09,North West,1,NA,9,NA,NA,NA,NA
+2020-08-09,Far North East,0,6,0,0,0,6,0
+2020-08-09,Far North West,0,346,1,0,0,338,7
+2020-08-09,North Central,0,66,4,0,0,61,1
+2020-08-09,North East,0,65,13,0,0,52,0
+2020-08-09,North West,1,100,9,0,0,87,4
 2020-08-09,Regina,5,118,29,1,1,87,2
 2020-08-09,Saskatoon,1,224,12,3,3,210,2
-2020-08-09,South Central,3,NA,29,NA,NA,NA,NA
-2020-08-09,South East,0,NA,2,NA,NA,NA,NA
-2020-08-09,South West,3,NA,23,NA,NA,NA,NA
-2020-08-10,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-10,Central West,0,NA,40,NA,NA,NA,NA
+2020-08-09,South Central,3,162,29,1,1,131,2
+2020-08-09,South East,0,11,2,0,0,9,0
+2020-08-09,South West,3,156,23,2,2,132,1
+2020-08-10,Central East,0,30,3,0,0,26,1
+2020-08-10,Central West,0,160,40,0,0,120,0
 2020-08-10,Far North Central,0,0,0,0,0,0,0
-2020-08-10,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-10,Far North West,0,NA,1,NA,NA,NA,NA
-2020-08-10,North Central,0,NA,4,NA,NA,NA,NA
-2020-08-10,North East,0,NA,13,NA,NA,NA,NA
-2020-08-10,North West,0,NA,8,NA,NA,NA,NA
+2020-08-10,Far North East,0,6,0,0,0,6,0
+2020-08-10,Far North West,0,346,1,0,0,338,7
+2020-08-10,North Central,0,66,4,0,1,61,1
+2020-08-10,North East,0,65,13,0,0,52,0
+2020-08-10,North West,0,100,8,0,0,88,4
 2020-08-10,Regina,3,121,30,1,0,89,2
 2020-08-10,Saskatoon,1,225,13,3,3,210,2
-2020-08-10,South Central,1,NA,27,NA,NA,NA,NA
-2020-08-10,South East,0,NA,2,NA,NA,NA,NA
-2020-08-10,South West,0,NA,23,NA,NA,NA,NA
-2020-08-11,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-11,Central West,0,NA,29,NA,NA,NA,NA
+2020-08-10,South Central,1,163,27,1,0,134,2
+2020-08-10,South East,0,11,2,0,0,9,0
+2020-08-10,South West,0,156,23,3,1,132,1
+2020-08-11,Central East,0,30,3,0,0,26,1
+2020-08-11,Central West,0,160,29,0,0,131,0
 2020-08-11,Far North Central,0,0,0,0,0,0,0
-2020-08-11,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-11,Far North West,0,NA,1,NA,NA,NA,NA
-2020-08-11,North Central,0,NA,4,NA,NA,NA,NA
-2020-08-11,North East,1,NA,7,NA,NA,NA,NA
-2020-08-11,North West,1,NA,7,NA,NA,NA,NA
+2020-08-11,Far North East,0,6,0,0,0,6,0
+2020-08-11,Far North West,0,346,1,0,0,338,7
+2020-08-11,North Central,0,66,4,0,1,61,1
+2020-08-11,North East,1,65,7,0,0,58,0
+2020-08-11,North West,1,101,7,0,0,90,4
 2020-08-11,Regina,4,125,34,1,0,89,2
 2020-08-11,Saskatoon,17,242,29,3,3,211,2
-2020-08-11,South Central,3,NA,27,NA,NA,NA,NA
-2020-08-11,South East,0,NA,1,NA,NA,NA,NA
-2020-08-11,South West,4,NA,22,NA,NA,NA,NA
-2020-08-12,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-12,Central West,0,NA,16,NA,NA,NA,NA
+2020-08-11,South Central,3,166,27,1,0,137,2
+2020-08-11,South East,0,11,1,0,0,10,0
+2020-08-11,South West,4,160,22,1,1,137,1
+2020-08-12,Central East,0,30,3,0,0,26,1
+2020-08-12,Central West,0,160,16,0,0,144,0
 2020-08-12,Far North Central,0,0,0,0,0,0,0
-2020-08-12,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-12,Far North West,0,NA,1,NA,NA,NA,NA
-2020-08-12,North Central,1,NA,5,NA,NA,NA,NA
-2020-08-12,North East,0,NA,4,NA,NA,NA,NA
-2020-08-12,North West,0,NA,6,NA,NA,NA,NA
+2020-08-12,Far North East,0,6,0,0,0,6,0
+2020-08-12,Far North West,0,346,1,0,0,338,7
+2020-08-12,North Central,1,67,5,0,1,61,1
+2020-08-12,North East,0,65,4,0,0,61,0
+2020-08-12,North West,0,101,6,0,0,91,4
 2020-08-12,Regina,4,129,38,1,0,89,2
 2020-08-12,Saskatoon,0,242,28,3,3,212,2
-2020-08-12,South Central,0,NA,27,NA,NA,NA,NA
-2020-08-12,South East,0,NA,1,NA,NA,NA,NA
-2020-08-12,South West,0,NA,20,NA,NA,NA,NA
-2020-08-13,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-13,Central West,0,NA,14,NA,NA,NA,NA
+2020-08-12,South Central,0,166,27,1,0,137,2
+2020-08-12,South East,0,11,1,0,0,10,0
+2020-08-12,South West,0,160,20,0,1,139,1
+2020-08-13,Central East,0,30,3,0,0,26,1
+2020-08-13,Central West,0,160,14,0,0,146,0
 2020-08-13,Far North Central,0,0,0,0,0,0,0
-2020-08-13,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-13,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-13,North Central,0,NA,4,NA,NA,NA,NA
-2020-08-13,North East,0,NA,4,NA,NA,NA,NA
-2020-08-13,North West,0,NA,6,NA,NA,NA,NA
+2020-08-13,Far North East,0,6,0,0,0,6,0
+2020-08-13,Far North West,0,346,0,0,0,339,7
+2020-08-13,North Central,0,67,4,1,1,62,1
+2020-08-13,North East,0,65,4,0,0,61,0
+2020-08-13,North West,0,101,6,0,0,91,4
 2020-08-13,Regina,2,131,40,1,0,89,2
 2020-08-13,Saskatoon,3,245,29,3,3,214,2
-2020-08-13,South Central,4,NA,29,NA,NA,NA,NA
-2020-08-13,South East,0,NA,0,NA,NA,NA,NA
-2020-08-13,South West,18,NA,36,NA,NA,NA,NA
-2020-08-14,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-14,Central West,0,NA,12,NA,NA,NA,NA
+2020-08-13,South Central,4,170,29,1,0,139,2
+2020-08-13,South East,0,11,0,0,0,11,0
+2020-08-13,South West,18,178,36,0,1,141,1
+2020-08-14,Central East,0,30,3,0,0,26,1
+2020-08-14,Central West,0,160,12,0,0,148,0
 2020-08-14,Far North Central,0,0,0,0,0,0,0
-2020-08-14,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-14,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-14,North Central,1,NA,3,NA,NA,NA,NA
-2020-08-14,North East,0,NA,1,NA,NA,NA,NA
-2020-08-14,North West,0,NA,5,NA,NA,NA,NA
+2020-08-14,Far North East,0,6,0,0,0,6,0
+2020-08-14,Far North West,0,346,0,0,0,339,7
+2020-08-14,North Central,1,68,3,1,1,64,1
+2020-08-14,North East,0,65,1,0,0,64,0
+2020-08-14,North West,0,101,5,0,0,92,4
 2020-08-14,Regina,0,131,40,1,0,89,2
 2020-08-14,Saskatoon,0,245,26,3,3,217,2
-2020-08-14,South Central,6,NA,29,NA,NA,NA,NA
-2020-08-14,South East,0,NA,0,NA,NA,NA,NA
-2020-08-14,South West,23,NA,54,NA,NA,NA,NA
-2020-08-15,Central East,0,NA,3,NA,NA,NA,NA
-2020-08-15,Central West,6,NA,10,NA,NA,NA,NA
+2020-08-14,South Central,6,176,29,0,0,145,2
+2020-08-14,South East,0,11,0,0,0,11,0
+2020-08-14,South West,23,201,54,0,1,146,1
+2020-08-15,Central East,0,30,3,0,0,26,1
+2020-08-15,Central West,6,160,10,0,0,150,0
 2020-08-15,Far North Central,0,0,0,0,0,0,0
-2020-08-15,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-15,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-15,North Central,0,NA,2,NA,NA,NA,NA
-2020-08-15,North East,0,NA,0,NA,NA,NA,NA
-2020-08-15,North West,17,NA,22,NA,NA,NA,NA
+2020-08-15,Far North East,0,6,0,0,0,6,0
+2020-08-15,Far North West,0,346,0,0,0,339,7
+2020-08-15,North Central,0,68,2,0,1,65,1
+2020-08-15,North East,0,65,0,0,0,65,0
+2020-08-15,North West,17,118,22,0,0,92,4
 2020-08-15,Regina,0,131,39,1,0,90,2
 2020-08-15,Saskatoon,2,247,27,2,3,218,2
-2020-08-15,South Central,0,NA,33,NA,NA,NA,NA
-2020-08-15,South East,0,NA,0,NA,NA,NA,NA
-2020-08-15,South West,0,NA,52,NA,NA,NA,NA
-2020-08-16,Central East,3,NA,6,NA,NA,NA,NA
-2020-08-16,Central West,1,NA,9,NA,NA,NA,NA
+2020-08-15,South Central,0,182,33,0,0,146,3
+2020-08-15,South East,0,11,0,0,0,11,0
+2020-08-15,South West,0,201,52,0,1,148,1
+2020-08-16,Central East,3,33,6,0,0,26,1
+2020-08-16,Central West,1,161,9,0,0,152,0
 2020-08-16,Far North Central,0,0,0,0,0,0,0
-2020-08-16,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-16,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-16,North Central,0,NA,1,NA,NA,NA,NA
-2020-08-16,North East,0,NA,0,NA,NA,NA,NA
-2020-08-16,North West,1,NA,23,NA,NA,NA,NA
+2020-08-16,Far North East,0,6,0,0,0,6,0
+2020-08-16,Far North West,0,346,0,0,0,339,7
+2020-08-16,North Central,0,68,1,0,0,65,2
+2020-08-16,North East,0,65,0,0,0,65,0
+2020-08-16,North West,1,119,23,0,0,92,4
 2020-08-16,Regina,0,131,39,1,0,90,2
 2020-08-16,Saskatoon,0,247,24,1,4,221,2
-2020-08-16,South Central,5,NA,36,NA,NA,NA,NA
-2020-08-16,South East,0,NA,0,NA,NA,NA,NA
-2020-08-16,South West,5,NA,55,NA,NA,NA,NA
-2020-08-17,Central East,0,NA,4,NA,NA,NA,NA
-2020-08-17,Central West,0,NA,7,NA,NA,NA,NA
+2020-08-16,South Central,5,187,36,0,0,148,3
+2020-08-16,South East,0,11,0,0,0,11,0
+2020-08-16,South West,5,206,55,2,0,150,1
+2020-08-17,Central East,0,33,4,0,0,28,1
+2020-08-17,Central West,0,161,7,0,0,154,0
 2020-08-17,Far North Central,0,0,0,0,0,0,0
-2020-08-17,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-17,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-17,North Central,0,NA,1,NA,NA,NA,NA
-2020-08-17,North East,0,NA,0,NA,NA,NA,NA
-2020-08-17,North West,0,NA,23,NA,NA,NA,NA
+2020-08-17,Far North East,0,6,0,0,0,6,0
+2020-08-17,Far North West,0,346,0,0,0,339,7
+2020-08-17,North Central,0,68,1,0,0,65,2
+2020-08-17,North East,0,65,0,0,0,65,0
+2020-08-17,North West,0,119,23,0,0,92,4
 2020-08-17,Regina,0,131,33,1,0,96,2
 2020-08-17,Saskatoon,0,247,23,1,4,222,2
-2020-08-17,South Central,0,NA,32,NA,NA,NA,NA
-2020-08-17,South East,0,NA,0,NA,NA,NA,NA
-2020-08-17,South West,1,NA,49,NA,NA,NA,NA
-2020-08-18,Central East,0,NA,4,NA,NA,NA,NA
-2020-08-18,Central West,0,NA,7,NA,NA,NA,NA
-2020-08-18,Far North Central,0,NA,0,0,0,NA,0
-2020-08-18,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-18,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-18,North Central,0,NA,1,NA,NA,NA,NA
-2020-08-18,North East,0,NA,0,NA,NA,NA,NA
-2020-08-18,North West,0,NA,23,NA,NA,NA,NA
+2020-08-17,South Central,0,187,32,0,0,152,3
+2020-08-17,South East,0,11,0,0,0,11,0
+2020-08-17,South West,1,207,49,2,0,157,1
+2020-08-18,Central East,0,33,4,0,0,28,1
+2020-08-18,Central West,0,161,7,0,0,154,0
+2020-08-18,Far North Central,0,0,0,0,0,0,0
+2020-08-18,Far North East,0,6,0,0,0,6,0
+2020-08-18,Far North West,0,346,0,0,0,339,7
+2020-08-18,North Central,0,68,1,0,0,65,2
+2020-08-18,North East,0,65,0,0,0,65,0
+2020-08-18,North West,0,119,23,0,0,92,4
 2020-08-18,Regina,0,131,25,1,0,104,2
 2020-08-18,Saskatoon,1,248,22,1,4,224,2
-2020-08-18,South Central,0,NA,29,NA,NA,NA,NA
-2020-08-18,South East,0,NA,0,NA,NA,NA,NA
-2020-08-18,South West,0,NA,46,NA,NA,NA,NA
-2020-08-19,Central East,0,NA,4,NA,NA,NA,NA
-2020-08-19,Central West,0,NA,7,NA,NA,NA,NA
-2020-08-19,Far North Central,0,NA,0,0,0,NA,0
-2020-08-19,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-19,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-19,North Central,0,NA,1,NA,NA,NA,NA
-2020-08-19,North East,0,NA,0,NA,NA,NA,NA
-2020-08-19,North West,2,NA,25,NA,NA,NA,NA
+2020-08-18,South Central,0,187,29,0,0,155,3
+2020-08-18,South East,0,11,0,0,0,11,0
+2020-08-18,South West,0,207,46,2,0,160,1
+2020-08-19,Central East,0,33,4,0,0,28,1
+2020-08-19,Central West,0,161,7,0,0,154,0
+2020-08-19,Far North Central,0,0,0,0,0,0,0
+2020-08-19,Far North East,0,6,0,0,0,6,0
+2020-08-19,Far North West,0,346,0,0,0,339,7
+2020-08-19,North Central,0,68,1,0,0,65,2
+2020-08-19,North East,0,65,0,0,0,65,0
+2020-08-19,North West,2,121,25,0,0,92,4
 2020-08-19,Regina,0,131,25,2,0,104,2
 2020-08-19,Saskatoon,0,248,18,1,4,228,2
-2020-08-19,South Central,0,NA,28,NA,NA,NA,NA
-2020-08-19,South East,0,NA,0,NA,NA,NA,NA
-2020-08-19,South West,2,NA,46,NA,NA,NA,NA
-2020-08-20,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-20,Central West,0,NA,7,NA,NA,NA,NA
-2020-08-20,Far North Central,0,NA,0,0,0,NA,0
-2020-08-20,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-20,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-20,North Central,0,NA,1,NA,NA,NA,NA
-2020-08-20,North East,0,NA,0,NA,NA,NA,NA
-2020-08-20,North West,2,NA,25,NA,NA,NA,NA
+2020-08-19,South Central,0,187,28,0,0,156,3
+2020-08-19,South East,0,11,0,0,0,11,0
+2020-08-19,South West,2,209,46,0,0,162,1
+2020-08-20,Central East,0,33,1,0,0,31,1
+2020-08-20,Central West,0,161,7,0,0,154,0
+2020-08-20,Far North Central,0,0,0,0,0,0,0
+2020-08-20,Far North East,0,6,0,0,0,6,0
+2020-08-20,Far North West,0,346,0,0,0,339,7
+2020-08-20,North Central,0,68,1,0,0,65,2
+2020-08-20,North East,0,65,0,0,0,65,0
+2020-08-20,North West,2,121,25,0,0,92,4
 2020-08-20,Regina,0,131,21,0,0,108,2
 2020-08-20,Saskatoon,1,249,19,1,4,228,2
-2020-08-20,South Central,3,NA,29,NA,NA,NA,NA
-2020-08-20,South East,0,NA,0,NA,NA,NA,NA
-2020-08-20,South West,0,NA,46,NA,NA,NA,NA
-2020-08-21,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-21,Central West,0,NA,5,NA,NA,NA,NA
-2020-08-21,Far North Central,0,0,0,0,0,NA,0
-2020-08-21,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-21,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-21,North Central,0,NA,1,NA,NA,NA,NA
-2020-08-21,North East,1,NA,1,NA,NA,NA,NA
-2020-08-21,North West,2,NA,25,NA,NA,NA,NA
+2020-08-20,South Central,3,190,29,0,0,158,3
+2020-08-20,South East,0,11,0,0,0,11,0
+2020-08-20,South West,0,209,46,0,0,162,1
+2020-08-21,Central East,0,33,1,0,0,31,1
+2020-08-21,Central West,0,161,5,0,0,156,0
+2020-08-21,Far North Central,0,0,0,0,0,0,0
+2020-08-21,Far North East,0,6,0,0,0,6,0
+2020-08-21,Far North West,0,346,0,0,0,339,7
+2020-08-21,North Central,0,68,1,0,0,65,2
+2020-08-21,North East,1,66,1,0,0,65,0
+2020-08-21,North West,2,123,25,0,0,94,4
 2020-08-21,Regina,0,131,20,0,0,109,2
 2020-08-21,Saskatoon,1,250,15,1,4,233,2
-2020-08-21,South Central,0,NA,25,NA,NA,NA,NA
-2020-08-21,South East,0,NA,0,NA,NA,NA,NA
-2020-08-21,South West,2,NA,41,NA,NA,NA,NA
-2020-08-22,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-22,Central West,0,NA,4,NA,NA,NA,NA
-2020-08-22,Far North Central,0,0,0,0,0,NA,0
-2020-08-22,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-22,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-22,North Central,0,NA,1,NA,NA,NA,NA
-2020-08-22,North East,0,NA,1,NA,NA,NA,NA
-2020-08-22,North West,0,NA,24,NA,NA,NA,NA
+2020-08-21,South Central,0,189,25,0,0,161,3
+2020-08-21,South East,0,11,0,0,0,11,0
+2020-08-21,South West,2,211,41,0,0,169,1
+2020-08-22,Central East,0,33,1,0,0,31,1
+2020-08-22,Central West,0,161,4,0,0,157,0
+2020-08-22,Far North Central,0,0,0,0,0,0,0
+2020-08-22,Far North East,0,6,0,0,0,6,0
+2020-08-22,Far North West,0,346,0,0,0,339,7
+2020-08-22,North Central,0,68,1,0,0,65,2
+2020-08-22,North East,0,66,1,0,0,65,0
+2020-08-22,North West,0,123,24,0,0,94,4
 2020-08-22,Regina,0,131,14,0,0,115,2
 2020-08-22,Saskatoon,1,251,12,1,4,237,2
-2020-08-22,South Central,0,NA,24,NA,NA,NA,NA
-2020-08-22,South East,0,NA,0,NA,NA,NA,NA
-2020-08-22,South West,1,NA,36,NA,NA,NA,NA
-2020-08-23,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-23,Central West,0,NA,4,NA,NA,NA,NA
+2020-08-22,South Central,0,189,24,0,0,162,3
+2020-08-22,South East,0,11,0,0,0,11,0
+2020-08-22,South West,1,212,36,0,0,175,1
+2020-08-23,Central East,0,33,1,0,0,31,1
+2020-08-23,Central West,0,161,4,0,0,157,0
 2020-08-23,Far North Central,0,0,0,0,0,0,0
-2020-08-23,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-23,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-23,North Central,1,NA,2,NA,NA,NA,NA
-2020-08-23,North East,0,NA,1,NA,NA,NA,NA
-2020-08-23,North West,0,NA,24,NA,NA,NA,NA
+2020-08-23,Far North East,0,6,0,0,0,6,0
+2020-08-23,Far North West,0,346,0,0,0,339,7
+2020-08-23,North Central,1,69,2,0,0,65,2
+2020-08-23,North East,0,66,1,0,0,65,0
+2020-08-23,North West,0,123,24,0,0,95,4
 2020-08-23,Regina,1,132,14,0,0,116,2
 2020-08-23,Saskatoon,0,251,6,1,4,243,2
-2020-08-23,South Central,0,NA,21,NA,NA,NA,NA
-2020-08-23,South East,0,NA,0,NA,NA,NA,NA
-2020-08-23,South West,1,NA,33,NA,NA,NA,NA
-2020-08-24,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-24,Central West,0,NA,2,NA,NA,NA,NA
+2020-08-23,South Central,0,189,21,0,0,165,3
+2020-08-23,South East,0,11,0,0,0,11,0
+2020-08-23,South West,1,213,33,0,0,179,1
+2020-08-24,Central East,0,33,1,0,0,31,1
+2020-08-24,Central West,0,161,2,0,0,159,0
 2020-08-24,Far North Central,0,0,0,0,0,0,0
-2020-08-24,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-24,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-24,North Central,1,NA,0,NA,NA,NA,NA
-2020-08-24,North East,0,NA,1,NA,NA,NA,NA
-2020-08-24,North West,3,NA,26,NA,NA,NA,NA
+2020-08-24,Far North East,0,6,0,0,0,6,0
+2020-08-24,Far North West,0,346,0,0,0,339,7
+2020-08-24,North Central,1,68,0,0,0,66,2
+2020-08-24,North East,0,66,1,0,0,65,0
+2020-08-24,North West,3,126,26,0,0,96,4
 2020-08-24,Regina,0,132,14,0,0,116,2
 2020-08-24,Saskatoon,0,251,5,1,4,244,2
-2020-08-24,South Central,0,NA,18,NA,NA,NA,NA
-2020-08-24,South East,0,NA,0,NA,NA,NA,NA
-2020-08-24,South West,0,NA,31,NA,NA,NA,NA
-2020-08-25,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-25,Central West,0,NA,1,NA,NA,NA,NA
+2020-08-24,South Central,0,189,18,0,0,168,3
+2020-08-24,South East,0,11,0,0,0,11,0
+2020-08-24,South West,0,213,31,0,0,181,1
+2020-08-25,Central East,0,33,1,0,0,31,1
+2020-08-25,Central West,0,161,1,0,0,159,1
 2020-08-25,Far North Central,0,0,0,0,0,0,0
-2020-08-25,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-25,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-25,North Central,0,NA,0,NA,NA,NA,NA
-2020-08-25,North East,0,NA,1,NA,NA,NA,NA
-2020-08-25,North West,0,NA,25,NA,NA,NA,NA
+2020-08-25,Far North East,0,6,0,0,0,6,0
+2020-08-25,Far North West,0,346,0,0,0,339,7
+2020-08-25,North Central,0,68,0,0,0,66,2
+2020-08-25,North East,0,66,1,0,0,65,0
+2020-08-25,North West,0,125,25,0,0,96,4
 2020-08-25,Regina,0,132,10,0,0,120,2
 2020-08-25,Saskatoon,0,251,4,1,3,245,2
-2020-08-25,South Central,0,NA,18,NA,NA,NA,NA
-2020-08-25,South East,0,NA,0,NA,NA,NA,NA
-2020-08-25,South West,0,NA,28,NA,NA,NA,NA
-2020-08-26,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-26,Central West,0,NA,1,NA,NA,NA,NA
+2020-08-25,South Central,0,189,18,0,0,168,3
+2020-08-25,South East,0,11,0,0,0,11,0
+2020-08-25,South West,0,213,28,0,0,184,1
+2020-08-26,Central East,0,33,1,0,0,31,1
+2020-08-26,Central West,0,161,1,0,0,159,1
 2020-08-26,Far North Central,0,0,0,0,0,0,0
-2020-08-26,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-26,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-26,North Central,0,NA,0,NA,NA,NA,NA
-2020-08-26,North East,0,NA,1,NA,NA,NA,NA
-2020-08-26,North West,0,NA,9,NA,NA,NA,NA
+2020-08-26,Far North East,0,6,0,0,0,6,0
+2020-08-26,Far North West,0,346,0,0,0,339,7
+2020-08-26,North Central,0,68,0,0,0,66,2
+2020-08-26,North East,0,66,1,0,0,65,0
+2020-08-26,North West,0,125,9,0,0,112,4
 2020-08-26,Regina,0,132,5,0,0,125,2
 2020-08-26,Saskatoon,3,254,7,1,2,245,2
-2020-08-26,South Central,0,NA,15,NA,NA,NA,NA
-2020-08-26,South East,0,NA,0,NA,NA,NA,NA
-2020-08-26,South West,0,NA,21,NA,NA,NA,NA
-2020-08-27,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-27,Central West,0,NA,1,NA,NA,NA,NA
+2020-08-26,South Central,0,189,15,0,0,170,4
+2020-08-26,South East,0,11,0,0,0,11,0
+2020-08-26,South West,0,213,21,0,0,191,1
+2020-08-27,Central East,0,33,1,0,0,31,1
+2020-08-27,Central West,0,161,1,0,0,159,1
 2020-08-27,Far North Central,0,0,0,0,0,0,0
-2020-08-27,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-27,Far North West,0,NA,0,NA,NA,NA,NA
-2020-08-27,North Central,0,NA,0,NA,NA,NA,NA
-2020-08-27,North East,0,NA,1,NA,NA,NA,NA
-2020-08-27,North West,3,NA,12,NA,NA,NA,NA
+2020-08-27,Far North East,0,6,0,0,0,6,0
+2020-08-27,Far North West,0,346,0,0,0,339,7
+2020-08-27,North Central,0,68,0,0,0,66,2
+2020-08-27,North East,0,66,1,0,0,65,0
+2020-08-27,North West,3,128,12,0,0,112,4
 2020-08-27,Regina,0,132,5,0,0,125,2
 2020-08-27,Saskatoon,2,256,9,1,2,245,2
-2020-08-27,South Central,0,NA,13,NA,NA,NA,NA
-2020-08-27,South East,0,NA,0,NA,NA,NA,NA
-2020-08-27,South West,0,NA,16,NA,NA,NA,NA
-2020-08-28,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-28,Central West,0,NA,1,NA,NA,NA,NA
+2020-08-27,South Central,0,189,13,0,0,172,4
+2020-08-27,South East,0,11,0,0,0,11,0
+2020-08-27,South West,0,213,16,0,0,196,1
+2020-08-28,Central East,0,33,1,0,0,32,1
+2020-08-28,Central West,0,161,1,0,0,159,1
 2020-08-28,Far North Central,0,0,0,0,0,0,0
-2020-08-28,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-28,Far North West,1,NA,1,NA,NA,NA,NA
-2020-08-28,North Central,0,NA,0,NA,NA,NA,NA
-2020-08-28,North East,0,NA,1,NA,NA,NA,NA
-2020-08-28,North West,0,NA,8,NA,NA,NA,NA
+2020-08-28,Far North East,0,6,0,0,0,6,0
+2020-08-28,Far North West,1,347,1,0,0,339,7
+2020-08-28,North Central,0,68,0,0,0,66,2
+2020-08-28,North East,0,66,1,0,0,65,0
+2020-08-28,North West,0,128,8,0,0,116,4
 2020-08-28,Regina,0,132,0,0,0,129,2
 2020-08-28,Saskatoon,1,257,8,1,2,247,2
-2020-08-28,South Central,0,NA,11,NA,NA,NA,NA
-2020-08-28,South East,0,NA,0,NA,NA,NA,NA
-2020-08-28,South West,0,NA,13,NA,NA,NA,NA
-2020-08-29,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-29,Central West,0,NA,1,NA,NA,NA,NA
+2020-08-28,South Central,0,189,11,0,0,174,4
+2020-08-28,South East,0,11,0,0,0,11,0
+2020-08-28,South West,0,213,13,0,0,199,1
+2020-08-29,Central East,0,33,1,0,0,32,1
+2020-08-29,Central West,0,161,1,0,0,159,1
 2020-08-29,Far North Central,0,0,0,0,0,0,0
-2020-08-29,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-29,Far North West,0,NA,1,NA,NA,NA,NA
-2020-08-29,North Central,0,NA,0,NA,NA,NA,NA
-2020-08-29,North East,0,NA,1,NA,NA,NA,NA
-2020-08-29,North West,0,NA,8,NA,NA,NA,NA
+2020-08-29,Far North East,0,6,0,0,0,6,0
+2020-08-29,Far North West,0,347,1,0,0,339,7
+2020-08-29,North Central,0,68,0,0,0,66,2
+2020-08-29,North East,0,66,1,0,0,65,0
+2020-08-29,North West,0,128,8,0,0,116,4
 2020-08-29,Regina,0,132,1,0,0,129,2
 2020-08-29,Saskatoon,2,259,10,1,2,247,2
-2020-08-29,South Central,0,NA,8,NA,NA,NA,NA
-2020-08-29,South East,0,NA,0,NA,NA,NA,NA
-2020-08-29,South West,2,NA,13,NA,NA,NA,NA
-2020-08-30,Central East,0,NA,1,NA,NA,NA,NA
-2020-08-30,Central West,0,NA,1,NA,NA,NA,NA
+2020-08-29,South Central,0,189,8,0,0,177,4
+2020-08-29,South East,0,11,0,0,0,11,0
+2020-08-29,South West,2,215,13,0,0,201,1
+2020-08-30,Central East,0,33,1,0,0,32,1
+2020-08-30,Central West,0,161,1,0,0,159,1
 2020-08-30,Far North Central,0,0,0,0,0,0,0
-2020-08-30,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-30,Far North West,0,NA,1,NA,NA,NA,NA
-2020-08-30,North Central,0,NA,0,NA,NA,NA,NA
-2020-08-30,North East,0,NA,1,NA,NA,NA,NA
-2020-08-30,North West,0,NA,8,NA,NA,NA,NA
+2020-08-30,Far North East,0,6,0,0,0,6,0
+2020-08-30,Far North West,0,347,1,0,0,339,7
+2020-08-30,North Central,0,68,0,0,0,66,2
+2020-08-30,North East,0,66,1,0,0,65,0
+2020-08-30,North West,0,128,8,0,0,116,4
 2020-08-30,Regina,0,132,1,0,0,129,2
 2020-08-30,Saskatoon,0,259,10,1,2,247,2
-2020-08-30,South Central,0,NA,8,NA,NA,NA,NA
-2020-08-30,South East,0,NA,0,NA,NA,NA,NA
-2020-08-30,South West,0,NA,12,NA,NA,NA,NA
-2020-08-31,Central East,1,NA,1,NA,NA,NA,NA
-2020-08-31,Central West,0,NA,1,NA,NA,NA,NA
+2020-08-30,South Central,0,189,8,0,0,177,4
+2020-08-30,South East,0,11,0,0,0,11,0
+2020-08-30,South West,0,215,12,0,0,202,1
+2020-08-31,Central East,1,34,1,0,0,32,1
+2020-08-31,Central West,0,161,1,0,0,159,1
 2020-08-31,Far North Central,0,0,0,0,0,0,0
-2020-08-31,Far North East,0,NA,0,NA,NA,NA,NA
-2020-08-31,Far North West,0,NA,1,NA,NA,NA,NA
-2020-08-31,North Central,0,NA,0,NA,NA,NA,NA
-2020-08-31,North East,0,NA,1,NA,NA,NA,NA
-2020-08-31,North West,0,NA,8,NA,NA,NA,NA
+2020-08-31,Far North East,0,6,0,0,0,6,0
+2020-08-31,Far North West,0,347,1,0,0,339,7
+2020-08-31,North Central,0,68,0,0,0,66,2
+2020-08-31,North East,0,66,1,0,0,65,0
+2020-08-31,North West,0,128,8,0,0,116,4
 2020-08-31,Regina,0,132,1,0,0,129,2
 2020-08-31,Saskatoon,1,260,11,1,2,247,2
-2020-08-31,South Central,1,NA,6,NA,NA,NA,NA
-2020-08-31,South East,0,NA,0,NA,NA,NA,NA
-2020-08-31,South West,1,NA,4,NA,NA,NA,NA
-2020-09-01,Central East,0,NA,1,NA,NA,NA,NA
-2020-09-01,Central West,0,NA,1,NA,NA,NA,NA
+2020-08-31,South Central,1,190,6,0,0,180,4
+2020-08-31,South East,0,11,0,0,0,11,0
+2020-08-31,South West,1,216,4,0,0,211,1
+2020-09-01,Central East,0,34,1,0,0,32,1
+2020-09-01,Central West,0,161,1,0,0,159,1
 2020-09-01,Far North Central,0,0,0,0,0,0,0
-2020-09-01,Far North East,0,NA,0,NA,NA,NA,NA
-2020-09-01,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-01,North Central,1,NA,1,NA,NA,NA,NA
-2020-09-01,North East,0,NA,1,NA,NA,NA,NA
-2020-09-01,North West,0,NA,5,NA,NA,NA,NA
+2020-09-01,Far North East,0,6,0,0,0,6,0
+2020-09-01,Far North West,0,347,1,0,0,339,7
+2020-09-01,North Central,1,69,1,0,0,66,2
+2020-09-01,North East,0,66,1,0,0,65,0
+2020-09-01,North West,0,128,5,0,0,119,4
 2020-09-01,Regina,0,132,1,0,0,129,2
 2020-09-01,Saskatoon,1,261,12,1,2,247,2
-2020-09-01,South Central,0,NA,3,NA,NA,NA,NA
-2020-09-01,South East,0,NA,0,NA,NA,NA,NA
-2020-09-01,South West,0,NA,4,NA,NA,NA,NA
-2020-09-02,Central East,0,NA,1,NA,NA,NA,NA
-2020-09-02,Central West,0,NA,1,NA,NA,NA,NA
+2020-09-01,South Central,0,190,3,0,0,183,4
+2020-09-01,South East,0,11,0,0,0,11,0
+2020-09-01,South West,0,216,4,0,0,211,1
+2020-09-02,Central East,0,34,1,0,0,32,1
+2020-09-02,Central West,0,161,1,0,0,159,1
 2020-09-02,Far North Central,0,0,0,0,0,0,0
-2020-09-02,Far North East,0,NA,0,NA,NA,NA,NA
-2020-09-02,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-02,North Central,0,NA,1,NA,NA,NA,NA
-2020-09-02,North East,0,NA,0,NA,NA,NA,NA
-2020-09-02,North West,1,NA,7,NA,NA,NA,NA
+2020-09-02,Far North East,0,6,0,0,0,6,0
+2020-09-02,Far North West,0,347,1,0,0,339,7
+2020-09-02,North Central,0,69,1,0,0,66,2
+2020-09-02,North East,0,66,0,0,0,66,0
+2020-09-02,North West,1,130,7,0,0,119,4
 2020-09-02,Regina,0,132,0,0,0,130,2
 2020-09-02,Saskatoon,0,261,11,1,1,248,2
-2020-09-02,South Central,1,NA,3,NA,NA,NA,NA
-2020-09-02,South East,0,NA,0,NA,NA,NA,NA
-2020-09-02,South West,0,NA,4,NA,NA,NA,NA
-2020-09-03,Central East,0,NA,1,NA,NA,NA,NA
-2020-09-03,Central West,2,NA,2,NA,NA,NA,NA
+2020-09-02,South Central,1,191,3,0,0,184,4
+2020-09-02,South East,0,11,0,0,0,11,0
+2020-09-02,South West,0,216,4,0,0,211,1
+2020-09-03,Central East,0,34,1,0,0,32,1
+2020-09-03,Central West,2,163,2,0,0,160,1
 2020-09-03,Far North Central,0,0,0,0,0,0,0
-2020-09-03,Far North East,0,NA,0,NA,NA,NA,NA
-2020-09-03,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-03,North Central,1,NA,2,NA,NA,NA,NA
-2020-09-03,North East,0,NA,0,NA,NA,NA,NA
-2020-09-03,North West,0,NA,5,NA,NA,NA,NA
+2020-09-03,Far North East,0,6,0,0,0,6,0
+2020-09-03,Far North West,0,347,1,0,0,339,7
+2020-09-03,North Central,1,70,2,0,0,66,2
+2020-09-03,North East,0,66,0,0,0,66,0
+2020-09-03,North West,0,130,5,0,0,121,4
 2020-09-03,Regina,0,132,0,0,0,130,2
 2020-09-03,Saskatoon,6,267,17,1,1,248,2
-2020-09-03,South Central,1,NA,4,NA,NA,NA,NA
-2020-09-03,South East,0,NA,0,NA,NA,NA,NA
-2020-09-03,South West,0,NA,4,NA,NA,NA,NA
-2020-09-04,Central East,0,NA,1,NA,NA,NA,NA
-2020-09-04,Central West,1,NA,3,NA,NA,NA,NA
+2020-09-03,South Central,1,192,4,0,0,184,4
+2020-09-03,South East,0,11,0,0,0,11,0
+2020-09-03,South West,0,216,4,0,0,211,1
+2020-09-04,Central East,0,34,1,0,0,32,1
+2020-09-04,Central West,1,164,3,0,0,160,1
 2020-09-04,Far North Central,0,0,0,0,0,0,0
-2020-09-04,Far North East,0,NA,0,NA,NA,NA,NA
-2020-09-04,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-04,North Central,1,NA,3,NA,NA,NA,NA
-2020-09-04,North East,0,NA,0,NA,NA,NA,NA
-2020-09-04,North West,0,NA,4,NA,NA,NA,NA
+2020-09-04,Far North East,0,6,0,0,0,6,0
+2020-09-04,Far North West,0,347,1,0,0,339,7
+2020-09-04,North Central,1,71,3,0,0,66,2
+2020-09-04,North East,0,66,0,0,0,66,0
+2020-09-04,North West,0,130,4,0,0,122,4
 2020-09-04,Regina,0,132,0,0,0,130,2
 2020-09-04,Saskatoon,0,267,14,2,1,251,2
-2020-09-04,South Central,1,NA,5,NA,NA,NA,NA
-2020-09-04,South East,0,NA,0,NA,NA,NA,NA
-2020-09-04,South West,1,NA,5,NA,NA,NA,NA
-2020-09-05,Central East,0,NA,1,NA,NA,NA,NA
-2020-09-05,Central West,0,NA,3,NA,NA,NA,NA
+2020-09-04,South Central,1,193,5,0,0,184,4
+2020-09-04,South East,0,11,0,0,0,11,0
+2020-09-04,South West,1,217,5,0,0,211,1
+2020-09-05,Central East,0,34,1,0,0,32,1
+2020-09-05,Central West,0,164,3,0,0,160,1
 2020-09-05,Far North Central,0,0,0,0,0,0,0
-2020-09-05,Far North East,0,NA,0,NA,NA,NA,NA
-2020-09-05,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-05,North Central,0,NA,3,NA,NA,NA,NA
-2020-09-05,North East,0,NA,0,NA,NA,NA,NA
-2020-09-05,North West,0,NA,4,NA,NA,NA,NA
+2020-09-05,Far North East,0,6,0,0,0,6,0
+2020-09-05,Far North West,0,347,1,0,0,339,7
+2020-09-05,North Central,0,71,3,0,0,66,2
+2020-09-05,North East,0,66,0,0,0,66,0
+2020-09-05,North West,0,130,4,0,0,122,4
 2020-09-05,Regina,0,132,0,0,0,130,2
 2020-09-05,Saskatoon,3,270,16,1,1,252,2
-2020-09-05,South Central,2,NA,7,NA,NA,NA,NA
-2020-09-05,South East,0,NA,0,NA,NA,NA,NA
-2020-09-05,South West,0,NA,5,NA,NA,NA,NA
-2020-09-06,Central East,2,NA,3,NA,NA,NA,NA
-2020-09-06,Central West,0,NA,3,NA,NA,NA,NA
+2020-09-05,South Central,2,195,7,0,0,184,4
+2020-09-05,South East,0,11,0,0,0,11,0
+2020-09-05,South West,0,217,5,0,0,211,1
+2020-09-06,Central East,2,36,3,0,0,32,1
+2020-09-06,Central West,0,164,3,0,0,160,1
 2020-09-06,Far North Central,0,0,0,0,0,0,0
-2020-09-06,Far North East,0,NA,0,NA,NA,NA,NA
-2020-09-06,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-06,North Central,0,NA,3,NA,NA,NA,NA
-2020-09-06,North East,0,NA,0,NA,NA,NA,NA
-2020-09-06,North West,1,NA,5,NA,NA,NA,NA
+2020-09-06,Far North East,0,6,0,0,0,6,0
+2020-09-06,Far North West,0,347,1,0,0,339,7
+2020-09-06,North Central,0,71,3,0,0,66,2
+2020-09-06,North East,0,66,0,0,0,66,0
+2020-09-06,North West,1,131,5,0,0,122,4
 2020-09-06,Regina,1,133,1,0,0,130,2
 2020-09-06,Saskatoon,3,273,19,0,1,252,2
-2020-09-06,South Central,0,NA,7,NA,NA,NA,NA
-2020-09-06,South East,1,NA,1,NA,NA,NA,NA
-2020-09-06,South West,0,NA,5,NA,NA,NA,NA
-2020-09-07,Central East,1,NA,4,NA,NA,NA,NA
-2020-09-07,Central West,2,NA,5,NA,NA,NA,NA
+2020-09-06,South Central,0,195,7,0,0,184,4
+2020-09-06,South East,1,12,1,0,0,11,0
+2020-09-06,South West,0,217,5,0,0,211,1
+2020-09-07,Central East,1,37,4,0,0,32,1
+2020-09-07,Central West,2,166,5,0,0,160,1
 2020-09-07,Far North Central,0,0,0,0,0,0,0
-2020-09-07,Far North East,0,NA,0,NA,NA,NA,NA
-2020-09-07,Far North West,2,NA,3,NA,NA,NA,NA
-2020-09-07,North Central,0,NA,3,NA,NA,NA,NA
-2020-09-07,North East,0,NA,0,NA,NA,NA,NA
-2020-09-07,North West,0,NA,5,NA,NA,NA,NA
+2020-09-07,Far North East,0,6,0,0,0,6,0
+2020-09-07,Far North West,2,349,3,0,0,339,7
+2020-09-07,North Central,0,71,3,0,0,66,2
+2020-09-07,North East,0,66,0,0,0,66,0
+2020-09-07,North West,0,131,5,0,0,122,4
 2020-09-07,Regina,0,133,1,0,0,130,2
 2020-09-07,Saskatoon,2,275,21,0,1,252,2
-2020-09-07,South Central,1,NA,8,NA,NA,NA,NA
-2020-09-07,South East,1,NA,2,NA,NA,NA,NA
-2020-09-07,South West,1,NA,5,NA,NA,NA,NA
-2020-09-08,Central East,0,NA,4,NA,NA,NA,NA
-2020-09-08,Central West,0,NA,5,NA,NA,NA,NA
+2020-09-07,South Central,1,196,8,0,0,184,4
+2020-09-07,South East,1,13,2,0,0,11,0
+2020-09-07,South West,1,218,5,0,0,212,1
+2020-09-08,Central East,0,37,4,0,0,32,1
+2020-09-08,Central West,0,166,5,0,0,160,1
 2020-09-08,Far North Central,0,0,0,0,0,0,0
-2020-09-08,Far North East,0,NA,0,NA,NA,NA,NA
-2020-09-08,Far North West,0,NA,3,NA,NA,NA,NA
-2020-09-08,North Central,2,NA,5,NA,NA,NA,NA
-2020-09-08,North East,0,NA,0,NA,NA,NA,NA
-2020-09-08,North West,0,NA,5,NA,NA,NA,NA
+2020-09-08,Far North East,0,6,0,0,0,6,0
+2020-09-08,Far North West,0,349,3,0,0,339,7
+2020-09-08,North Central,2,73,5,0,0,66,2
+2020-09-08,North East,0,66,0,0,0,66,0
+2020-09-08,North West,0,131,5,0,0,122,4
 2020-09-08,Regina,3,136,4,0,0,130,2
 2020-09-08,Saskatoon,1,276,15,0,1,259,2
-2020-09-08,South Central,1,NA,9,NA,NA,NA,NA
-2020-09-08,South East,0,NA,2,NA,NA,NA,NA
-2020-09-08,South West,0,NA,5,NA,NA,NA,NA
-2020-09-09,Central East,0,NA,4,NA,NA,NA,NA
-2020-09-09,Central West,0,NA,5,NA,NA,NA,NA
+2020-09-08,South Central,1,197,9,0,0,184,4
+2020-09-08,South East,0,13,2,0,0,11,0
+2020-09-08,South West,0,218,5,0,0,212,1
+2020-09-09,Central East,0,37,4,0,0,32,1
+2020-09-09,Central West,0,166,5,0,0,160,1
 2020-09-09,Far North Central,0,0,0,0,0,0,0
-2020-09-09,Far North East,0,NA,0,NA,NA,NA,NA
-2020-09-09,Far North West,0,NA,3,NA,NA,NA,NA
-2020-09-09,North Central,0,NA,5,NA,NA,NA,NA
-2020-09-09,North East,0,NA,0,NA,NA,NA,NA
-2020-09-09,North West,0,NA,5,NA,NA,NA,NA
+2020-09-09,Far North East,0,6,0,0,0,6,0
+2020-09-09,Far North West,0,349,3,0,0,339,7
+2020-09-09,North Central,0,73,5,0,0,66,2
+2020-09-09,North East,0,66,0,0,0,66,0
+2020-09-09,North West,0,131,5,0,0,122,4
 2020-09-09,Regina,0,137,5,0,0,130,2
 2020-09-09,Saskatoon,1,277,16,0,1,259,2
-2020-09-09,South Central,0,NA,9,NA,NA,NA,NA
-2020-09-09,South East,0,NA,2,NA,NA,NA,NA
-2020-09-09,South West,0,NA,5,NA,NA,NA,NA
-2020-09-10,Central East,1,NA,4,NA,NA,NA,NA
-2020-09-10,Central West,1,NA,6,NA,NA,NA,NA
+2020-09-09,South Central,0,197,9,0,0,184,4
+2020-09-09,South East,0,13,2,0,0,11,0
+2020-09-09,South West,0,218,5,0,0,212,1
+2020-09-10,Central East,1,38,4,0,0,33,1
+2020-09-10,Central West,1,167,6,0,0,160,1
 2020-09-10,Far North Central,0,0,0,0,0,0,0
-2020-09-10,Far North East,1,NA,1,NA,NA,NA,NA
-2020-09-10,Far North West,0,NA,3,NA,NA,NA,NA
-2020-09-10,North Central,0,NA,4,NA,NA,NA,NA
-2020-09-10,North East,0,NA,0,NA,NA,NA,NA
-2020-09-10,North West,0,NA,5,NA,NA,NA,NA
+2020-09-10,Far North East,1,7,1,0,0,6,0
+2020-09-10,Far North West,0,349,3,0,0,339,7
+2020-09-10,North Central,0,73,4,0,0,67,2
+2020-09-10,North East,0,66,0,0,0,66,0
+2020-09-10,North West,0,131,5,0,0,122,4
 2020-09-10,Regina,1,138,6,0,0,130,2
 2020-09-10,Saskatoon,1,278,16,1,0,260,2
-2020-09-10,South Central,0,NA,7,NA,NA,NA,NA
-2020-09-10,South East,1,NA,2,NA,NA,NA,NA
-2020-09-10,South West,0,NA,4,NA,NA,NA,NA
-2020-09-11,Central East,7,NA,11,NA,NA,NA,NA
-2020-09-11,Central West,0,NA,6,NA,NA,NA,NA
+2020-09-10,South Central,0,197,7,0,0,186,4
+2020-09-10,South East,1,13,2,0,0,11,0
+2020-09-10,South West,0,218,4,0,0,213,1
+2020-09-11,Central East,7,45,11,0,0,33,1
+2020-09-11,Central West,0,167,6,0,0,160,1
 2020-09-11,Far North Central,0,0,0,0,0,0,0
-2020-09-11,Far North East,1,NA,2,NA,NA,NA,NA
-2020-09-11,Far North West,0,NA,2,NA,NA,NA,NA
-2020-09-11,North Central,0,NA,4,NA,NA,NA,NA
-2020-09-11,North East,0,NA,0,NA,NA,NA,NA
-2020-09-11,North West,0,NA,5,NA,NA,NA,NA
+2020-09-11,Far North East,1,8,2,0,0,6,0
+2020-09-11,Far North West,0,349,2,0,0,340,7
+2020-09-11,North Central,0,73,4,0,0,67,2
+2020-09-11,North East,0,66,0,0,0,66,0
+2020-09-11,North West,0,131,5,0,0,122,4
 2020-09-11,Regina,1,139,7,0,0,130,2
 2020-09-11,Saskatoon,4,282,20,2,0,260,2
-2020-09-11,South Central,0,NA,5,NA,NA,NA,NA
-2020-09-11,South East,0,NA,2,NA,NA,NA,NA
-2020-09-11,South West,0,NA,2,NA,NA,NA,NA
-2020-09-12,Central East,14,NA,25,NA,NA,NA,NA
-2020-09-12,Central West,0,NA,6,NA,NA,NA,NA
+2020-09-11,South Central,0,197,5,0,0,188,4
+2020-09-11,South East,0,13,2,0,0,11,0
+2020-09-11,South West,0,218,2,0,0,215,1
+2020-09-12,Central East,14,59,25,0,0,33,1
+2020-09-12,Central West,0,167,6,0,0,160,1
 2020-09-12,Far North Central,0,0,0,0,0,0,0
-2020-09-12,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-12,Far North West,0,NA,2,NA,NA,NA,NA
-2020-09-12,North Central,0,NA,4,NA,NA,NA,NA
-2020-09-12,North East,0,NA,0,NA,NA,NA,NA
-2020-09-12,North West,0,NA,3,NA,NA,NA,NA
+2020-09-12,Far North East,0,8,2,0,0,6,0
+2020-09-12,Far North West,0,349,2,0,0,340,7
+2020-09-12,North Central,0,73,4,0,0,67,2
+2020-09-12,North East,0,66,0,0,0,66,0
+2020-09-12,North West,0,131,3,0,0,124,4
 2020-09-12,Regina,0,139,7,0,0,130,2
 2020-09-12,Saskatoon,5,287,24,2,0,261,2
-2020-09-12,South Central,0,NA,5,NA,NA,NA,NA
-2020-09-12,South East,0,NA,2,NA,NA,NA,NA
-2020-09-12,South West,2,NA,3,NA,NA,NA,NA
-2020-09-13,Central East,1,NA,26,NA,NA,NA,NA
-2020-09-13,Central West,1,NA,7,NA,NA,NA,NA
+2020-09-12,South Central,0,197,5,0,0,188,4
+2020-09-12,South East,0,13,2,0,0,11,0
+2020-09-12,South West,2,220,3,0,0,216,1
+2020-09-13,Central East,1,60,26,0,0,33,1
+2020-09-13,Central West,1,168,7,0,0,160,1
 2020-09-13,Far North Central,0,0,0,0,0,0,0
-2020-09-13,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-13,Far North West,0,NA,2,NA,NA,NA,NA
-2020-09-13,North Central,0,NA,3,NA,NA,NA,NA
-2020-09-13,North East,0,NA,0,NA,NA,NA,NA
-2020-09-13,North West,0,NA,3,NA,NA,NA,NA
+2020-09-13,Far North East,0,8,2,0,0,6,0
+2020-09-13,Far North West,0,349,2,0,0,340,7
+2020-09-13,North Central,0,73,3,0,0,68,2
+2020-09-13,North East,0,66,0,0,0,66,0
+2020-09-13,North West,0,131,3,0,0,124,4
 2020-09-13,Regina,0,139,7,0,0,130,2
 2020-09-13,Saskatoon,14,301,38,2,0,261,2
-2020-09-13,South Central,0,NA,5,NA,NA,NA,NA
-2020-09-13,South East,0,NA,2,NA,NA,NA,NA
-2020-09-13,South West,0,NA,3,NA,NA,NA,NA
-2020-09-14,Central East,0,NA,25,NA,NA,NA,NA
-2020-09-14,Central West,0,NA,7,NA,NA,NA,NA
+2020-09-13,South Central,0,197,5,0,0,188,4
+2020-09-13,South East,0,13,2,0,0,11,0
+2020-09-13,South West,0,220,3,0,0,216,1
+2020-09-14,Central East,0,59,25,0,0,33,1
+2020-09-14,Central West,0,168,7,0,0,160,1
 2020-09-14,Far North Central,0,0,0,0,0,0,0
-2020-09-14,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-14,Far North West,0,NA,2,NA,NA,NA,NA
-2020-09-14,North Central,0,NA,3,NA,NA,NA,NA
-2020-09-14,North East,0,NA,0,NA,NA,NA,NA
-2020-09-14,North West,0,NA,3,NA,NA,NA,NA
+2020-09-14,Far North East,0,8,2,0,0,6,0
+2020-09-14,Far North West,0,349,2,0,0,340,7
+2020-09-14,North Central,0,73,3,0,0,68,2
+2020-09-14,North East,0,66,0,0,0,66,0
+2020-09-14,North West,0,131,3,0,0,124,4
 2020-09-14,Regina,0,139,7,0,0,130,2
 2020-09-14,Saskatoon,6,307,43,3,0,262,2
-2020-09-14,South Central,1,NA,5,NA,NA,NA,NA
-2020-09-14,South East,0,NA,2,NA,NA,NA,NA
-2020-09-14,South West,1,NA,4,NA,NA,NA,NA
-2020-09-15,Central East,2,NA,27,NA,NA,NA,NA
-2020-09-15,Central West,0,NA,6,NA,NA,NA,NA
+2020-09-14,South Central,1,197,5,0,0,188,4
+2020-09-14,South East,0,13,2,0,0,11,0
+2020-09-14,South West,1,221,4,0,0,216,1
+2020-09-15,Central East,2,61,27,0,0,33,1
+2020-09-15,Central West,0,168,6,0,0,161,1
 2020-09-15,Far North Central,0,0,0,0,0,0,0
-2020-09-15,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-15,Far North West,0,NA,2,NA,NA,NA,NA
-2020-09-15,North Central,0,NA,2,NA,NA,NA,NA
-2020-09-15,North East,0,NA,0,NA,NA,NA,NA
-2020-09-15,North West,0,NA,2,NA,NA,NA,NA
+2020-09-15,Far North East,0,8,2,0,0,6,0
+2020-09-15,Far North West,0,349,2,0,0,340,7
+2020-09-15,North Central,0,73,2,0,0,69,2
+2020-09-15,North East,0,66,0,0,0,66,0
+2020-09-15,North West,0,131,2,0,0,125,4
 2020-09-15,Regina,0,139,7,0,0,130,2
 2020-09-15,Saskatoon,8,315,42,4,0,271,2
-2020-09-15,South Central,0,NA,5,NA,NA,NA,NA
-2020-09-15,South East,0,NA,2,NA,NA,NA,NA
-2020-09-15,South West,0,NA,4,NA,NA,NA,NA
-2020-09-16,Central East,0,NA,27,NA,NA,NA,NA
-2020-09-16,Central West,0,NA,6,NA,NA,NA,NA
+2020-09-15,South Central,0,197,5,0,0,188,4
+2020-09-15,South East,0,13,2,0,0,11,0
+2020-09-15,South West,0,221,4,0,0,216,1
+2020-09-16,Central East,0,61,27,0,0,33,1
+2020-09-16,Central West,0,168,6,0,0,161,1
 2020-09-16,Far North Central,0,0,0,0,0,0,0
-2020-09-16,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-16,Far North West,0,NA,2,NA,NA,NA,NA
-2020-09-16,North Central,0,NA,1,NA,NA,NA,NA
-2020-09-16,North East,1,NA,1,NA,NA,NA,NA
-2020-09-16,North West,0,NA,2,NA,NA,NA,NA
+2020-09-16,Far North East,0,8,2,0,0,6,0
+2020-09-16,Far North West,0,349,2,0,0,340,7
+2020-09-16,North Central,0,73,1,0,0,70,2
+2020-09-16,North East,1,67,1,0,0,66,0
+2020-09-16,North West,0,131,2,0,0,125,4
 2020-09-16,Regina,1,140,8,0,0,130,2
 2020-09-16,Saskatoon,7,322,47,4,0,273,2
-2020-09-16,South Central,0,NA,5,NA,NA,NA,NA
-2020-09-16,South East,0,NA,2,NA,NA,NA,NA
-2020-09-16,South West,0,NA,3,NA,NA,NA,NA
-2020-09-17,Central East,0,NA,26,NA,NA,NA,NA
-2020-09-17,Central West,0,NA,4,NA,NA,NA,NA
+2020-09-16,South Central,0,197,5,0,0,188,4
+2020-09-16,South East,0,13,2,0,0,11,0
+2020-09-16,South West,0,221,3,0,0,217,1
+2020-09-17,Central East,0,61,26,0,0,34,1
+2020-09-17,Central West,0,168,4,0,0,163,1
 2020-09-17,Far North Central,0,0,0,0,0,0,0
-2020-09-17,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-17,Far North West,0,NA,2,NA,NA,NA,NA
-2020-09-17,North Central,0,NA,1,NA,NA,NA,NA
-2020-09-17,North East,0,NA,1,NA,NA,NA,NA
-2020-09-17,North West,0,NA,2,NA,NA,NA,NA
+2020-09-17,Far North East,0,8,2,0,0,6,0
+2020-09-17,Far North West,0,349,2,0,0,340,7
+2020-09-17,North Central,0,73,1,0,0,70,2
+2020-09-17,North East,0,67,1,0,0,66,0
+2020-09-17,North West,0,131,2,0,0,125,4
 2020-09-17,Regina,0,140,8,0,0,130,2
 2020-09-17,Saskatoon,4,326,50,5,0,274,2
-2020-09-17,South Central,0,NA,5,NA,NA,NA,NA
-2020-09-17,South East,2,NA,4,NA,NA,NA,NA
-2020-09-17,South West,1,NA,4,NA,NA,NA,NA
-2020-09-18,Central East,0,NA,19,NA,NA,NA,NA
-2020-09-18,Central West,3,NA,6,NA,NA,NA,NA
+2020-09-17,South Central,0,197,5,0,0,188,4
+2020-09-17,South East,2,15,4,0,0,11,0
+2020-09-17,South West,1,222,4,0,0,217,1
+2020-09-18,Central East,0,61,19,0,0,41,1
+2020-09-18,Central West,3,171,6,0,0,164,1
 2020-09-18,Far North Central,0,0,0,0,0,0,0
-2020-09-18,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-18,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-18,North Central,0,NA,1,NA,NA,NA,NA
-2020-09-18,North East,0,NA,1,NA,NA,NA,NA
-2020-09-18,North West,0,NA,2,NA,NA,NA,NA
+2020-09-18,Far North East,0,8,2,0,0,6,0
+2020-09-18,Far North West,0,349,1,0,0,341,7
+2020-09-18,North Central,0,73,1,0,0,70,2
+2020-09-18,North East,0,67,1,0,0,66,0
+2020-09-18,North West,0,131,2,0,0,125,4
 2020-09-18,Regina,4,144,10,0,0,132,2
 2020-09-18,Saskatoon,12,338,61,5,0,275,2
-2020-09-18,South Central,0,NA,4,NA,NA,NA,NA
-2020-09-18,South East,0,NA,2,NA,NA,NA,NA
-2020-09-18,South West,0,NA,4,NA,NA,NA,NA
-2020-09-19,Central East,1,NA,20,NA,NA,NA,NA
-2020-09-19,Central West,1,NA,7,NA,NA,NA,NA
+2020-09-18,South Central,0,197,4,0,0,189,4
+2020-09-18,South East,0,15,2,0,0,13,0
+2020-09-18,South West,0,222,4,0,0,217,1
+2020-09-19,Central East,1,62,20,0,0,41,1
+2020-09-19,Central West,1,172,7,0,0,164,1
 2020-09-19,Far North Central,0,0,0,0,0,0,0
-2020-09-19,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-19,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-19,North Central,0,NA,1,NA,NA,NA,NA
-2020-09-19,North East,0,NA,1,NA,NA,NA,NA
-2020-09-19,North West,0,NA,2,NA,NA,NA,NA
+2020-09-19,Far North East,0,8,2,0,0,6,0
+2020-09-19,Far North West,0,349,1,0,0,341,7
+2020-09-19,North Central,0,73,1,0,0,70,2
+2020-09-19,North East,0,67,1,0,0,66,0
+2020-09-19,North West,0,131,2,0,0,125,4
 2020-09-19,Regina,5,149,13,1,0,134,2
 2020-09-19,Saskatoon,2,340,63,7,1,275,2
-2020-09-19,South Central,2,NA,5,NA,NA,NA,NA
-2020-09-19,South East,0,NA,2,NA,NA,NA,NA
-2020-09-19,South West,0,NA,4,NA,NA,NA,NA
-2020-09-20,Central East,0,NA,20,NA,NA,NA,NA
-2020-09-20,Central West,0,NA,7,NA,NA,NA,NA
+2020-09-19,South Central,2,199,5,1,0,190,4
+2020-09-19,South East,0,15,2,0,0,13,0
+2020-09-19,South West,0,222,4,0,0,217,1
+2020-09-20,Central East,0,62,20,0,0,42,1
+2020-09-20,Central West,0,172,7,0,0,164,1
 2020-09-20,Far North Central,0,0,0,0,0,0,0
-2020-09-20,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-20,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-20,North Central,0,NA,1,NA,NA,NA,NA
-2020-09-20,North East,0,NA,1,NA,NA,NA,NA
-2020-09-20,North West,0,NA,2,NA,NA,NA,NA
+2020-09-20,Far North East,0,8,2,0,0,6,0
+2020-09-20,Far North West,0,349,1,0,0,341,7
+2020-09-20,North Central,0,73,1,0,0,70,2
+2020-09-20,North East,0,67,1,0,0,66,0
+2020-09-20,North West,0,131,2,0,0,125,4
 2020-09-20,Regina,10,159,23,1,0,134,2
 2020-09-20,Saskatoon,7,347,70,7,1,275,2
-2020-09-20,South Central,0,NA,5,NA,NA,NA,NA
-2020-09-20,South East,2,NA,4,NA,NA,NA,NA
-2020-09-20,South West,0,NA,4,NA,NA,NA,NA
-2020-09-21,Central East,0,NA,19,NA,NA,NA,NA
-2020-09-21,Central West,0,NA,7,NA,NA,NA,NA
+2020-09-20,South Central,0,199,5,1,0,190,4
+2020-09-20,South East,2,17,4,0,0,13,0
+2020-09-20,South West,0,222,4,0,0,217,1
+2020-09-21,Central East,0,62,19,0,0,42,1
+2020-09-21,Central West,0,172,7,0,0,164,1
 2020-09-21,Far North Central,0,0,0,0,0,0,0
-2020-09-21,Far North East,0,NA,2,NA,NA,NA,NA
-2020-09-21,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-21,North Central,0,NA,1,NA,NA,NA,NA
-2020-09-21,North East,0,NA,1,NA,NA,NA,NA
-2020-09-21,North West,0,NA,2,NA,NA,NA,NA
+2020-09-21,Far North East,0,8,2,0,0,6,0
+2020-09-21,Far North West,0,349,1,0,0,341,7
+2020-09-21,North Central,0,73,1,0,0,70,2
+2020-09-21,North East,0,67,1,0,0,66,0
+2020-09-21,North West,0,131,2,0,0,125,4
 2020-09-21,Regina,1,160,22,1,0,136,2
 2020-09-21,Saskatoon,5,353,76,7,1,275,2
-2020-09-21,South Central,0,NA,5,NA,NA,NA,NA
-2020-09-21,South East,1,NA,5,NA,NA,NA,NA
-2020-09-21,South West,0,NA,4,NA,NA,NA,NA
-2020-09-22,Central East,0,NA,16,NA,NA,NA,NA
-2020-09-22,Central West,1,NA,7,NA,NA,NA,NA
+2020-09-21,South Central,0,199,5,1,0,190,4
+2020-09-21,South East,1,18,5,0,0,13,0
+2020-09-21,South West,0,222,4,0,0,217,1
+2020-09-22,Central East,0,62,16,0,0,45,1
+2020-09-22,Central West,1,173,7,0,0,165,1
 2020-09-22,Far North Central,0,0,0,0,0,0,0
-2020-09-22,Far North East,1,NA,1,NA,NA,NA,NA
-2020-09-22,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-22,North Central,0,NA,0,NA,NA,NA,NA
-2020-09-22,North East,0,NA,1,NA,NA,NA,NA
-2020-09-22,North West,0,NA,2,NA,NA,NA,NA
+2020-09-22,Far North East,1,9,1,0,0,8,0
+2020-09-22,Far North West,0,349,1,0,0,341,7
+2020-09-22,North Central,0,73,0,0,0,71,2
+2020-09-22,North East,0,67,1,0,0,66,0
+2020-09-22,North West,0,131,2,0,0,125,4
 2020-09-22,Regina,2,162,24,0,0,136,2
 2020-09-22,Saskatoon,6,359,81,7,1,276,2
-2020-09-22,South Central,0,NA,4,NA,NA,NA,NA
-2020-09-22,South East,0,NA,5,NA,NA,NA,NA
-2020-09-22,South West,0,NA,4,NA,NA,NA,NA
-2020-09-23,Central East,0,NA,4,NA,NA,NA,NA
-2020-09-23,Central West,1,NA,8,NA,NA,NA,NA
+2020-09-22,South Central,0,199,4,1,0,191,4
+2020-09-22,South East,0,18,5,0,0,13,0
+2020-09-22,South West,0,222,4,0,0,217,1
+2020-09-23,Central East,0,62,4,0,0,57,1
+2020-09-23,Central West,1,174,8,0,0,165,1
 2020-09-23,Far North Central,0,0,0,0,0,0,0
-2020-09-23,Far North East,0,NA,1,NA,NA,NA,NA
-2020-09-23,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-23,North Central,0,NA,0,NA,NA,NA,NA
-2020-09-23,North East,0,NA,1,NA,NA,NA,NA
-2020-09-23,North West,0,NA,2,NA,NA,NA,NA
+2020-09-23,Far North East,0,9,1,0,0,8,0
+2020-09-23,Far North West,0,349,1,0,0,341,7
+2020-09-23,North Central,0,73,0,0,0,71,2
+2020-09-23,North East,0,67,1,0,0,66,0
+2020-09-23,North West,0,131,2,0,0,125,4
 2020-09-23,Regina,3,165,26,0,0,137,2
 2020-09-23,Saskatoon,2,361,78,7,1,281,2
-2020-09-23,South Central,0,NA,3,NA,NA,NA,NA
-2020-09-23,South East,0,NA,5,NA,NA,NA,NA
-2020-09-23,South West,0,NA,4,NA,NA,NA,NA
-2020-09-24,Central East,0,NA,3,NA,NA,NA,NA
-2020-09-24,Central West,1,NA,8,NA,NA,NA,NA
+2020-09-23,South Central,0,199,3,1,0,192,4
+2020-09-23,South East,0,18,5,0,0,13,0
+2020-09-23,South West,0,222,4,0,0,217,1
+2020-09-24,Central East,0,62,3,0,0,58,1
+2020-09-24,Central West,1,175,8,0,0,166,1
 2020-09-24,Far North Central,0,0,0,0,0,0,0
-2020-09-24,Far North East,0,NA,1,NA,NA,NA,NA
-2020-09-24,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-24,North Central,0,NA,0,NA,NA,NA,NA
-2020-09-24,North East,0,NA,1,NA,NA,NA,NA
-2020-09-24,North West,0,NA,2,NA,NA,NA,NA
+2020-09-24,Far North East,0,9,1,0,0,8,0
+2020-09-24,Far North West,0,349,1,0,0,341,7
+2020-09-24,North Central,0,73,0,0,0,71,2
+2020-09-24,North East,0,67,1,0,0,66,0
+2020-09-24,North West,0,131,2,0,0,125,4
 2020-09-24,Regina,1,166,26,0,0,138,2
 2020-09-24,Saskatoon,2,363,75,7,0,286,2
-2020-09-24,South Central,1,NA,4,NA,NA,NA,NA
-2020-09-24,South East,0,NA,5,NA,NA,NA,NA
-2020-09-24,South West,0,NA,4,NA,NA,NA,NA
-2020-09-25,Central East,1,NA,4,NA,NA,NA,NA
-2020-09-25,Central West,0,NA,8,NA,NA,NA,NA
+2020-09-24,South Central,1,200,4,1,0,192,4
+2020-09-24,South East,0,18,5,0,0,13,0
+2020-09-24,South West,0,222,4,0,0,217,1
+2020-09-25,Central East,1,63,4,0,0,58,1
+2020-09-25,Central West,0,175,8,0,0,166,1
 2020-09-25,Far North Central,0,0,0,0,0,0,0
-2020-09-25,Far North East,0,NA,1,NA,NA,NA,NA
-2020-09-25,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-25,North Central,3,NA,3,NA,NA,NA,NA
-2020-09-25,North East,0,NA,1,NA,NA,NA,NA
-2020-09-25,North West,1,NA,3,NA,NA,NA,NA
+2020-09-25,Far North East,0,9,1,0,0,8,0
+2020-09-25,Far North West,0,349,1,0,0,341,7
+2020-09-25,North Central,3,76,3,0,0,71,2
+2020-09-25,North East,0,67,1,0,0,66,0
+2020-09-25,North West,1,132,3,0,0,125,4
 2020-09-25,Regina,1,167,19,0,0,146,2
 2020-09-25,Saskatoon,3,366,69,7,0,295,2
-2020-09-25,South Central,0,NA,4,NA,NA,NA,NA
-2020-09-25,South East,1,NA,6,NA,NA,NA,NA
-2020-09-25,South West,0,NA,3,NA,NA,NA,NA
-2020-09-26,Central East,2,NA,5,NA,NA,NA,NA
-2020-09-26,Central West,0,NA,8,NA,NA,NA,NA
+2020-09-25,South Central,0,200,4,1,0,192,4
+2020-09-25,South East,1,19,6,0,0,13,0
+2020-09-25,South West,0,222,3,0,0,218,1
+2020-09-26,Central East,2,65,5,0,0,59,1
+2020-09-26,Central West,0,175,8,0,0,166,1
 2020-09-26,Far North Central,0,0,0,0,0,0,0
-2020-09-26,Far North East,0,NA,1,NA,NA,NA,NA
-2020-09-26,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-26,North Central,0,NA,3,NA,NA,NA,NA
-2020-09-26,North East,0,NA,1,NA,NA,NA,NA
-2020-09-26,North West,0,NA,1,NA,NA,NA,NA
+2020-09-26,Far North East,0,9,1,0,0,8,0
+2020-09-26,Far North West,0,349,1,0,0,341,7
+2020-09-26,North Central,0,76,3,0,0,71,2
+2020-09-26,North East,0,67,1,0,0,66,0
+2020-09-26,North West,0,132,1,0,0,127,4
 2020-09-26,Regina,2,168,19,0,0,147,2
 2020-09-26,Saskatoon,15,381,83,7,0,296,2
-2020-09-26,South Central,0,NA,4,NA,NA,NA,NA
-2020-09-26,South East,0,NA,5,NA,NA,NA,NA
-2020-09-26,South West,0,NA,3,NA,NA,NA,NA
-2020-09-27,Central East,8,NA,13,NA,NA,NA,NA
-2020-09-27,Central West,0,NA,6,NA,NA,NA,NA
+2020-09-26,South Central,0,200,4,1,0,192,4
+2020-09-26,South East,0,19,5,0,0,14,0
+2020-09-26,South West,0,222,3,0,0,218,1
+2020-09-27,Central East,8,73,13,0,0,59,1
+2020-09-27,Central West,0,175,6,0,0,168,1
 2020-09-27,Far North Central,0,0,0,0,0,0,0
-2020-09-27,Far North East,0,NA,1,NA,NA,NA,NA
-2020-09-27,Far North West,0,NA,0,NA,NA,NA,NA
-2020-09-27,North Central,1,NA,4,NA,NA,NA,NA
-2020-09-27,North East,0,NA,1,NA,NA,NA,NA
-2020-09-27,North West,0,NA,0,NA,NA,NA,NA
+2020-09-27,Far North East,0,9,1,0,0,8,0
+2020-09-27,Far North West,0,349,0,0,0,342,7
+2020-09-27,North Central,1,77,4,0,0,71,2
+2020-09-27,North East,0,67,1,0,0,66,0
+2020-09-27,North West,0,132,0,0,0,128,4
 2020-09-27,Regina,4,172,23,1,0,147,2
 2020-09-27,Saskatoon,1,382,84,6,0,296,2
-2020-09-27,South Central,0,NA,4,NA,NA,NA,NA
-2020-09-27,South East,0,NA,5,NA,NA,NA,NA
-2020-09-27,South West,0,NA,2,NA,NA,NA,NA
-2020-09-28,Central East,7,NA,20,NA,NA,NA,NA
-2020-09-28,Central West,0,NA,6,NA,NA,NA,NA
+2020-09-27,South Central,0,200,4,0,0,192,4
+2020-09-27,South East,0,19,5,0,0,14,0
+2020-09-27,South West,0,222,2,0,0,219,1
+2020-09-28,Central East,7,80,20,0,0,59,1
+2020-09-28,Central West,0,175,6,0,0,168,1
 2020-09-28,Far North Central,0,0,0,0,0,0,0
-2020-09-28,Far North East,0,NA,1,NA,NA,NA,NA
-2020-09-28,Far North West,1,NA,1,NA,NA,NA,NA
-2020-09-28,North Central,0,NA,4,NA,NA,NA,NA
-2020-09-28,North East,0,NA,1,NA,NA,NA,NA
-2020-09-28,North West,0,NA,0,NA,NA,NA,NA
+2020-09-28,Far North East,0,9,1,0,0,8,0
+2020-09-28,Far North West,1,350,1,0,0,342,7
+2020-09-28,North Central,0,77,4,0,0,71,2
+2020-09-28,North East,0,67,1,0,0,66,0
+2020-09-28,North West,0,132,0,0,0,128,4
 2020-09-28,Regina,3,176,24,0,0,150,2
 2020-09-28,Saskatoon,3,385,84,7,0,299,2
-2020-09-28,South Central,0,NA,4,NA,NA,NA,NA
-2020-09-28,South East,0,NA,4,NA,NA,NA,NA
-2020-09-28,South West,0,NA,0,NA,NA,NA,NA
-2020-09-29,Central East,1,NA,21,NA,NA,NA,NA
-2020-09-29,Central West,0,NA,5,NA,NA,NA,NA
+2020-09-28,South Central,0,200,4,1,0,192,4
+2020-09-28,South East,0,19,4,0,0,15,0
+2020-09-28,South West,0,222,0,0,0,221,1
+2020-09-29,Central East,1,81,21,0,0,59,1
+2020-09-29,Central West,0,175,5,0,0,169,1
 2020-09-29,Far North Central,0,0,0,0,0,0,0
-2020-09-29,Far North East,0,NA,1,NA,NA,NA,NA
-2020-09-29,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-29,North Central,0,NA,4,NA,NA,NA,NA
-2020-09-29,North East,0,NA,1,NA,NA,NA,NA
-2020-09-29,North West,0,NA,0,NA,NA,NA,NA
+2020-09-29,Far North East,0,9,1,0,0,8,0
+2020-09-29,Far North West,0,350,1,0,0,342,7
+2020-09-29,North Central,0,77,4,0,0,71,2
+2020-09-29,North East,0,67,1,0,0,66,0
+2020-09-29,North West,0,132,0,0,0,128,4
 2020-09-29,Regina,6,182,30,1,0,150,2
 2020-09-29,Saskatoon,0,385,68,6,0,315,2
-2020-09-29,South Central,0,NA,3,NA,NA,NA,NA
-2020-09-29,South East,0,NA,4,NA,NA,NA,NA
-2020-09-29,South West,0,NA,0,NA,NA,NA,NA
-2020-09-30,Central East,2,NA,23,NA,NA,NA,NA
-2020-09-30,Central West,1,NA,6,NA,NA,NA,NA
+2020-09-29,South Central,0,200,3,0,0,193,4
+2020-09-29,South East,0,19,4,0,0,15,0
+2020-09-29,South West,0,222,0,1,0,221,1
+2020-09-30,Central East,2,83,23,0,0,60,1
+2020-09-30,Central West,1,176,6,0,0,169,1
 2020-09-30,Far North Central,0,0,0,0,0,0,0
-2020-09-30,Far North East,0,NA,1,NA,NA,NA,NA
-2020-09-30,Far North West,0,NA,1,NA,NA,NA,NA
-2020-09-30,North Central,0,NA,4,NA,NA,NA,NA
-2020-09-30,North East,1,NA,1,NA,NA,NA,NA
-2020-09-30,North West,0,NA,0,NA,NA,NA,NA
+2020-09-30,Far North East,0,9,1,0,0,8,0
+2020-09-30,Far North West,0,350,1,0,0,342,7
+2020-09-30,North Central,0,77,4,0,1,71,2
+2020-09-30,North East,1,68,1,0,0,67,0
+2020-09-30,North West,0,132,0,0,0,128,4
 2020-09-30,Regina,2,184,30,1,0,152,2
 2020-09-30,Saskatoon,8,393,68,5,0,323,2
-2020-09-30,South Central,0,NA,3,NA,NA,NA,NA
-2020-09-30,South East,0,NA,3,NA,NA,NA,NA
-2020-09-30,South West,0,NA,0,NA,NA,NA,NA
-2020-10-01,Central East,5,NA,27,NA,NA,NA,NA
-2020-10-01,Central West,0,NA,6,NA,NA,NA,NA
+2020-09-30,South Central,0,200,3,0,0,193,4
+2020-09-30,South East,0,19,3,0,0,16,0
+2020-09-30,South West,0,222,0,2,0,221,1
+2020-10-01,Central East,5,88,27,0,0,60,1
+2020-10-01,Central West,0,176,6,0,0,169,1
 2020-10-01,Far North Central,0,0,0,0,0,0,0
-2020-10-01,Far North East,0,NA,0,NA,NA,NA,NA
-2020-10-01,Far North West,0,NA,1,NA,NA,NA,NA
-2020-10-01,North Central,1,NA,6,NA,NA,NA,NA
-2020-10-01,North East,1,NA,1,NA,NA,NA,NA
-2020-10-01,North West,0,NA,0,NA,NA,NA,NA
+2020-10-01,Far North East,0,9,0,0,0,9,0
+2020-10-01,Far North West,0,350,1,0,0,342,7
+2020-10-01,North Central,1,79,6,0,0,71,2
+2020-10-01,North East,1,68,1,0,0,67,0
+2020-10-01,North West,0,132,0,0,0,128,4
 2020-10-01,Regina,4,188,34,1,0,152,2
 2020-10-01,Saskatoon,0,393,61,4,0,330,2
-2020-10-01,South Central,1,NA,4,NA,NA,NA,NA
-2020-10-01,South East,0,NA,2,NA,NA,NA,NA
-2020-10-01,South West,2,NA,2,NA,NA,NA,NA
-2020-10-02,Central East,4,NA,31,NA,NA,NA,NA
-2020-10-02,Central West,0,NA,5,NA,NA,NA,NA
+2020-10-01,South Central,1,201,4,0,0,193,4
+2020-10-01,South East,0,19,2,0,0,17,0
+2020-10-01,South West,2,224,2,2,0,221,1
+2020-10-02,Central East,4,92,31,0,0,60,1
+2020-10-02,Central West,0,176,5,0,0,170,1
 2020-10-02,Far North Central,0,0,0,0,0,0,0
-2020-10-02,Far North East,0,NA,0,NA,NA,NA,NA
-2020-10-02,Far North West,0,NA,1,NA,NA,NA,NA
-2020-10-02,North Central,1,NA,7,NA,NA,NA,NA
-2020-10-02,North East,1,NA,2,NA,NA,NA,NA
-2020-10-02,North West,0,NA,0,NA,NA,NA,NA
+2020-10-02,Far North East,0,9,0,0,0,9,0
+2020-10-02,Far North West,0,350,1,0,0,342,7
+2020-10-02,North Central,1,80,7,0,0,71,2
+2020-10-02,North East,1,69,2,0,0,67,0
+2020-10-02,North West,0,132,0,0,0,128,4
 2020-10-02,Regina,0,188,30,1,0,156,2
 2020-10-02,Saskatoon,6,399,62,3,0,335,2
-2020-10-02,South Central,1,NA,5,NA,NA,NA,NA
-2020-10-02,South East,0,NA,2,NA,NA,NA,NA
-2020-10-02,South West,0,NA,2,NA,NA,NA,NA
-2020-10-03,Central East,4,NA,34,NA,NA,NA,NA
-2020-10-03,Central West,0,NA,3,NA,NA,NA,NA
+2020-10-02,South Central,1,202,5,0,0,193,4
+2020-10-02,South East,0,19,2,0,0,17,0
+2020-10-02,South West,0,224,2,2,0,221,1
+2020-10-03,Central East,4,96,34,0,1,61,1
+2020-10-03,Central West,0,176,3,0,0,172,1
 2020-10-03,Far North Central,0,0,0,0,0,0,0
-2020-10-03,Far North East,0,NA,0,NA,NA,NA,NA
-2020-10-03,Far North West,0,NA,1,NA,NA,NA,NA
-2020-10-03,North Central,0,NA,7,NA,NA,NA,NA
-2020-10-03,North East,0,NA,2,NA,NA,NA,NA
-2020-10-03,North West,0,NA,0,NA,NA,NA,NA
+2020-10-03,Far North East,0,9,0,0,0,9,0
+2020-10-03,Far North West,0,350,1,0,0,342,7
+2020-10-03,North Central,0,80,7,0,0,71,2
+2020-10-03,North East,0,69,2,0,0,67,0
+2020-10-03,North West,0,132,0,0,0,128,4
 2020-10-03,Regina,2,190,28,0,0,160,2
 2020-10-03,Saskatoon,3,402,60,0,0,340,2
-2020-10-03,South Central,2,NA,7,NA,NA,NA,NA
-2020-10-03,South East,2,NA,3,NA,NA,NA,NA
-2020-10-03,South West,1,NA,3,NA,NA,NA,NA
-2020-10-04,Central East,1,NA,35,NA,NA,NA,NA
-2020-10-04,Central West,0,NA,3,NA,NA,NA,NA
+2020-10-03,South Central,2,204,7,0,0,193,4
+2020-10-03,South East,2,21,3,0,0,18,0
+2020-10-03,South West,1,225,3,0,0,221,1
+2020-10-04,Central East,1,97,35,0,0,61,1
+2020-10-04,Central West,0,176,3,0,0,172,1
 2020-10-04,Far North Central,0,0,0,0,0,0,0
-2020-10-04,Far North East,0,NA,0,NA,NA,NA,NA
-2020-10-04,Far North West,0,NA,1,NA,NA,NA,NA
-2020-10-04,North Central,0,NA,7,NA,NA,NA,NA
-2020-10-04,North East,0,NA,2,NA,NA,NA,NA
-2020-10-04,North West,0,NA,0,NA,NA,NA,NA
+2020-10-04,Far North East,0,9,0,0,0,9,0
+2020-10-04,Far North West,0,350,1,0,0,342,7
+2020-10-04,North Central,0,80,7,0,0,71,2
+2020-10-04,North East,0,69,2,0,0,67,0
+2020-10-04,North West,0,132,0,0,0,128,4
 2020-10-04,Regina,1,191,29,0,1,160,2
 2020-10-04,Saskatoon,1,403,61,0,0,340,2
-2020-10-04,South Central,0,NA,7,NA,NA,NA,NA
-2020-10-04,South East,2,NA,5,NA,NA,NA,NA
-2020-10-04,South West,0,NA,3,NA,NA,NA,NA
-2020-10-05,Central East,5,NA,39,NA,NA,NA,NA
-2020-10-05,Central West,0,NA,2,NA,NA,NA,NA
+2020-10-04,South Central,0,204,7,0,0,193,4
+2020-10-04,South East,2,23,5,0,0,18,0
+2020-10-04,South West,0,225,3,0,0,221,1
+2020-10-05,Central East,5,102,39,0,0,62,1
+2020-10-05,Central West,0,176,2,0,0,173,1
 2020-10-05,Far North Central,0,0,0,0,0,0,0
-2020-10-05,Far North East,0,NA,0,NA,NA,NA,NA
-2020-10-05,Far North West,0,NA,1,NA,NA,NA,NA
-2020-10-05,North Central,0,NA,7,NA,NA,NA,NA
-2020-10-05,North East,0,NA,2,NA,NA,NA,NA
-2020-10-05,North West,0,NA,0,NA,NA,NA,NA
+2020-10-05,Far North East,0,9,0,0,0,9,0
+2020-10-05,Far North West,0,350,1,0,0,342,7
+2020-10-05,North Central,0,80,7,0,0,71,2
+2020-10-05,North East,0,69,2,0,0,67,0
+2020-10-05,North West,0,132,0,0,0,128,4
 2020-10-05,Regina,1,192,26,0,1,164,2
 2020-10-05,Saskatoon,1,404,50,0,0,352,2
-2020-10-05,South Central,1,NA,8,NA,NA,NA,NA
-2020-10-05,South East,1,NA,5,NA,NA,NA,NA
-2020-10-05,South West,0,NA,3,NA,NA,NA,NA
-2020-10-06,Central East,3,NA,41,NA,NA,NA,NA
-2020-10-06,Central West,0,NA,2,NA,NA,NA,NA
+2020-10-05,South Central,1,205,8,0,0,193,4
+2020-10-05,South East,1,24,5,0,0,19,0
+2020-10-05,South West,0,225,3,0,0,221,1
+2020-10-06,Central East,3,105,41,0,0,63,1
+2020-10-06,Central West,0,176,2,0,0,173,1
 2020-10-06,Far North Central,0,0,0,0,0,0,0
-2020-10-06,Far North East,0,NA,0,NA,NA,NA,NA
-2020-10-06,Far North West,1,NA,2,NA,NA,NA,NA
-2020-10-06,North Central,1,NA,8,NA,NA,NA,NA
-2020-10-06,North East,0,NA,1,NA,NA,NA,NA
-2020-10-06,North West,0,NA,0,NA,NA,NA,NA
+2020-10-06,Far North East,0,9,0,0,0,9,0
+2020-10-06,Far North West,1,351,2,0,0,342,7
+2020-10-06,North Central,1,81,8,0,0,71,2
+2020-10-06,North East,0,69,1,0,0,68,0
+2020-10-06,North West,0,132,0,0,0,128,4
 2020-10-06,Regina,2,194,26,0,1,166,2
 2020-10-06,Saskatoon,6,410,40,1,0,368,2
-2020-10-06,South Central,0,NA,8,NA,NA,NA,NA
-2020-10-06,South East,2,NA,7,NA,NA,NA,NA
-2020-10-06,South West,0,NA,3,NA,NA,NA,NA
-2020-10-07,Central East,1,NA,41,NA,NA,NA,NA
-2020-10-07,Central West,1,NA,1,NA,NA,NA,NA
+2020-10-06,South Central,0,205,8,0,0,193,4
+2020-10-06,South East,2,26,7,0,0,19,0
+2020-10-06,South West,0,225,3,0,0,221,1
+2020-10-07,Central East,1,107,41,0,0,65,1
+2020-10-07,Central West,1,177,1,0,0,175,1
 2020-10-07,Far North Central,0,0,0,0,0,0,0
-2020-10-07,Far North East,0,NA,0,NA,NA,NA,NA
-2020-10-07,Far North West,0,NA,2,NA,NA,NA,NA
-2020-10-07,North Central,0,NA,8,NA,NA,NA,NA
-2020-10-07,North East,0,NA,1,NA,NA,NA,NA
-2020-10-07,North West,0,NA,0,NA,NA,NA,NA
+2020-10-07,Far North East,0,9,0,0,0,9,0
+2020-10-07,Far North West,0,351,2,0,0,342,7
+2020-10-07,North Central,0,81,8,0,0,71,2
+2020-10-07,North East,0,69,1,0,0,68,0
+2020-10-07,North West,0,132,0,0,0,128,4
 2020-10-07,Regina,3,197,27,0,1,168,2
 2020-10-07,Saskatoon,4,414,39,4,0,373,2
-2020-10-07,South Central,0,NA,8,NA,NA,NA,NA
-2020-10-07,South East,1,NA,8,NA,NA,NA,NA
-2020-10-07,South West,0,NA,3,NA,NA,NA,NA
-2020-10-08,Central East,2,NA,40,NA,NA,NA,NA
-2020-10-08,Central West,0,NA,1,NA,NA,NA,NA
+2020-10-07,South Central,0,205,8,0,0,193,4
+2020-10-07,South East,1,27,8,0,0,19,0
+2020-10-07,South West,0,225,3,0,0,221,1
+2020-10-08,Central East,2,109,40,0,0,68,1
+2020-10-08,Central West,0,177,1,0,0,175,1
 2020-10-08,Far North Central,0,0,0,0,0,0,0
-2020-10-08,Far North East,2,NA,2,NA,NA,NA,NA
-2020-10-08,Far North West,3,NA,5,NA,NA,NA,NA
-2020-10-08,North Central,2,NA,9,NA,NA,NA,NA
-2020-10-08,North East,0,NA,1,NA,NA,NA,NA
-2020-10-08,North West,1,NA,1,NA,NA,NA,NA
+2020-10-08,Far North East,2,11,2,0,0,9,0
+2020-10-08,Far North West,3,354,5,0,0,342,7
+2020-10-08,North Central,2,83,9,0,0,72,2
+2020-10-08,North East,0,69,1,0,0,68,0
+2020-10-08,North West,1,133,1,0,0,128,4
 2020-10-08,Regina,1,198,25,1,1,171,2
 2020-10-08,Saskatoon,6,420,43,5,0,375,2
-2020-10-08,South Central,0,NA,4,NA,NA,NA,NA
-2020-10-08,South East,1,NA,9,NA,NA,NA,NA
-2020-10-08,South West,0,NA,3,NA,NA,NA,NA
-2020-10-09,Central East,4,NA,42,NA,NA,NA,NA
-2020-10-09,Central West,3,NA,4,NA,NA,NA,NA
+2020-10-08,South Central,0,205,4,0,0,197,4
+2020-10-08,South East,1,28,9,0,0,19,0
+2020-10-08,South West,0,225,3,0,0,221,1
+2020-10-09,Central East,4,113,42,0,0,70,1
+2020-10-09,Central West,3,180,4,0,0,175,1
 2020-10-09,Far North Central,0,0,0,0,0,0,0
-2020-10-09,Far North East,2,NA,4,NA,NA,NA,NA
-2020-10-09,Far North West,0,NA,5,NA,NA,NA,NA
-2020-10-09,North Central,4,NA,9,NA,NA,NA,NA
-2020-10-09,North East,0,NA,1,NA,NA,NA,NA
-2020-10-09,North West,0,NA,1,NA,NA,NA,NA
+2020-10-09,Far North East,2,13,4,0,0,9,0
+2020-10-09,Far North West,0,354,5,0,0,342,7
+2020-10-09,North Central,4,87,9,0,0,76,2
+2020-10-09,North East,0,69,1,0,0,68,0
+2020-10-09,North West,0,133,1,0,0,128,4
 2020-10-09,Regina,2,200,22,1,1,176,2
 2020-10-09,Saskatoon,5,425,33,4,1,390,2
-2020-10-09,South Central,2,NA,6,NA,NA,NA,NA
-2020-10-09,South East,0,NA,9,NA,NA,NA,NA
-2020-10-09,South West,0,NA,3,NA,NA,NA,NA
-2020-10-10,Central East,11,NA,46,NA,NA,NA,NA
-2020-10-10,Central West,2,NA,6,NA,NA,NA,NA
+2020-10-09,South Central,2,207,6,0,0,197,4
+2020-10-09,South East,0,28,9,0,0,19,0
+2020-10-09,South West,0,225,3,1,0,221,1
+2020-10-10,Central East,11,124,46,0,0,77,1
+2020-10-10,Central West,2,182,6,0,0,175,1
 2020-10-10,Far North Central,0,0,0,0,0,0,0
-2020-10-10,Far North East,4,NA,8,NA,NA,NA,NA
-2020-10-10,Far North West,0,NA,5,NA,NA,NA,NA
-2020-10-10,North Central,7,NA,17,NA,NA,NA,NA
-2020-10-10,North East,1,NA,2,NA,NA,NA,NA
-2020-10-10,North West,1,NA,2,NA,NA,NA,NA
+2020-10-10,Far North East,4,17,8,0,0,9,0
+2020-10-10,Far North West,0,354,5,0,0,342,7
+2020-10-10,North Central,7,94,17,0,0,75,2
+2020-10-10,North East,1,70,2,0,0,68,0
+2020-10-10,North West,1,134,2,0,0,128,4
 2020-10-10,Regina,3,203,23,1,1,178,2
 2020-10-10,Saskatoon,3,428,34,3,1,392,2
-2020-10-10,South Central,0,NA,5,NA,NA,NA,NA
-2020-10-10,South East,2,NA,10,NA,NA,NA,NA
-2020-10-10,South West,0,NA,3,NA,NA,NA,NA
-2020-10-11,Central East,0,NA,46,NA,NA,NA,NA
-2020-10-11,Central West,0,NA,6,NA,NA,NA,NA
+2020-10-10,South Central,0,207,5,0,0,198,4
+2020-10-10,South East,2,30,10,0,0,20,0
+2020-10-10,South West,0,225,3,0,0,221,1
+2020-10-11,Central East,0,124,46,0,0,77,1
+2020-10-11,Central West,0,182,6,0,0,175,1
 2020-10-11,Far North Central,0,0,0,0,0,0,0
-2020-10-11,Far North East,2,NA,10,NA,NA,NA,NA
-2020-10-11,Far North West,1,NA,5,NA,NA,NA,NA
-2020-10-11,North Central,5,NA,21,NA,NA,NA,NA
-2020-10-11,North East,0,NA,2,NA,NA,NA,NA
-2020-10-11,North West,3,NA,5,NA,NA,NA,NA
+2020-10-11,Far North East,2,19,10,0,0,9,0
+2020-10-11,Far North West,1,355,5,0,0,343,7
+2020-10-11,North Central,5,99,21,0,0,76,2
+2020-10-11,North East,0,70,2,0,0,68,0
+2020-10-11,North West,3,137,5,0,0,128,4
 2020-10-11,Regina,11,214,32,1,1,180,2
 2020-10-11,Saskatoon,1,429,33,3,1,393,3
-2020-10-11,South Central,0,NA,5,NA,NA,NA,NA
-2020-10-11,South East,1,NA,11,NA,NA,NA,NA
-2020-10-11,South West,0,NA,3,NA,NA,NA,NA
-2020-10-12,Central East,3,NA,45,NA,NA,NA,NA
-2020-10-12,Central West,1,NA,7,NA,NA,NA,NA
+2020-10-11,South Central,0,207,5,0,0,198,4
+2020-10-11,South East,1,31,11,0,0,20,0
+2020-10-11,South West,0,225,3,0,0,221,1
+2020-10-12,Central East,3,127,45,0,0,81,1
+2020-10-12,Central West,1,183,7,0,0,175,1
 2020-10-12,Far North Central,0,0,0,0,0,0,0
-2020-10-12,Far North East,0,NA,10,NA,NA,NA,NA
-2020-10-12,Far North West,1,NA,6,NA,NA,NA,NA
-2020-10-12,North Central,19,NA,39,NA,NA,NA,NA
-2020-10-12,North East,1,NA,3,NA,NA,NA,NA
-2020-10-12,North West,3,NA,8,NA,NA,NA,NA
+2020-10-12,Far North East,0,19,10,0,0,9,0
+2020-10-12,Far North West,1,356,6,0,0,343,7
+2020-10-12,North Central,19,118,39,0,0,77,2
+2020-10-12,North East,1,71,3,0,0,68,0
+2020-10-12,North West,3,140,8,0,0,128,4
 2020-10-12,Regina,5,219,34,2,1,183,2
 2020-10-12,Saskatoon,13,442,43,5,0,396,3
-2020-10-12,South Central,0,NA,5,NA,NA,NA,NA
-2020-10-12,South East,1,NA,11,NA,NA,NA,NA
-2020-10-12,South West,1,NA,4,NA,NA,NA,NA
-2020-10-13,Central East,0,NA,39,NA,NA,NA,NA
-2020-10-13,Central West,4,NA,11,NA,NA,NA,NA
+2020-10-12,South Central,0,207,5,0,0,198,4
+2020-10-12,South East,1,32,11,0,0,21,0
+2020-10-12,South West,1,226,4,0,0,221,1
+2020-10-13,Central East,0,127,39,1,0,87,1
+2020-10-13,Central West,4,187,11,0,0,175,1
 2020-10-13,Far North Central,0,0,0,0,0,0,0
-2020-10-13,Far North East,0,NA,10,NA,NA,NA,NA
-2020-10-13,Far North West,0,NA,6,NA,NA,NA,NA
-2020-10-13,North Central,9,NA,47,NA,NA,NA,NA
-2020-10-13,North East,0,NA,2,NA,NA,NA,NA
-2020-10-13,North West,0,NA,8,NA,NA,NA,NA
+2020-10-13,Far North East,0,19,10,0,0,9,0
+2020-10-13,Far North West,0,356,6,0,0,343,7
+2020-10-13,North Central,9,127,47,1,0,78,2
+2020-10-13,North East,0,71,2,0,0,69,0
+2020-10-13,North West,0,140,8,0,0,128,4
 2020-10-13,Regina,11,230,42,1,1,186,2
 2020-10-13,Saskatoon,8,450,51,4,1,396,3
-2020-10-13,South Central,0,NA,5,NA,NA,NA,NA
-2020-10-13,South East,0,NA,11,NA,NA,NA,NA
-2020-10-13,South West,0,NA,4,NA,NA,NA,NA
-2020-10-14,Central East,1,NA,36,NA,NA,NA,NA
-2020-10-14,Central West,0,NA,11,NA,NA,NA,NA
+2020-10-13,South Central,0,207,5,0,0,198,4
+2020-10-13,South East,0,32,11,0,0,21,0
+2020-10-13,South West,0,226,4,0,0,221,1
+2020-10-14,Central East,1,128,36,1,0,91,1
+2020-10-14,Central West,0,187,11,0,0,175,1
 2020-10-14,Far North Central,0,0,0,0,0,0,0
-2020-10-14,Far North East,4,NA,14,NA,NA,NA,NA
-2020-10-14,Far North West,0,NA,6,NA,NA,NA,NA
-2020-10-14,North Central,5,NA,52,NA,NA,NA,NA
-2020-10-14,North East,7,NA,9,NA,NA,NA,NA
-2020-10-14,North West,0,NA,8,NA,NA,NA,NA
+2020-10-14,Far North East,4,23,14,0,0,9,0
+2020-10-14,Far North West,0,356,6,0,0,343,7
+2020-10-14,North Central,5,132,52,1,0,78,2
+2020-10-14,North East,7,78,9,0,0,69,0
+2020-10-14,North West,0,140,8,0,0,128,4
 2020-10-14,Regina,3,234,46,0,0,186,2
 2020-10-14,Saskatoon,4,454,51,4,1,400,3
-2020-10-14,South Central,0,NA,5,NA,NA,NA,NA
-2020-10-14,South East,1,NA,12,NA,NA,NA,NA
-2020-10-14,South West,0,NA,3,NA,NA,NA,NA
-2020-10-15,Central East,8,NA,39,NA,NA,NA,NA
-2020-10-15,Central West,0,NA,10,NA,NA,NA,NA
+2020-10-14,South Central,0,207,5,0,0,198,4
+2020-10-14,South East,1,33,12,0,0,21,0
+2020-10-14,South West,0,226,3,0,0,222,1
+2020-10-15,Central East,8,136,39,0,0,96,1
+2020-10-15,Central West,0,187,10,0,0,176,1
 2020-10-15,Far North Central,0,0,0,0,0,0,0
-2020-10-15,Far North East,2,NA,16,NA,NA,NA,NA
-2020-10-15,Far North West,3,NA,9,NA,NA,NA,NA
-2020-10-15,North Central,2,NA,53,NA,NA,NA,NA
-2020-10-15,North East,2,NA,11,NA,NA,NA,NA
-2020-10-15,North West,0,NA,8,NA,NA,NA,NA
+2020-10-15,Far North East,2,25,16,0,0,9,0
+2020-10-15,Far North West,3,359,9,0,0,343,7
+2020-10-15,North Central,2,134,53,1,0,79,2
+2020-10-15,North East,2,80,11,0,0,69,0
+2020-10-15,North West,0,140,8,1,0,128,4
 2020-10-15,Regina,7,241,52,0,1,187,2
 2020-10-15,Saskatoon,8,462,55,4,1,404,3
-2020-10-15,South Central,1,NA,5,NA,NA,NA,NA
-2020-10-15,South East,0,NA,11,NA,NA,NA,NA
-2020-10-15,South West,0,NA,1,NA,NA,NA,NA
-2020-10-16,Central East,2,NA,41,NA,NA,NA,NA
-2020-10-16,Central West,1,NA,11,NA,NA,NA,NA
+2020-10-15,South Central,1,208,5,0,0,199,4
+2020-10-15,South East,0,33,11,0,0,22,0
+2020-10-15,South West,0,226,1,0,0,224,1
+2020-10-16,Central East,2,137,41,0,0,95,1
+2020-10-16,Central West,1,188,11,0,0,176,1
 2020-10-16,Far North Central,0,0,0,0,0,0,0
-2020-10-16,Far North East,7,NA,23,NA,NA,NA,NA
-2020-10-16,Far North West,6,NA,15,NA,NA,NA,NA
-2020-10-16,North Central,8,NA,61,NA,NA,NA,NA
-2020-10-16,North East,0,NA,11,NA,NA,NA,NA
-2020-10-16,North West,1,NA,9,NA,NA,NA,NA
+2020-10-16,Far North East,7,32,23,0,0,9,0
+2020-10-16,Far North West,6,365,15,0,0,343,7
+2020-10-16,North Central,8,142,61,2,0,79,2
+2020-10-16,North East,0,80,11,0,0,69,0
+2020-10-16,North West,1,141,9,0,0,128,4
 2020-10-16,Regina,7,248,57,0,1,189,2
 2020-10-16,Saskatoon,7,469,55,5,1,411,3
-2020-10-16,South Central,1,NA,4,NA,NA,NA,NA
-2020-10-16,South East,0,NA,11,NA,NA,NA,NA
-2020-10-16,South West,0,NA,1,NA,NA,NA,NA
-2020-10-17,Central East,1,NA,39,NA,NA,NA,NA
-2020-10-17,Central West,1,NA,12,NA,NA,NA,NA
+2020-10-16,South Central,1,209,4,0,0,201,4
+2020-10-16,South East,0,33,11,0,0,22,0
+2020-10-16,South West,0,226,1,0,0,224,1
+2020-10-17,Central East,1,138,39,1,0,98,1
+2020-10-17,Central West,1,189,12,0,0,176,1
 2020-10-17,Far North Central,0,0,0,0,0,0,0
-2020-10-17,Far North East,6,NA,29,NA,NA,NA,NA
-2020-10-17,Far North West,0,NA,15,NA,NA,NA,NA
-2020-10-17,North Central,6,NA,67,NA,NA,NA,NA
-2020-10-17,North East,3,NA,14,NA,NA,NA,NA
-2020-10-17,North West,3,NA,11,NA,NA,NA,NA
+2020-10-17,Far North East,6,38,29,0,0,9,0
+2020-10-17,Far North West,0,365,15,0,0,343,7
+2020-10-17,North Central,6,148,67,3,0,79,2
+2020-10-17,North East,3,83,14,0,0,69,0
+2020-10-17,North West,3,144,11,0,0,129,4
 2020-10-17,Regina,4,252,56,0,1,194,2
 2020-10-17,Saskatoon,10,479,65,5,1,411,3
-2020-10-17,South Central,0,NA,4,NA,NA,NA,NA
-2020-10-17,South East,1,NA,12,NA,NA,NA,NA
-2020-10-17,South West,0,NA,1,NA,NA,NA,NA
-2020-10-18,Central East,3,NA,41,NA,NA,NA,NA
-2020-10-18,Central West,2,NA,14,NA,NA,NA,NA
+2020-10-17,South Central,0,209,4,0,0,201,4
+2020-10-17,South East,1,34,12,0,0,22,0
+2020-10-17,South West,0,226,1,0,0,224,1
+2020-10-18,Central East,3,141,41,1,0,99,1
+2020-10-18,Central West,2,191,14,0,0,176,1
 2020-10-18,Far North Central,0,0,0,0,0,0,0
-2020-10-18,Far North East,0,NA,29,NA,NA,NA,NA
-2020-10-18,Far North West,1,NA,15,NA,NA,NA,NA
-2020-10-18,North Central,8,NA,72,NA,NA,NA,NA
-2020-10-18,North East,0,NA,13,NA,NA,NA,NA
-2020-10-18,North West,1,NA,12,NA,NA,NA,NA
+2020-10-18,Far North East,0,38,29,0,0,9,0
+2020-10-18,Far North West,1,366,15,0,0,344,7
+2020-10-18,North Central,8,156,72,4,0,82,2
+2020-10-18,North East,0,83,13,0,0,70,0
+2020-10-18,North West,1,145,12,0,0,129,4
 2020-10-18,Regina,6,258,62,1,1,194,2
 2020-10-18,Saskatoon,1,480,65,6,1,412,3
-2020-10-18,South Central,0,NA,4,NA,NA,NA,NA
-2020-10-18,South East,1,NA,12,NA,NA,NA,NA
-2020-10-18,South West,0,NA,1,NA,NA,NA,NA
-2020-10-19,Central East,2,NA,42,NA,NA,NA,NA
-2020-10-19,Central West,2,NA,16,NA,NA,NA,NA
+2020-10-18,South Central,0,209,4,0,0,201,4
+2020-10-18,South East,1,35,12,0,0,23,0
+2020-10-18,South West,0,226,1,0,0,224,1
+2020-10-19,Central East,2,143,42,1,0,100,1
+2020-10-19,Central West,2,193,16,0,0,176,1
 2020-10-19,Far North Central,0,0,0,0,0,0,0
-2020-10-19,Far North East,3,NA,32,NA,NA,NA,NA
-2020-10-19,Far North West,3,NA,18,NA,NA,NA,NA
-2020-10-19,North Central,17,NA,88,NA,NA,NA,NA
-2020-10-19,North East,1,NA,14,NA,NA,NA,NA
-2020-10-19,North West,4,NA,14,NA,NA,NA,NA
+2020-10-19,Far North East,3,41,32,0,0,9,0
+2020-10-19,Far North West,3,369,18,0,0,344,7
+2020-10-19,North Central,17,173,88,5,0,83,2
+2020-10-19,North East,1,84,14,0,0,70,0
+2020-10-19,North West,4,149,14,0,0,131,4
 2020-10-19,Regina,8,266,67,2,1,197,2
 2020-10-19,Saskatoon,25,505,88,7,1,414,3
-2020-10-19,South Central,0,NA,3,NA,NA,NA,NA
-2020-10-19,South East,0,NA,12,NA,NA,NA,NA
-2020-10-19,South West,1,NA,2,NA,NA,NA,NA
-2020-10-20,Central East,2,NA,43,NA,NA,NA,NA
-2020-10-20,Central West,0,NA,16,NA,NA,NA,NA
+2020-10-19,South Central,0,209,3,0,0,202,4
+2020-10-19,South East,0,35,12,1,0,23,0
+2020-10-19,South West,1,227,2,0,0,224,1
+2020-10-20,Central East,2,145,43,1,0,101,1
+2020-10-20,Central West,0,193,16,0,0,176,1
 2020-10-20,Far North Central,0,0,0,0,0,0,0
-2020-10-20,Far North East,1,NA,34,NA,NA,NA,NA
-2020-10-20,Far North West,2,NA,20,NA,NA,NA,NA
-2020-10-20,North Central,5,NA,91,NA,NA,NA,NA
-2020-10-20,North East,7,NA,21,NA,NA,NA,NA
-2020-10-20,North West,3,NA,17,NA,NA,NA,NA
+2020-10-20,Far North East,1,43,34,0,0,9,0
+2020-10-20,Far North West,2,371,20,0,0,344,7
+2020-10-20,North Central,5,177,91,6,0,84,2
+2020-10-20,North East,7,91,21,0,0,70,0
+2020-10-20,North West,3,153,17,0,0,132,4
 2020-10-20,Regina,3,269,66,2,1,201,2
 2020-10-20,Saskatoon,20,525,101,7,1,421,3
-2020-10-20,South Central,1,NA,4,NA,NA,NA,NA
-2020-10-20,South East,0,NA,12,NA,NA,NA,NA
-2020-10-20,South West,0,NA,2,NA,NA,NA,NA
-2020-10-21,Central East,7,NA,42,NA,NA,NA,NA
-2020-10-21,Central West,2,NA,18,NA,NA,NA,NA
+2020-10-20,South Central,1,210,4,0,0,202,4
+2020-10-20,South East,0,35,12,0,0,23,0
+2020-10-20,South West,0,227,2,0,0,224,1
+2020-10-21,Central East,7,152,42,1,0,109,1
+2020-10-21,Central West,2,195,18,0,0,176,1
 2020-10-21,Far North Central,0,0,0,0,0,0,0
-2020-10-21,Far North East,1,NA,35,NA,NA,NA,NA
-2020-10-21,Far North West,0,NA,20,NA,NA,NA,NA
-2020-10-21,North Central,17,NA,108,NA,NA,NA,NA
-2020-10-21,North East,4,NA,25,NA,NA,NA,NA
-2020-10-21,North West,1,NA,18,NA,NA,NA,NA
+2020-10-21,Far North East,1,44,35,0,0,9,0
+2020-10-21,Far North West,0,371,20,0,0,344,7
+2020-10-21,North Central,17,194,108,5,0,84,2
+2020-10-21,North East,4,95,25,0,0,70,0
+2020-10-21,North West,1,154,18,0,0,132,4
 2020-10-21,Regina,11,280,75,2,1,203,2
 2020-10-21,Saskatoon,14,539,110,7,1,426,3
-2020-10-21,South Central,0,NA,4,NA,NA,NA,NA
-2020-10-21,South East,0,NA,12,NA,NA,NA,NA
-2020-10-21,South West,0,NA,2,NA,NA,NA,NA
-2020-10-22,Central East,1,NA,42,NA,NA,NA,NA
-2020-10-22,Central West,1,NA,15,NA,NA,NA,NA
+2020-10-21,South Central,0,210,4,0,0,202,4
+2020-10-21,South East,0,35,12,0,0,23,0
+2020-10-21,South West,0,227,2,0,0,224,1
+2020-10-22,Central East,1,153,42,0,0,110,1
+2020-10-22,Central West,1,196,15,0,0,180,1
 2020-10-22,Far North Central,0,0,0,0,0,0,0
-2020-10-22,Far North East,6,NA,40,NA,NA,NA,NA
-2020-10-22,Far North West,2,NA,22,NA,NA,NA,NA
-2020-10-22,North Central,13,NA,120,NA,NA,NA,NA
-2020-10-22,North East,3,NA,27,NA,NA,NA,NA
-2020-10-22,North West,4,NA,20,NA,NA,NA,NA
+2020-10-22,Far North East,6,50,40,0,0,10,0
+2020-10-22,Far North West,2,374,22,0,0,344,8
+2020-10-22,North Central,13,207,120,6,0,85,2
+2020-10-22,North East,3,98,27,0,0,71,0
+2020-10-22,North West,4,159,20,0,0,135,4
 2020-10-22,Regina,4,284,70,2,1,212,2
 2020-10-22,Saskatoon,21,559,129,10,2,428,2
-2020-10-22,South Central,1,NA,5,NA,NA,NA,NA
-2020-10-22,South East,2,NA,14,NA,NA,NA,NA
-2020-10-22,South West,1,NA,3,NA,NA,NA,NA
-2020-10-23,Central East,3,NA,44,NA,NA,NA,NA
-2020-10-23,Central West,0,NA,11,NA,NA,NA,NA
+2020-10-22,South Central,1,211,5,0,0,202,4
+2020-10-22,South East,2,37,14,0,0,23,0
+2020-10-22,South West,1,228,3,0,0,224,1
+2020-10-23,Central East,3,156,44,0,0,111,1
+2020-10-23,Central West,0,196,11,0,0,184,1
 2020-10-23,Far North Central,0,0,0,0,0,0,0
-2020-10-23,Far North East,0,NA,36,NA,NA,NA,NA
-2020-10-23,Far North West,1,NA,22,NA,NA,NA,NA
-2020-10-23,North Central,5,NA,118,NA,NA,NA,NA
-2020-10-23,North East,4,NA,31,NA,NA,NA,NA
-2020-10-23,North West,3,NA,23,NA,NA,NA,NA
+2020-10-23,Far North East,0,50,36,0,0,14,0
+2020-10-23,Far North West,1,375,22,0,0,345,8
+2020-10-23,North Central,5,212,118,5,0,92,2
+2020-10-23,North East,4,102,31,0,0,71,0
+2020-10-23,North West,3,162,23,1,0,135,4
 2020-10-23,Regina,9,293,72,1,1,219,2
 2020-10-23,Saskatoon,4,563,128,9,3,433,2
-2020-10-23,South Central,0,NA,5,NA,NA,NA,NA
-2020-10-23,South East,4,NA,17,NA,NA,NA,NA
-2020-10-23,South West,0,NA,2,NA,NA,NA,NA
-2020-10-24,Central East,3,NA,45,NA,NA,NA,NA
-2020-10-24,Central West,0,NA,11,NA,NA,NA,NA
+2020-10-23,South Central,0,211,5,0,0,202,4
+2020-10-23,South East,4,41,17,0,0,24,0
+2020-10-23,South West,0,228,2,0,0,225,1
+2020-10-24,Central East,3,159,45,0,0,113,1
+2020-10-24,Central West,0,196,11,0,0,184,1
 2020-10-24,Far North Central,0,0,0,0,0,0,0
-2020-10-24,Far North East,1,NA,34,NA,NA,NA,NA
-2020-10-24,Far North West,3,NA,24,NA,NA,NA,NA
-2020-10-24,North Central,11,NA,128,NA,NA,NA,NA
-2020-10-24,North East,3,NA,34,NA,NA,NA,NA
-2020-10-24,North West,2,NA,24,NA,NA,NA,NA
+2020-10-24,Far North East,1,51,34,0,0,17,0
+2020-10-24,Far North West,3,378,24,0,0,346,8
+2020-10-24,North Central,11,223,128,5,0,93,2
+2020-10-24,North East,3,105,34,1,0,71,0
+2020-10-24,North West,2,164,24,2,0,136,4
 2020-10-24,Regina,21,314,87,1,1,225,2
 2020-10-24,Saskatoon,33,596,161,8,3,433,2
-2020-10-24,South Central,0,NA,4,NA,NA,NA,NA
-2020-10-24,South East,1,NA,18,NA,NA,NA,NA
-2020-10-24,South West,0,NA,2,NA,NA,NA,NA
-2020-10-25,Central East,2,NA,47,NA,NA,NA,NA
-2020-10-25,Central West,0,NA,7,NA,NA,NA,NA
+2020-10-24,South Central,0,211,4,0,0,203,4
+2020-10-24,South East,1,42,18,0,0,24,0
+2020-10-24,South West,0,228,2,0,0,225,1
+2020-10-25,Central East,2,161,47,0,0,113,1
+2020-10-25,Central West,0,196,7,0,0,188,1
 2020-10-25,Far North Central,0,0,0,0,0,0,0
-2020-10-25,Far North East,0,NA,33,NA,NA,NA,NA
-2020-10-25,Far North West,1,NA,25,NA,NA,NA,NA
-2020-10-25,North Central,5,NA,128,NA,NA,NA,NA
-2020-10-25,North East,5,NA,38,NA,NA,NA,NA
-2020-10-25,North West,1,NA,25,NA,NA,NA,NA
+2020-10-25,Far North East,0,51,33,0,0,18,0
+2020-10-25,Far North West,1,379,25,0,0,346,8
+2020-10-25,North Central,5,228,128,7,0,98,2
+2020-10-25,North East,5,110,38,1,0,72,0
+2020-10-25,North West,1,165,25,2,0,136,4
 2020-10-25,Regina,14,328,97,3,1,229,2
 2020-10-25,Saskatoon,27,623,188,8,3,433,2
-2020-10-25,South Central,0,NA,4,NA,NA,NA,NA
-2020-10-25,South East,5,NA,23,NA,NA,NA,NA
-2020-10-25,South West,0,NA,2,NA,NA,NA,NA
-2020-10-26,Central East,9,NA,54,NA,NA,NA,NA
-2020-10-26,Central West,0,NA,7,NA,NA,NA,NA
+2020-10-25,South Central,0,211,4,0,0,203,4
+2020-10-25,South East,5,47,23,0,0,24,0
+2020-10-25,South West,0,228,2,0,0,225,1
+2020-10-26,Central East,9,170,54,0,0,115,1
+2020-10-26,Central West,0,196,7,0,0,188,1
 2020-10-26,Far North Central,0,0,0,0,0,0,0
-2020-10-26,Far North East,2,NA,35,NA,NA,NA,NA
-2020-10-26,Far North West,2,NA,27,NA,NA,NA,NA
-2020-10-26,North Central,15,NA,128,NA,NA,NA,NA
-2020-10-26,North East,1,NA,39,NA,NA,NA,NA
-2020-10-26,North West,2,NA,27,NA,NA,NA,NA
+2020-10-26,Far North East,2,53,35,0,0,18,0
+2020-10-26,Far North West,2,381,27,0,0,346,8
+2020-10-26,North Central,15,243,128,5,0,113,2
+2020-10-26,North East,1,111,39,2,0,72,0
+2020-10-26,North West,2,167,27,2,0,136,4
 2020-10-26,Regina,9,337,101,2,1,234,2
 2020-10-26,Saskatoon,13,636,200,7,4,434,2
-2020-10-26,South Central,0,NA,4,NA,NA,NA,NA
-2020-10-26,South East,1,NA,24,NA,NA,NA,NA
-2020-10-26,South West,0,NA,2,NA,NA,NA,NA
-2020-10-27,Central East,3,NA,54,NA,NA,NA,NA
-2020-10-27,Central West,0,NA,5,NA,NA,NA,NA
+2020-10-26,South Central,0,211,4,0,0,203,4
+2020-10-26,South East,1,48,24,0,0,24,0
+2020-10-26,South West,0,228,2,0,0,225,1
+2020-10-27,Central East,3,173,54,0,0,118,1
+2020-10-27,Central West,0,196,5,0,0,190,1
 2020-10-27,Far North Central,0,0,0,0,0,0,0
-2020-10-27,Far North East,1,NA,35,NA,NA,NA,NA
-2020-10-27,Far North West,1,NA,28,NA,NA,NA,NA
-2020-10-27,North Central,6,NA,128,NA,NA,NA,NA
-2020-10-27,North East,2,NA,41,NA,NA,NA,NA
-2020-10-27,North West,8,NA,32,NA,NA,NA,NA
+2020-10-27,Far North East,1,54,35,0,0,19,0
+2020-10-27,Far North West,1,382,28,0,0,346,8
+2020-10-27,North Central,6,249,128,4,1,119,2
+2020-10-27,North East,2,113,41,1,0,72,0
+2020-10-27,North West,8,175,32,2,0,139,4
 2020-10-27,Regina,5,342,105,2,1,235,2
 2020-10-27,Saskatoon,29,665,190,9,4,473,2
-2020-10-27,South Central,0,NA,4,NA,NA,NA,NA
-2020-10-27,South East,2,NA,26,NA,NA,NA,NA
-2020-10-27,South West,0,NA,1,NA,NA,NA,NA
-2020-10-28,Central East,0,NA,50,NA,NA,NA,NA
-2020-10-28,Central West,0,NA,3,NA,NA,NA,NA
+2020-10-27,South Central,0,211,4,0,0,203,4
+2020-10-27,South East,2,50,26,0,0,24,0
+2020-10-27,South West,0,228,1,0,0,226,1
+2020-10-28,Central East,0,173,50,0,0,122,1
+2020-10-28,Central West,0,196,3,0,0,192,1
 2020-10-28,Far North Central,0,0,0,0,0,0,0
-2020-10-28,Far North East,0,NA,33,NA,NA,NA,NA
-2020-10-28,Far North West,0,NA,26,NA,NA,NA,NA
-2020-10-28,North Central,7,NA,126,NA,NA,NA,NA
-2020-10-28,North East,11,NA,51,NA,NA,NA,NA
-2020-10-28,North West,7,NA,37,NA,NA,NA,NA
+2020-10-28,Far North East,0,54,33,0,0,21,0
+2020-10-28,Far North West,0,382,26,0,0,348,8
+2020-10-28,North Central,7,257,126,3,1,129,2
+2020-10-28,North East,11,124,51,1,0,73,0
+2020-10-28,North West,7,182,37,0,0,141,4
 2020-10-28,Regina,15,357,111,1,1,244,2
 2020-10-28,Saskatoon,25,690,195,9,4,493,2
-2020-10-28,South Central,0,NA,3,NA,NA,NA,NA
-2020-10-28,South East,2,NA,28,NA,NA,NA,NA
-2020-10-28,South West,0,NA,1,NA,NA,NA,NA
-2020-10-29,Central East,7,NA,55,NA,NA,NA,NA
-2020-10-29,Central West,0,NA,3,NA,NA,NA,NA
+2020-10-28,South Central,0,211,3,0,0,204,4
+2020-10-28,South East,2,52,28,0,0,24,0
+2020-10-28,South West,0,228,1,0,0,226,1
+2020-10-29,Central East,7,180,55,0,0,124,1
+2020-10-29,Central West,0,196,3,0,0,192,1
 2020-10-29,Far North Central,0,0,0,0,0,0,0
-2020-10-29,Far North East,0,NA,27,NA,NA,NA,NA
-2020-10-29,Far North West,0,NA,24,NA,NA,NA,NA
-2020-10-29,North Central,11,NA,124,NA,NA,NA,NA
-2020-10-29,North East,3,NA,52,NA,NA,NA,NA
-2020-10-29,North West,6,NA,42,NA,NA,NA,NA
+2020-10-29,Far North East,0,54,27,0,0,27,0
+2020-10-29,Far North West,0,382,24,0,0,350,8
+2020-10-29,North Central,11,268,124,4,1,142,2
+2020-10-29,North East,3,127,52,1,0,75,0
+2020-10-29,North West,6,188,42,0,0,142,4
 2020-10-29,Regina,13,370,119,3,1,249,2
 2020-10-29,Saskatoon,37,727,223,6,4,502,2
-2020-10-29,South Central,2,NA,5,NA,NA,NA,NA
-2020-10-29,South East,2,NA,29,NA,NA,NA,NA
-2020-10-29,South West,1,NA,2,NA,NA,NA,NA
-2020-10-30,Central East,4,NA,55,NA,NA,NA,NA
-2020-10-30,Central West,0,NA,3,NA,NA,NA,NA
+2020-10-29,South Central,2,213,5,0,0,204,4
+2020-10-29,South East,2,54,29,0,0,25,0
+2020-10-29,South West,1,229,2,0,0,226,1
+2020-10-30,Central East,4,184,55,0,0,128,1
+2020-10-30,Central West,0,196,3,0,0,192,1
 2020-10-30,Far North Central,0,0,0,0,0,0,0
-2020-10-30,Far North East,0,NA,25,NA,NA,NA,NA
-2020-10-30,Far North West,2,NA,22,NA,NA,NA,NA
-2020-10-30,North Central,19,NA,133,NA,NA,NA,NA
-2020-10-30,North East,4,NA,55,NA,NA,NA,NA
-2020-10-30,North West,2,NA,39,NA,NA,NA,NA
+2020-10-30,Far North East,0,54,25,0,0,29,0
+2020-10-30,Far North West,2,384,22,1,0,354,8
+2020-10-30,North Central,19,287,133,4,1,152,2
+2020-10-30,North East,4,131,55,1,0,76,0
+2020-10-30,North West,2,190,39,0,0,147,4
 2020-10-30,Regina,7,377,114,4,1,261,2
 2020-10-30,Saskatoon,34,761,257,6,4,502,2
-2020-10-30,South Central,2,NA,5,NA,NA,NA,NA
-2020-10-30,South East,2,NA,31,NA,NA,NA,NA
-2020-10-30,South West,0,NA,2,NA,NA,NA,NA
-2020-10-31,Central East,1,NA,48,NA,NA,NA,NA
-2020-10-31,Central West,0,NA,3,NA,NA,NA,NA
+2020-10-30,South Central,2,215,5,0,0,206,4
+2020-10-30,South East,2,56,31,0,0,25,0
+2020-10-30,South West,0,229,2,0,0,226,1
+2020-10-31,Central East,1,185,48,0,0,136,1
+2020-10-31,Central West,0,196,3,0,0,192,1
 2020-10-31,Far North Central,0,0,0,0,0,0,0
-2020-10-31,Far North East,0,NA,21,NA,NA,NA,NA
-2020-10-31,Far North West,2,NA,20,NA,NA,NA,NA
-2020-10-31,North Central,7,NA,129,NA,NA,NA,NA
-2020-10-31,North East,6,NA,51,NA,NA,NA,NA
-2020-10-31,North West,3,NA,40,NA,NA,NA,NA
+2020-10-31,Far North East,0,54,21,0,0,33,0
+2020-10-31,Far North West,2,386,20,0,0,358,8
+2020-10-31,North Central,7,294,129,6,1,163,2
+2020-10-31,North East,6,137,51,1,0,86,0
+2020-10-31,North West,3,193,40,2,0,149,4
 2020-10-31,Regina,18,395,127,6,1,266,2
 2020-10-31,Saskatoon,41,802,261,8,4,539,2
-2020-10-31,South Central,0,NA,5,NA,NA,NA,NA
-2020-10-31,South East,0,NA,31,NA,NA,NA,NA
-2020-10-31,South West,0,NA,2,NA,NA,NA,NA
-2020-11-01,Central East,2,NA,48,NA,NA,NA,NA
-2020-11-01,Central West,0,NA,3,NA,NA,NA,NA
+2020-10-31,South Central,0,215,5,0,0,206,4
+2020-10-31,South East,0,56,31,0,0,25,0
+2020-10-31,South West,0,229,2,0,0,226,1
+2020-11-01,Central East,2,187,48,0,0,138,1
+2020-11-01,Central West,0,196,3,0,0,192,1
 2020-11-01,Far North Central,0,0,0,0,0,0,0
-2020-11-01,Far North East,0,NA,21,NA,NA,NA,NA
-2020-11-01,Far North West,5,NA,25,NA,NA,NA,NA
-2020-11-01,North Central,12,NA,135,NA,NA,NA,NA
-2020-11-01,North East,1,NA,52,NA,NA,NA,NA
-2020-11-01,North West,5,NA,44,NA,NA,NA,NA
+2020-11-01,Far North East,0,54,21,0,0,33,0
+2020-11-01,Far North West,5,391,25,0,0,358,8
+2020-11-01,North Central,12,306,135,6,2,169,2
+2020-11-01,North East,1,138,52,2,0,86,0
+2020-11-01,North West,5,198,44,2,0,150,4
 2020-11-01,Regina,19,414,143,6,1,269,2
 2020-11-01,Saskatoon,25,827,284,10,4,541,2
-2020-11-01,South Central,0,NA,5,NA,NA,NA,NA
-2020-11-01,South East,3,NA,33,NA,NA,NA,NA
-2020-11-01,South West,1,NA,3,NA,NA,NA,NA
-2020-11-02,Central East,1,NA,47,NA,NA,NA,NA
-2020-11-02,Central West,1,NA,4,NA,NA,NA,NA
+2020-11-01,South Central,0,215,5,0,0,206,4
+2020-11-01,South East,3,59,33,0,0,26,0
+2020-11-01,South West,1,230,3,0,0,226,1
+2020-11-02,Central East,1,188,47,0,0,140,1
+2020-11-02,Central West,1,197,4,0,0,192,1
 2020-11-02,Far North Central,0,0,0,0,0,0,0
-2020-11-02,Far North East,0,NA,21,NA,NA,NA,NA
-2020-11-02,Far North West,1,NA,26,NA,NA,NA,NA
-2020-11-02,North Central,22,NA,156,NA,NA,NA,NA
-2020-11-02,North East,1,NA,53,NA,NA,NA,NA
-2020-11-02,North West,5,NA,48,NA,NA,NA,NA
+2020-11-02,Far North East,0,54,21,0,0,33,0
+2020-11-02,Far North West,1,392,26,0,0,358,8
+2020-11-02,North Central,22,328,156,7,2,170,2
+2020-11-02,North East,1,139,53,1,0,86,0
+2020-11-02,North West,5,204,48,2,0,152,4
 2020-11-02,Regina,14,428,157,6,1,269,2
 2020-11-02,Saskatoon,18,845,292,11,4,551,2
-2020-11-02,South Central,0,NA,5,NA,NA,NA,NA
-2020-11-02,South East,0,NA,33,NA,NA,NA,NA
-2020-11-02,South West,0,NA,3,NA,NA,NA,NA
-2020-11-03,Central East,6,NA,41,NA,NA,NA,NA
-2020-11-03,Central West,0,NA,4,NA,NA,NA,NA
+2020-11-02,South Central,0,215,5,0,0,206,4
+2020-11-02,South East,0,59,33,0,0,26,0
+2020-11-02,South West,0,230,3,0,0,226,1
+2020-11-03,Central East,6,194,41,0,0,152,1
+2020-11-03,Central West,0,197,4,0,0,192,1
 2020-11-03,Far North Central,0,0,0,0,0,0,0
-2020-11-03,Far North East,1,NA,21,NA,NA,NA,NA
-2020-11-03,Far North West,1,NA,23,NA,NA,NA,NA
-2020-11-03,North Central,16,NA,172,NA,NA,NA,NA
-2020-11-03,North East,3,NA,56,NA,NA,NA,NA
-2020-11-03,North West,14,NA,60,NA,NA,NA,NA
+2020-11-03,Far North East,1,55,21,0,0,34,0
+2020-11-03,Far North West,1,393,23,0,0,362,8
+2020-11-03,North Central,16,348,172,5,2,174,2
+2020-11-03,North East,3,143,56,0,0,87,0
+2020-11-03,North West,14,221,60,2,0,157,4
 2020-11-03,Regina,10,439,152,6,1,285,2
 2020-11-03,Saskatoon,29,874,270,8,4,602,2
-2020-11-03,South Central,0,NA,5,NA,NA,NA,NA
-2020-11-03,South East,0,NA,31,NA,NA,NA,NA
-2020-11-03,South West,0,NA,2,NA,NA,NA,NA
-2020-11-04,Central East,6,NA,47,NA,NA,NA,NA
-2020-11-04,Central West,0,NA,4,NA,NA,NA,NA
+2020-11-03,South Central,0,215,5,0,0,206,4
+2020-11-03,South East,0,59,31,0,0,28,0
+2020-11-03,South West,0,230,2,0,0,227,1
+2020-11-04,Central East,6,200,47,0,0,152,1
+2020-11-04,Central West,0,197,4,0,0,192,1
 2020-11-04,Far North Central,0,0,0,0,0,0,0
-2020-11-04,Far North East,0,NA,18,NA,NA,NA,NA
-2020-11-04,Far North West,1,NA,23,NA,NA,NA,NA
-2020-11-04,North Central,1,NA,165,NA,NA,NA,NA
-2020-11-04,North East,0,NA,39,NA,NA,NA,NA
-2020-11-04,North West,1,NA,58,NA,NA,NA,NA
+2020-11-04,Far North East,0,55,18,0,0,37,0
+2020-11-04,Far North West,1,394,23,0,0,363,8
+2020-11-04,North Central,1,350,165,5,2,183,2
+2020-11-04,North East,0,143,39,0,0,104,0
+2020-11-04,North West,1,222,58,2,0,160,4
 2020-11-04,Regina,14,453,149,5,1,302,2
 2020-11-04,Saskatoon,13,887,261,10,1,624,2
-2020-11-04,South Central,0,NA,5,NA,NA,NA,NA
-2020-11-04,South East,0,NA,25,NA,NA,NA,NA
-2020-11-04,South West,0,NA,2,NA,NA,NA,NA
-2020-11-05,Central East,4,NA,48,NA,NA,NA,NA
-2020-11-05,Central West,1,NA,3,NA,NA,NA,NA
+2020-11-04,South Central,0,215,5,0,0,206,4
+2020-11-04,South East,0,59,25,0,0,34,0
+2020-11-04,South West,0,230,2,0,0,227,1
+2020-11-05,Central East,4,204,48,0,0,155,1
+2020-11-05,Central West,1,198,3,0,0,194,1
 2020-11-05,Far North Central,0,0,0,0,0,0,0
-2020-11-05,Far North East,1,NA,18,NA,NA,NA,NA
-2020-11-05,Far North West,6,NA,27,NA,NA,NA,NA
-2020-11-05,North Central,30,NA,193,NA,NA,NA,NA
-2020-11-05,North East,0,NA,31,NA,NA,NA,NA
-2020-11-05,North West,10,NA,62,NA,NA,NA,NA
+2020-11-05,Far North East,1,56,18,0,0,38,0
+2020-11-05,Far North West,6,400,27,1,0,365,8
+2020-11-05,North Central,30,380,193,8,1,185,2
+2020-11-05,North East,0,143,31,0,0,112,0
+2020-11-05,North West,10,232,62,3,0,166,4
 2020-11-05,Regina,13,466,159,5,1,305,2
 2020-11-05,Saskatoon,55,942,295,10,3,645,2
-2020-11-05,South Central,2,NA,7,NA,NA,NA,NA
-2020-11-05,South East,1,NA,25,NA,NA,NA,NA
-2020-11-05,South West,1,NA,2,NA,NA,NA,NA
-2020-11-06,Central East,11,NA,53,NA,NA,NA,NA
-2020-11-06,Central West,0,NA,3,NA,NA,NA,NA
+2020-11-05,South Central,2,217,7,0,0,206,4
+2020-11-05,South East,1,60,25,0,0,35,0
+2020-11-05,South West,1,231,2,0,0,228,1
+2020-11-06,Central East,11,215,53,0,0,161,1
+2020-11-06,Central West,0,198,3,0,0,194,1
 2020-11-06,Far North Central,0,0,0,0,0,0,0
-2020-11-06,Far North East,1,NA,19,NA,NA,NA,NA
-2020-11-06,Far North West,8,NA,35,NA,NA,NA,NA
-2020-11-06,North Central,3,NA,198,NA,NA,NA,NA
-2020-11-06,North East,0,NA,30,NA,NA,NA,NA
-2020-11-06,North West,8,NA,68,NA,NA,NA,NA
+2020-11-06,Far North East,1,57,19,0,0,38,0
+2020-11-06,Far North West,8,408,35,1,0,365,8
+2020-11-06,North Central,3,388,198,8,1,188,2
+2020-11-06,North East,0,143,30,0,0,113,0
+2020-11-06,North West,8,240,68,3,0,168,4
 2020-11-06,Regina,20,486,165,7,1,319,2
 2020-11-06,Saskatoon,25,967,294,10,2,671,2
-2020-11-06,South Central,2,NA,9,NA,NA,NA,NA
-2020-11-06,South East,5,NA,29,NA,NA,NA,NA
-2020-11-06,South West,1,NA,3,NA,NA,NA,NA
-2020-11-07,Central East,2,NA,53,NA,NA,NA,NA
-2020-11-07,Central West,0,NA,3,NA,NA,NA,NA
+2020-11-06,South Central,2,219,9,0,0,206,4
+2020-11-06,South East,5,65,29,0,0,36,0
+2020-11-06,South West,1,232,3,0,0,228,1
+2020-11-07,Central East,2,217,53,0,0,163,1
+2020-11-07,Central West,0,198,3,0,0,194,1
 2020-11-07,Far North Central,1,1,1,0,0,0,0
-2020-11-07,Far North East,2,NA,21,NA,NA,NA,NA
-2020-11-07,Far North West,4,NA,37,NA,NA,NA,NA
-2020-11-07,North Central,10,NA,189,NA,NA,NA,NA
-2020-11-07,North East,5,NA,33,NA,NA,NA,NA
-2020-11-07,North West,9,NA,77,NA,NA,NA,NA
+2020-11-07,Far North East,2,59,21,0,0,38,0
+2020-11-07,Far North West,4,412,37,1,0,366,9
+2020-11-07,North Central,10,398,189,8,1,207,2
+2020-11-07,North East,5,148,33,0,0,114,1
+2020-11-07,North West,9,249,77,2,0,168,4
 2020-11-07,Regina,39,525,204,6,2,319,2
 2020-11-07,Saskatoon,38,1005,316,9,5,687,2
-2020-11-07,South Central,3,NA,12,NA,NA,NA,NA
-2020-11-07,South East,1,NA,30,NA,NA,NA,NA
-2020-11-07,South West,1,NA,4,NA,NA,NA,NA
-2020-11-08,Central East,11,NA,59,NA,NA,NA,NA
-2020-11-08,Central West,1,NA,4,NA,NA,NA,NA
+2020-11-07,South Central,3,222,12,0,0,206,4
+2020-11-07,South East,1,66,30,0,0,36,0
+2020-11-07,South West,1,233,4,0,0,228,1
+2020-11-08,Central East,11,228,59,0,0,168,1
+2020-11-08,Central West,1,199,4,0,0,194,1
 2020-11-08,Far North Central,3,4,4,0,0,0,0
-2020-11-08,Far North East,2,NA,23,NA,NA,NA,NA
-2020-11-08,Far North West,7,NA,42,NA,NA,NA,NA
-2020-11-08,North Central,18,NA,197,NA,NA,NA,NA
-2020-11-08,North East,16,NA,47,NA,NA,NA,NA
-2020-11-08,North West,14,NA,91,NA,NA,NA,NA
+2020-11-08,Far North East,2,61,23,0,0,38,0
+2020-11-08,Far North West,7,419,42,1,0,368,9
+2020-11-08,North Central,18,416,197,7,1,217,2
+2020-11-08,North East,16,164,47,0,0,116,1
+2020-11-08,North West,14,263,91,2,0,168,4
 2020-11-08,Regina,23,548,227,5,2,319,2
 2020-11-08,Saskatoon,48,1053,362,9,4,688,3
-2020-11-08,South Central,3,NA,15,NA,NA,NA,NA
-2020-11-08,South East,5,NA,35,NA,NA,NA,NA
-2020-11-08,South West,5,NA,8,NA,NA,NA,NA
-2020-11-09,Central East,8,NA,67,NA,NA,NA,NA
-2020-11-09,Central West,2,NA,6,NA,NA,NA,NA
+2020-11-08,South Central,3,225,15,0,0,206,4
+2020-11-08,South East,5,71,35,0,0,36,0
+2020-11-08,South West,5,238,8,1,0,229,1
+2020-11-09,Central East,8,236,67,0,0,168,1
+2020-11-09,Central West,2,201,6,0,0,194,1
 2020-11-09,Far North Central,1,5,5,0,0,0,0
-2020-11-09,Far North East,4,NA,27,NA,NA,NA,NA
-2020-11-09,Far North West,15,NA,57,NA,NA,NA,NA
-2020-11-09,North Central,15,NA,204,NA,NA,NA,NA
-2020-11-09,North East,6,NA,50,NA,NA,NA,NA
-2020-11-09,North West,19,NA,106,NA,NA,NA,NA
+2020-11-09,Far North East,4,65,27,1,0,38,0
+2020-11-09,Far North West,15,434,57,1,0,368,9
+2020-11-09,North Central,15,431,204,6,2,224,3
+2020-11-09,North East,6,170,50,0,0,119,1
+2020-11-09,North West,19,283,106,2,0,173,4
 2020-11-09,Regina,25,573,252,4,2,319,2
 2020-11-09,Saskatoon,76,1129,434,14,4,692,3
-2020-11-09,South Central,1,NA,13,NA,NA,NA,NA
-2020-11-09,South East,7,NA,42,NA,NA,NA,NA
-2020-11-09,South West,5,NA,13,NA,NA,NA,NA
-2020-11-10,Central East,6,NA,70,NA,NA,NA,NA
-2020-11-10,Central West,2,NA,8,NA,NA,NA,NA
+2020-11-09,South Central,1,226,13,0,0,209,4
+2020-11-09,South East,7,78,42,1,0,36,0
+2020-11-09,South West,5,243,13,0,0,229,1
+2020-11-10,Central East,6,242,70,0,1,171,1
+2020-11-10,Central West,2,203,8,0,0,194,1
 2020-11-10,Far North Central,4,9,9,0,0,0,0
-2020-11-10,Far North East,6,NA,33,NA,NA,NA,NA
-2020-11-10,Far North West,6,NA,63,NA,NA,NA,NA
-2020-11-10,North Central,2,NA,204,NA,NA,NA,NA
-2020-11-10,North East,2,NA,49,NA,NA,NA,NA
-2020-11-10,North West,11,NA,114,NA,NA,NA,NA
+2020-11-10,Far North East,6,71,33,0,0,38,0
+2020-11-10,Far North West,6,440,63,1,0,368,9
+2020-11-10,North Central,2,436,204,7,2,229,3
+2020-11-10,North East,2,172,49,1,0,122,1
+2020-11-10,North West,11,294,114,3,0,176,4
 2020-11-10,Regina,31,604,258,3,2,344,2
 2020-11-10,Saskatoon,50,1179,413,18,6,763,3
-2020-11-10,South Central,6,NA,18,NA,NA,NA,NA
-2020-11-10,South East,0,NA,42,NA,NA,NA,NA
-2020-11-10,South West,0,NA,13,NA,NA,NA,NA
-2020-11-11,Central East,3,NA,68,NA,NA,NA,NA
-2020-11-11,Central West,0,NA,8,NA,NA,NA,NA
+2020-11-10,South Central,6,232,18,0,0,210,4
+2020-11-10,South East,0,78,42,0,0,36,0
+2020-11-10,South West,0,243,13,0,0,229,1
+2020-11-11,Central East,3,245,68,0,1,176,1
+2020-11-11,Central West,0,203,8,0,0,194,1
 2020-11-11,Far North Central,0,9,9,0,0,0,0
-2020-11-11,Far North East,8,NA,39,NA,NA,NA,NA
-2020-11-11,Far North West,7,NA,68,NA,NA,NA,NA
-2020-11-11,North Central,1,NA,199,NA,NA,NA,NA
-2020-11-11,North East,0,NA,48,NA,NA,NA,NA
-2020-11-11,North West,1,NA,113,NA,NA,NA,NA
+2020-11-11,Far North East,8,79,39,0,0,40,0
+2020-11-11,Far North West,7,447,68,1,0,370,9
+2020-11-11,North Central,1,438,199,6,2,236,3
+2020-11-11,North East,0,172,48,3,0,123,1
+2020-11-11,North West,1,295,113,2,0,178,4
 2020-11-11,Regina,37,641,283,3,2,356,2
 2020-11-11,Saskatoon,29,1208,420,22,6,785,3
-2020-11-11,South Central,11,NA,29,NA,NA,NA,NA
-2020-11-11,South East,13,NA,55,NA,NA,NA,NA
-2020-11-11,South West,0,NA,13,NA,NA,NA,NA
-2020-11-12,Central East,7,NA,75,NA,NA,NA,NA
-2020-11-12,Central West,0,NA,8,NA,NA,NA,NA
+2020-11-11,South Central,11,243,29,0,0,210,4
+2020-11-11,South East,13,91,55,0,0,36,0
+2020-11-11,South West,0,243,13,0,0,229,1
+2020-11-12,Central East,7,252,75,0,2,176,1
+2020-11-12,Central West,0,203,8,0,0,194,1
 2020-11-12,Far North Central,8,17,17,0,0,0,0
-2020-11-12,Far North East,6,NA,44,NA,NA,NA,NA
-2020-11-12,Far North West,5,NA,72,NA,NA,NA,NA
-2020-11-12,North Central,8,NA,201,NA,NA,NA,NA
-2020-11-12,North East,0,NA,44,NA,NA,NA,NA
-2020-11-12,North West,7,NA,117,NA,NA,NA,NA
+2020-11-12,Far North East,6,85,44,0,0,41,0
+2020-11-12,Far North West,5,452,72,1,0,371,9
+2020-11-12,North Central,8,446,201,5,2,242,3
+2020-11-12,North East,0,172,44,3,0,127,1
+2020-11-12,North West,7,302,117,1,1,181,4
 2020-11-12,Regina,25,667,309,3,1,356,2
 2020-11-12,Saskatoon,24,1232,444,20,7,785,3
-2020-11-12,South Central,5,NA,34,NA,NA,NA,NA
-2020-11-12,South East,7,NA,62,NA,NA,NA,NA
-2020-11-12,South West,4,NA,17,NA,NA,NA,NA
-2020-11-13,Central East,4,NA,77,NA,NA,NA,NA
-2020-11-13,Central West,0,NA,8,NA,NA,NA,NA
+2020-11-12,South Central,5,248,34,0,0,210,4
+2020-11-12,South East,7,98,62,2,0,36,0
+2020-11-12,South West,4,247,17,1,0,229,1
+2020-11-13,Central East,4,256,77,0,2,178,1
+2020-11-13,Central West,0,203,8,0,0,194,1
 2020-11-13,Far North Central,6,23,23,0,0,0,0
-2020-11-13,Far North East,3,NA,46,NA,NA,NA,NA
-2020-11-13,Far North West,1,NA,71,NA,NA,NA,NA
-2020-11-13,North Central,10,NA,205,NA,NA,NA,NA
-2020-11-13,North East,11,NA,55,NA,NA,NA,NA
-2020-11-13,North West,7,NA,122,NA,NA,NA,NA
+2020-11-13,Far North East,3,88,46,0,0,42,0
+2020-11-13,Far North West,1,453,71,1,0,373,9
+2020-11-13,North Central,10,456,205,5,3,248,3
+2020-11-13,North East,11,183,55,5,0,127,1
+2020-11-13,North West,7,309,122,1,1,183,4
 2020-11-13,Regina,16,683,298,2,1,383,2
 2020-11-13,Saskatoon,5,1237,396,20,8,838,3
-2020-11-13,South Central,8,NA,41,NA,NA,NA,NA
-2020-11-13,South East,4,NA,54,NA,NA,NA,NA
-2020-11-13,South West,6,NA,21,NA,NA,NA,NA
-2020-11-14,Central East,7,NA,79,NA,NA,NA,NA
-2020-11-14,Central West,7,NA,15,NA,NA,NA,NA
+2020-11-13,South Central,8,256,41,0,0,211,4
+2020-11-13,South East,4,102,54,3,0,48,0
+2020-11-13,South West,6,253,21,1,0,231,1
+2020-11-14,Central East,7,263,79,0,2,183,1
+2020-11-14,Central West,7,210,15,0,0,194,1
 2020-11-14,Far North Central,8,31,31,0,0,0,0
-2020-11-14,Far North East,16,NA,62,NA,NA,NA,NA
-2020-11-14,Far North West,26,NA,91,NA,NA,NA,NA
-2020-11-14,North Central,30,NA,233,NA,NA,NA,NA
-2020-11-14,North East,30,NA,85,NA,NA,NA,NA
-2020-11-14,North West,23,NA,143,NA,NA,NA,NA
+2020-11-14,Far North East,16,104,62,1,0,42,0
+2020-11-14,Far North West,26,479,91,1,0,379,9
+2020-11-14,North Central,30,486,233,4,3,250,3
+2020-11-14,North East,30,213,85,4,0,127,1
+2020-11-14,North West,23,332,143,4,1,185,4
 2020-11-14,Regina,20,703,316,1,2,385,2
 2020-11-14,Saskatoon,123,1360,500,22,8,857,3
-2020-11-14,South Central,3,NA,39,NA,NA,NA,NA
-2020-11-14,South East,3,NA,56,NA,NA,NA,NA
-2020-11-14,South West,2,NA,22,NA,NA,NA,NA
-2020-11-15,Central East,1,NA,78,NA,NA,NA,NA
-2020-11-15,Central West,2,NA,15,NA,NA,NA,NA
+2020-11-14,South Central,3,259,39,0,0,216,4
+2020-11-14,South East,3,105,56,3,0,49,0
+2020-11-14,South West,2,255,22,1,0,232,1
+2020-11-15,Central East,1,264,78,0,2,185,1
+2020-11-15,Central West,2,212,15,0,0,196,1
 2020-11-15,Far North Central,0,31,31,0,0,0,0
-2020-11-15,Far North East,7,NA,59,NA,NA,NA,NA
-2020-11-15,Far North West,9,NA,97,NA,NA,NA,NA
-2020-11-15,North Central,9,NA,214,NA,NA,NA,NA
-2020-11-15,North East,6,NA,90,NA,NA,NA,NA
-2020-11-15,North West,16,NA,161,NA,NA,NA,NA
+2020-11-15,Far North East,7,111,59,1,0,52,0
+2020-11-15,Far North West,9,488,97,1,0,382,9
+2020-11-15,North Central,9,498,214,4,3,279,5
+2020-11-15,North East,6,219,90,3,0,128,1
+2020-11-15,North West,16,351,161,3,1,186,4
 2020-11-15,Regina,28,731,344,2,3,385,2
 2020-11-15,Saskatoon,64,1424,549,25,7,872,3
-2020-11-15,South Central,10,NA,49,NA,NA,NA,NA
-2020-11-15,South East,18,NA,74,NA,NA,NA,NA
-2020-11-15,South West,1,NA,23,NA,NA,NA,NA
-2020-11-16,Central East,5,NA,82,NA,NA,NA,NA
-2020-11-16,Central West,0,NA,15,NA,NA,NA,NA
+2020-11-15,South Central,10,269,49,1,0,216,4
+2020-11-15,South East,18,123,74,4,0,49,0
+2020-11-15,South West,1,256,23,2,0,232,1
+2020-11-16,Central East,5,269,82,0,2,186,1
+2020-11-16,Central West,0,212,15,0,0,196,1
 2020-11-16,Far North Central,5,36,36,0,0,0,0
-2020-11-16,Far North East,16,NA,74,NA,NA,NA,NA
-2020-11-16,Far North West,11,NA,108,NA,NA,NA,NA
-2020-11-16,North Central,18,NA,227,NA,NA,NA,NA
-2020-11-16,North East,11,NA,101,NA,NA,NA,NA
-2020-11-16,North West,13,NA,170,NA,NA,NA,NA
+2020-11-16,Far North East,16,127,74,0,0,53,0
+2020-11-16,Far North West,11,499,108,1,0,382,9
+2020-11-16,North Central,18,519,227,6,2,287,5
+2020-11-16,North East,11,231,101,5,0,129,1
+2020-11-16,North West,13,364,170,3,0,190,4
 2020-11-16,Regina,32,763,338,1,5,423,2
 2020-11-16,Saskatoon,41,1465,588,27,7,874,3
-2020-11-16,South Central,2,NA,51,NA,NA,NA,NA
-2020-11-16,South East,5,NA,76,NA,NA,NA,NA
-2020-11-16,South West,17,NA,39,NA,NA,NA,NA
-2020-11-17,Central East,3,NA,79,NA,NA,NA,NA
-2020-11-17,Central West,11,NA,26,NA,NA,NA,NA
+2020-11-16,South Central,2,271,51,1,0,216,4
+2020-11-16,South East,5,128,76,6,0,52,0
+2020-11-16,South West,17,273,39,2,0,233,1
+2020-11-17,Central East,3,272,79,0,2,192,1
+2020-11-17,Central West,11,223,26,0,0,196,1
 2020-11-17,Far North Central,5,41,40,0,0,1,0
-2020-11-17,Far North East,6,NA,80,NA,NA,NA,NA
-2020-11-17,Far North West,5,NA,109,NA,NA,NA,NA
-2020-11-17,North Central,12,NA,222,NA,NA,NA,NA
-2020-11-17,North East,2,NA,96,NA,NA,NA,NA
-2020-11-17,North West,16,NA,170,NA,NA,NA,NA
+2020-11-17,Far North East,6,133,80,0,0,53,0
+2020-11-17,Far North West,5,504,109,1,0,386,9
+2020-11-17,North Central,12,534,222,6,2,307,5
+2020-11-17,North East,2,233,96,2,0,136,1
+2020-11-17,North West,16,380,170,3,0,206,4
 2020-11-17,Regina,27,790,359,3,4,429,2
 2020-11-17,Saskatoon,97,1562,635,30,7,924,3
-2020-11-17,South Central,23,NA,74,NA,NA,NA,NA
-2020-11-17,South East,16,NA,91,NA,NA,NA,NA
-2020-11-17,South West,4,NA,42,NA,NA,NA,NA
-2020-11-18,Central East,0,NA,70,NA,NA,NA,NA
-2020-11-18,Central West,1,NA,26,NA,NA,NA,NA
+2020-11-17,South Central,23,295,74,1,0,217,4
+2020-11-17,South East,16,144,91,6,0,53,0
+2020-11-17,South West,4,277,42,4,0,234,1
+2020-11-18,Central East,0,272,70,0,2,201,1
+2020-11-18,Central West,1,224,26,0,0,197,1
 2020-11-18,Far North Central,8,49,47,0,0,2,0
-2020-11-18,Far North East,6,NA,86,NA,NA,NA,NA
-2020-11-18,Far North West,1,NA,108,NA,NA,NA,NA
-2020-11-18,North Central,10,NA,228,NA,NA,NA,NA
-2020-11-18,North East,4,NA,90,NA,NA,NA,NA
-2020-11-18,North West,6,NA,166,NA,NA,NA,NA
+2020-11-18,Far North East,6,139,86,0,0,53,0
+2020-11-18,Far North West,1,505,108,0,0,388,9
+2020-11-18,North Central,10,544,228,6,3,311,5
+2020-11-18,North East,4,237,90,2,0,145,2
+2020-11-18,North West,6,386,166,4,0,216,4
 2020-11-18,Regina,18,808,377,6,4,429,2
 2020-11-18,Saskatoon,56,1618,648,30,7,967,3
-2020-11-18,South Central,4,NA,77,NA,NA,NA,NA
-2020-11-18,South East,8,NA,98,NA,NA,NA,NA
-2020-11-18,South West,2,NA,40,NA,NA,NA,NA
-2020-11-19,Central East,5,NA,65,NA,NA,NA,NA
-2020-11-19,Central West,1,NA,26,NA,NA,NA,NA
+2020-11-18,South Central,4,299,77,1,0,218,4
+2020-11-18,South East,8,152,98,6,0,54,0
+2020-11-18,South West,2,279,40,4,1,238,1
+2020-11-19,Central East,5,277,65,0,2,211,1
+2020-11-19,Central West,1,226,26,0,0,199,1
 2020-11-19,Far North Central,0,50,48,0,0,2,0
-2020-11-19,Far North East,3,NA,85,NA,NA,NA,NA
-2020-11-19,Far North West,2,NA,108,NA,NA,NA,NA
-2020-11-19,North Central,12,NA,235,NA,NA,NA,NA
-2020-11-19,North East,5,NA,92,NA,NA,NA,NA
-2020-11-19,North West,12,NA,175,NA,NA,NA,NA
+2020-11-19,Far North East,3,142,85,0,0,57,0
+2020-11-19,Far North West,2,509,108,0,0,392,9
+2020-11-19,North Central,12,564,235,5,4,324,5
+2020-11-19,North East,5,242,92,2,0,148,2
+2020-11-19,North West,12,402,175,5,0,223,4
 2020-11-19,Regina,25,836,379,6,5,455,2
 2020-11-19,Saskatoon,10,1628,600,30,9,1025,3
-2020-11-19,South Central,14,NA,91,NA,NA,NA,NA
-2020-11-19,South East,5,NA,101,NA,NA,NA,NA
-2020-11-19,South West,0,NA,37,NA,NA,NA,NA
-2020-11-20,Central East,4,NA,61,NA,NA,NA,NA
-2020-11-20,Central West,2,NA,26,NA,NA,NA,NA
+2020-11-19,South Central,14,313,91,1,0,218,4
+2020-11-19,South East,5,157,101,11,0,56,0
+2020-11-19,South West,0,279,37,2,1,241,1
+2020-11-20,Central East,4,281,61,1,1,219,1
+2020-11-20,Central West,2,228,26,0,0,201,1
 2020-11-20,Far North Central,16,66,64,0,0,2,0
-2020-11-20,Far North East,4,NA,88,NA,NA,NA,NA
-2020-11-20,Far North West,3,NA,100,NA,NA,NA,NA
-2020-11-20,North Central,14,NA,248,NA,NA,NA,NA
-2020-11-20,North East,1,NA,85,NA,NA,NA,NA
-2020-11-20,North West,11,NA,182,NA,NA,NA,NA
+2020-11-20,Far North East,4,146,88,0,0,58,0
+2020-11-20,Far North West,3,512,100,0,0,403,9
+2020-11-20,North Central,14,580,248,7,3,327,5
+2020-11-20,North East,1,243,85,1,0,156,2
+2020-11-20,North West,11,413,182,5,1,227,4
 2020-11-20,Regina,14,850,392,5,5,456,2
 2020-11-20,Saskatoon,42,1670,610,30,8,1056,4
-2020-11-20,South Central,4,NA,92,NA,NA,NA,NA
-2020-11-20,South East,20,NA,121,NA,NA,NA,NA
-2020-11-20,South West,14,NA,50,NA,NA,NA,NA
-2020-11-21,Central East,13,NA,71,NA,NA,NA,NA
-2020-11-21,Central West,8,NA,33,NA,NA,NA,NA
+2020-11-20,South Central,4,317,92,1,0,221,4
+2020-11-20,South East,20,177,121,16,0,56,0
+2020-11-20,South West,14,293,50,0,1,242,1
+2020-11-21,Central East,13,294,71,1,1,222,1
+2020-11-21,Central West,8,236,33,0,0,202,1
 2020-11-21,Far North Central,0,66,64,0,0,2,0
-2020-11-21,Far North East,13,NA,99,NA,NA,NA,NA
-2020-11-21,Far North West,9,NA,108,NA,NA,NA,NA
-2020-11-21,North Central,43,NA,289,NA,NA,NA,NA
-2020-11-21,North East,11,NA,91,NA,NA,NA,NA
-2020-11-21,North West,56,NA,233,NA,NA,NA,NA
+2020-11-21,Far North East,13,159,99,0,0,60,0
+2020-11-21,Far North West,9,522,108,0,0,405,9
+2020-11-21,North Central,43,623,289,7,3,329,5
+2020-11-21,North East,11,254,91,1,0,161,2
+2020-11-21,North West,56,469,233,8,0,232,4
 2020-11-21,Regina,56,906,436,5,5,468,2
 2020-11-21,Saskatoon,170,1841,781,32,11,1056,4
-2020-11-21,South Central,18,NA,106,NA,NA,NA,NA
-2020-11-21,South East,19,NA,138,NA,NA,NA,NA
-2020-11-21,South West,14,NA,61,NA,NA,NA,NA
-2020-11-22,Central East,2,NA,68,NA,NA,NA,NA
-2020-11-22,Central West,9,NA,41,NA,NA,NA,NA
+2020-11-21,South Central,18,335,106,1,0,225,4
+2020-11-21,South East,19,196,138,17,0,58,0
+2020-11-21,South West,14,307,61,0,1,245,1
+2020-11-22,Central East,2,296,68,1,1,227,1
+2020-11-22,Central West,9,245,41,0,0,203,1
 2020-11-22,Far North Central,1,67,65,0,0,2,0
-2020-11-22,Far North East,2,NA,101,NA,NA,NA,NA
-2020-11-22,Far North West,8,NA,105,NA,NA,NA,NA
-2020-11-22,North Central,24,NA,314,NA,NA,NA,NA
-2020-11-22,North East,9,NA,99,NA,NA,NA,NA
-2020-11-22,North West,17,NA,244,NA,NA,NA,NA
+2020-11-22,Far North East,2,161,101,0,0,60,0
+2020-11-22,Far North West,8,531,105,1,0,417,9
+2020-11-22,North Central,24,648,314,9,2,329,5
+2020-11-22,North East,9,263,99,1,0,162,2
+2020-11-22,North West,17,486,244,8,0,238,4
 2020-11-22,Regina,52,959,489,8,4,468,2
 2020-11-22,Saskatoon,82,1923,815,33,10,1104,4
-2020-11-22,South Central,9,NA,104,NA,NA,NA,NA
-2020-11-22,South East,6,NA,144,NA,NA,NA,NA
-2020-11-22,South West,13,NA,68,NA,NA,NA,NA
-2020-11-23,Central East,7,NA,74,NA,NA,NA,NA
-2020-11-23,Central West,4,NA,45,NA,NA,NA,NA
+2020-11-22,South Central,9,344,104,1,0,236,4
+2020-11-22,South East,6,202,144,17,0,58,0
+2020-11-22,South West,13,320,68,1,2,251,1
+2020-11-23,Central East,7,303,74,1,1,228,1
+2020-11-23,Central West,4,249,45,0,0,203,1
 2020-11-23,Far North Central,0,67,63,0,0,4,0
-2020-11-23,Far North East,3,NA,103,NA,NA,NA,NA
-2020-11-23,Far North West,11,NA,110,NA,NA,NA,NA
-2020-11-23,North Central,24,NA,331,NA,NA,NA,NA
-2020-11-23,North East,4,NA,95,NA,NA,NA,NA
-2020-11-23,North West,10,NA,240,NA,NA,NA,NA
+2020-11-23,Far North East,3,164,103,0,0,60,1
+2020-11-23,Far North West,11,542,110,0,0,423,9
+2020-11-23,North Central,24,672,331,10,2,335,6
+2020-11-23,North East,4,267,95,1,0,170,2
+2020-11-23,North West,10,496,240,7,1,251,5
 2020-11-23,Regina,66,1025,555,11,4,468,2
 2020-11-23,Saskatoon,54,1977,859,36,9,1113,5
-2020-11-23,South Central,16,NA,116,NA,NA,NA,NA
-2020-11-23,South East,16,NA,160,NA,NA,NA,NA
-2020-11-23,South West,17,NA,84,NA,NA,NA,NA
-2020-11-24,Central East,2,NA,74,NA,NA,NA,NA
-2020-11-24,Central West,9,NA,54,NA,NA,NA,NA
+2020-11-23,South Central,16,360,116,0,0,240,4
+2020-11-23,South East,16,218,160,20,0,58,0
+2020-11-23,South West,17,337,84,1,2,252,1
+2020-11-24,Central East,2,305,74,2,0,230,1
+2020-11-24,Central West,9,258,54,0,0,203,1
 2020-11-24,Far North Central,5,72,68,0,0,4,0
-2020-11-24,Far North East,13,NA,114,NA,NA,NA,NA
-2020-11-24,Far North West,5,NA,109,NA,NA,NA,NA
-2020-11-24,North Central,5,NA,319,NA,NA,NA,NA
-2020-11-24,North East,4,NA,96,NA,NA,NA,NA
-2020-11-24,North West,14,NA,247,NA,NA,NA,NA
+2020-11-24,Far North East,13,178,114,0,0,63,1
+2020-11-24,Far North West,5,547,109,0,0,429,9
+2020-11-24,North Central,5,680,319,10,1,355,6
+2020-11-24,North East,4,271,96,1,0,173,2
+2020-11-24,North West,14,511,247,7,2,259,5
 2020-11-24,Regina,70,1095,624,11,5,469,2
 2020-11-24,Saskatoon,28,2005,826,32,10,1174,5
-2020-11-24,South Central,9,NA,123,NA,NA,NA,NA
-2020-11-24,South East,4,NA,162,NA,NA,NA,NA
-2020-11-24,South West,3,NA,83,NA,NA,NA,NA
-2020-11-25,Central East,3,NA,74,NA,NA,NA,NA
-2020-11-25,Central West,0,NA,54,NA,NA,NA,NA
+2020-11-24,South Central,9,369,123,0,0,242,4
+2020-11-24,South East,4,222,162,20,0,60,0
+2020-11-24,South West,3,340,83,2,2,256,1
+2020-11-25,Central East,3,308,74,2,0,233,1
+2020-11-25,Central West,0,258,54,0,0,203,1
 2020-11-25,Far North Central,3,75,68,0,0,7,0
-2020-11-25,Far North East,8,NA,118,NA,NA,NA,NA
-2020-11-25,Far North West,7,NA,109,NA,NA,NA,NA
-2020-11-25,North Central,10,NA,323,NA,NA,NA,NA
-2020-11-25,North East,5,NA,96,NA,NA,NA,NA
-2020-11-25,North West,1,NA,236,NA,NA,NA,NA
+2020-11-25,Far North East,8,186,118,0,0,67,1
+2020-11-25,Far North West,7,554,109,1,0,436,9
+2020-11-25,North Central,10,690,323,9,0,361,6
+2020-11-25,North East,5,276,96,1,0,178,2
+2020-11-25,North West,1,512,236,8,2,271,5
 2020-11-25,Regina,69,1164,693,14,4,469,2
 2020-11-25,Saskatoon,37,2042,839,36,11,1198,5
-2020-11-25,South Central,1,NA,118,NA,NA,NA,NA
-2020-11-25,South East,9,NA,170,NA,NA,NA,NA
-2020-11-25,South West,9,NA,85,NA,NA,NA,NA
-2020-11-26,Central East,6,NA,76,NA,NA,NA,NA
-2020-11-26,Central West,4,NA,54,NA,NA,NA,NA
+2020-11-25,South Central,1,371,118,0,0,249,4
+2020-11-25,South East,9,231,170,19,0,61,0
+2020-11-25,South West,9,349,85,2,2,263,1
+2020-11-26,Central East,6,314,76,2,0,237,1
+2020-11-26,Central West,4,262,54,0,0,207,1
 2020-11-26,Far North Central,4,79,72,0,0,7,0
-2020-11-26,Far North East,16,NA,132,NA,NA,NA,NA
-2020-11-26,Far North West,11,NA,120,NA,NA,NA,NA
-2020-11-26,North Central,34,NA,347,NA,NA,NA,NA
-2020-11-26,North East,3,NA,97,NA,NA,NA,NA
-2020-11-26,North West,17,NA,254,NA,NA,NA,NA
+2020-11-26,Far North East,16,202,132,0,0,69,1
+2020-11-26,Far North West,11,567,120,1,0,438,9
+2020-11-26,North Central,34,729,347,8,1,376,6
+2020-11-26,North East,3,279,97,1,0,180,2
+2020-11-26,North West,17,542,254,8,1,281,7
 2020-11-26,Regina,44,1212,637,16,4,573,2
 2020-11-26,Saskatoon,125,2170,960,34,10,1204,6
-2020-11-26,South Central,12,NA,123,NA,NA,NA,NA
-2020-11-26,South East,8,NA,162,NA,NA,NA,NA
-2020-11-26,South West,7,NA,86,NA,NA,NA,NA
-2020-11-27,Central East,11,NA,82,NA,NA,NA,NA
-2020-11-27,Central West,6,NA,57,NA,NA,NA,NA
+2020-11-26,South Central,12,383,123,0,0,256,4
+2020-11-26,South East,8,239,162,19,0,77,0
+2020-11-26,South West,7,356,86,1,2,269,1
+2020-11-27,Central East,11,325,82,2,0,242,1
+2020-11-27,Central West,6,268,57,0,0,210,1
 2020-11-27,Far North Central,0,79,69,0,0,10,0
-2020-11-27,Far North East,4,NA,136,NA,NA,NA,NA
-2020-11-27,Far North West,8,NA,123,NA,NA,NA,NA
-2020-11-27,North Central,21,NA,366,NA,NA,NA,NA
-2020-11-27,North East,1,NA,96,NA,NA,NA,NA
-2020-11-27,North West,23,NA,269,NA,NA,NA,NA
+2020-11-27,Far North East,4,206,136,0,0,69,1
+2020-11-27,Far North West,8,575,123,1,0,443,9
+2020-11-27,North Central,21,754,366,12,0,381,7
+2020-11-27,North East,1,280,96,1,0,182,2
+2020-11-27,North West,23,565,269,8,1,289,7
 2020-11-27,Regina,61,1273,605,16,3,665,3
 2020-11-27,Saskatoon,158,2328,1057,32,11,1265,6
-2020-11-27,South Central,1,NA,119,NA,NA,NA,NA
-2020-11-27,South East,14,NA,160,NA,NA,NA,NA
-2020-11-27,South West,16,NA,97,NA,NA,NA,NA
-2020-11-28,Central East,5,NA,85,NA,NA,NA,NA
-2020-11-28,Central West,1,NA,57,NA,NA,NA,NA
+2020-11-27,South Central,1,384,119,1,0,260,5
+2020-11-27,South East,14,253,160,20,0,92,1
+2020-11-27,South West,16,372,97,2,1,274,1
+2020-11-28,Central East,5,330,85,1,0,244,1
+2020-11-28,Central West,1,269,57,0,0,211,1
 2020-11-28,Far North Central,0,79,61,0,0,18,0
-2020-11-28,Far North East,4,NA,138,NA,NA,NA,NA
-2020-11-28,Far North West,6,NA,129,NA,NA,NA,NA
-2020-11-28,North Central,17,NA,373,NA,NA,NA,NA
-2020-11-28,North East,5,NA,95,NA,NA,NA,NA
-2020-11-28,North West,5,NA,263,NA,NA,NA,NA
+2020-11-28,Far North East,4,210,138,0,0,71,1
+2020-11-28,Far North West,6,581,129,1,0,443,9
+2020-11-28,North Central,17,775,373,7,1,395,7
+2020-11-28,North East,5,285,95,1,0,188,2
+2020-11-28,North West,5,571,263,9,0,300,8
 2020-11-28,Regina,73,1346,636,18,5,707,3
 2020-11-28,Saskatoon,56,2384,1108,30,11,1270,6
-2020-11-28,South Central,5,NA,104,NA,NA,NA,NA
-2020-11-28,South East,2,NA,153,NA,NA,NA,NA
-2020-11-28,South West,16,NA,97,NA,NA,NA,NA
-2020-11-29,Central East,15,NA,100,NA,NA,NA,NA
-2020-11-29,Central West,2,NA,58,NA,NA,NA,NA
+2020-11-28,South Central,5,389,104,1,0,280,5
+2020-11-28,South East,2,255,153,19,0,101,1
+2020-11-28,South West,16,388,97,1,1,290,1
+2020-11-29,Central East,15,345,100,1,0,244,1
+2020-11-29,Central West,2,271,58,0,0,212,1
 2020-11-29,Far North Central,1,80,61,0,0,19,0
-2020-11-29,Far North East,8,NA,141,NA,NA,NA,NA
-2020-11-29,Far North West,10,NA,134,NA,NA,NA,NA
-2020-11-29,North Central,10,NA,380,NA,NA,NA,NA
-2020-11-29,North East,12,NA,104,NA,NA,NA,NA
-2020-11-29,North West,28,NA,286,NA,NA,NA,NA
+2020-11-29,Far North East,8,218,141,0,0,76,1
+2020-11-29,Far North West,10,591,134,1,0,448,9
+2020-11-29,North Central,10,785,380,8,2,398,7
+2020-11-29,North East,12,297,104,2,0,191,2
+2020-11-29,North West,28,599,286,8,1,305,8
 2020-11-29,Regina,120,1466,733,21,6,730,3
 2020-11-29,Saskatoon,94,2478,1196,32,13,1276,6
-2020-11-29,South Central,10,NA,110,NA,NA,NA,NA
-2020-11-29,South East,18,NA,165,NA,NA,NA,NA
-2020-11-29,South West,19,NA,110,NA,NA,NA,NA
-2020-11-30,Central East,10,NA,110,NA,NA,NA,NA
-2020-11-30,Central West,1,NA,59,NA,NA,NA,NA
+2020-11-29,South Central,10,399,110,1,0,284,5
+2020-11-29,South East,18,273,165,18,0,107,1
+2020-11-29,South West,19,407,110,0,1,296,1
+2020-11-30,Central East,10,355,110,1,0,244,1
+2020-11-30,Central West,1,272,59,0,0,212,1
 2020-11-30,Far North Central,0,80,50,0,0,30,0
-2020-11-30,Far North East,14,NA,156,NA,NA,NA,NA
-2020-11-30,Far North West,9,NA,143,NA,NA,NA,NA
-2020-11-30,North Central,27,NA,399,NA,NA,NA,NA
-2020-11-30,North East,9,NA,110,NA,NA,NA,NA
-2020-11-30,North West,23,NA,299,NA,NA,NA,NA
+2020-11-30,Far North East,14,233,156,0,0,76,1
+2020-11-30,Far North West,9,600,143,1,0,448,9
+2020-11-30,North Central,27,813,399,8,3,407,7
+2020-11-30,North East,9,306,110,3,0,194,2
+2020-11-30,North West,23,623,299,8,0,316,8
 2020-11-30,Regina,62,1529,796,26,6,730,3
 2020-11-30,Saskatoon,125,2603,1318,33,14,1279,6
-2020-11-30,South Central,8,NA,116,NA,NA,NA,NA
-2020-11-30,South East,13,NA,177,NA,NA,NA,NA
-2020-11-30,South West,22,NA,121,NA,NA,NA,NA
-2020-12-01,Central East,2,NA,106,NA,NA,NA,NA
-2020-12-01,Central West,3,NA,59,NA,NA,NA,NA
+2020-11-30,South Central,8,407,116,1,0,285,6
+2020-11-30,South East,13,286,177,18,0,107,2
+2020-11-30,South West,22,429,121,1,0,307,1
+2020-12-01,Central East,2,358,106,1,0,251,1
+2020-12-01,Central West,3,275,59,0,0,215,1
 2020-12-01,Far North Central,0,80,43,0,0,37,0
-2020-12-01,Far North East,15,NA,148,NA,NA,NA,NA
-2020-12-01,Far North West,12,NA,155,NA,NA,NA,NA
-2020-12-01,North Central,8,NA,402,NA,NA,NA,NA
-2020-12-01,North East,1,NA,110,NA,NA,NA,NA
-2020-12-01,North West,10,NA,294,NA,NA,NA,NA
+2020-12-01,Far North East,15,248,148,0,0,99,1
+2020-12-01,Far North West,12,612,155,1,0,448,9
+2020-12-01,North Central,8,821,402,7,4,412,7
+2020-12-01,North East,1,307,110,1,0,195,2
+2020-12-01,North West,10,635,294,7,0,333,8
 2020-12-01,Regina,67,1596,827,26,7,766,3
 2020-12-01,Saskatoon,41,2644,1267,33,13,1368,9
-2020-12-01,South Central,4,NA,102,NA,NA,NA,NA
-2020-12-01,South East,7,NA,162,NA,NA,NA,NA
-2020-12-01,South West,5,NA,116,NA,NA,NA,NA
-2020-12-02,Central East,4,NA,108,NA,NA,NA,NA
-2020-12-02,Central West,0,NA,54,NA,NA,NA,NA
+2020-12-01,South Central,4,411,102,1,0,303,6
+2020-12-01,South East,7,293,162,17,0,128,3
+2020-12-01,South West,5,434,116,3,0,317,1
+2020-12-02,Central East,4,362,108,2,0,253,1
+2020-12-02,Central West,0,275,54,0,0,220,1
 2020-12-02,Far North Central,3,83,46,0,0,37,0
-2020-12-02,Far North East,16,NA,165,NA,NA,NA,NA
-2020-12-02,Far North West,6,NA,161,NA,NA,NA,NA
-2020-12-02,North Central,25,NA,423,NA,NA,NA,NA
-2020-12-02,North East,3,NA,111,NA,NA,NA,NA
-2020-12-02,North West,17,NA,301,NA,NA,NA,NA
+2020-12-02,Far North East,16,265,165,0,0,99,1
+2020-12-02,Far North West,6,618,161,1,0,448,9
+2020-12-02,North Central,25,847,423,7,5,417,7
+2020-12-02,North East,3,310,111,1,0,196,3
+2020-12-02,North West,17,652,301,7,0,343,8
 2020-12-02,Regina,36,1634,864,23,9,766,4
 2020-12-02,Saskatoon,109,2752,1340,42,12,1403,9
-2020-12-02,South Central,1,NA,90,NA,NA,NA,NA
-2020-12-02,South East,3,NA,156,NA,NA,NA,NA
-2020-12-02,South West,8,NA,121,NA,NA,NA,NA
-2020-12-03,Central East,3,NA,107,NA,NA,NA,NA
-2020-12-03,Central West,3,NA,55,NA,NA,NA,NA
+2020-12-02,South Central,1,412,90,1,0,316,6
+2020-12-02,South East,3,297,156,20,0,138,3
+2020-12-02,South West,8,442,121,2,0,320,1
+2020-12-03,Central East,3,365,107,2,0,257,1
+2020-12-03,Central West,3,278,55,0,0,222,1
 2020-12-03,Far North Central,0,83,44,0,0,39,0
-2020-12-03,Far North East,1,NA,150,NA,NA,NA,NA
-2020-12-03,Far North West,9,NA,162,NA,NA,NA,NA
-2020-12-03,North Central,20,NA,402,NA,NA,NA,NA
-2020-12-03,North East,2,NA,105,NA,NA,NA,NA
-2020-12-03,North West,21,NA,319,NA,NA,NA,NA
+2020-12-03,Far North East,1,266,150,0,0,115,1
+2020-12-03,Far North West,9,627,162,1,0,456,9
+2020-12-03,North Central,20,869,402,9,3,460,7
+2020-12-03,North East,2,312,105,1,0,204,3
+2020-12-03,North West,21,678,319,8,1,351,8
 2020-12-03,Regina,112,1746,942,20,9,800,4
 2020-12-03,Saskatoon,50,2802,1352,41,11,1441,9
-2020-12-03,South Central,10,NA,85,NA,NA,NA,NA
-2020-12-03,South East,6,NA,144,NA,NA,NA,NA
-2020-12-03,South West,21,NA,126,NA,NA,NA,NA
-2020-12-04,Central East,9,NA,110,NA,NA,NA,NA
-2020-12-04,Central West,7,NA,60,NA,NA,NA,NA
+2020-12-03,South Central,10,422,85,0,0,330,7
+2020-12-03,South East,6,303,144,20,0,156,3
+2020-12-03,South West,21,463,126,2,0,336,1
+2020-12-04,Central East,9,374,110,1,0,263,1
+2020-12-04,Central West,7,285,60,0,0,224,1
 2020-12-04,Far North Central,0,83,44,0,0,39,0
-2020-12-04,Far North East,11,NA,161,NA,NA,NA,NA
-2020-12-04,Far North West,9,NA,165,NA,NA,NA,NA
-2020-12-04,North Central,47,NA,443,NA,NA,NA,NA
-2020-12-04,North East,7,NA,111,NA,NA,NA,NA
-2020-12-04,North West,12,NA,321,NA,NA,NA,NA
+2020-12-04,Far North East,11,277,161,0,0,115,1
+2020-12-04,Far North West,9,636,165,0,0,462,9
+2020-12-04,North Central,47,916,443,12,4,466,7
+2020-12-04,North East,7,319,111,1,0,205,3
+2020-12-04,North West,12,692,321,7,1,363,8
 2020-12-04,Regina,83,1829,974,20,9,851,4
 2020-12-04,Saskatoon,50,2852,1324,36,11,1519,9
-2020-12-04,South Central,9,NA,88,NA,NA,NA,NA
-2020-12-04,South East,9,NA,149,NA,NA,NA,NA
-2020-12-04,South West,12,NA,126,NA,NA,NA,NA
-2020-12-05,Central East,8,NA,112,NA,NA,NA,NA
-2020-12-05,Central West,8,NA,66,NA,NA,NA,NA
+2020-12-04,South Central,9,431,88,0,0,336,7
+2020-12-04,South East,9,312,149,21,0,159,4
+2020-12-04,South West,12,475,126,3,0,348,1
+2020-12-05,Central East,8,382,112,1,0,269,1
+2020-12-05,Central West,8,293,66,0,0,226,1
 2020-12-05,Far North Central,0,83,44,0,0,39,0
-2020-12-05,Far North East,17,NA,178,NA,NA,NA,NA
-2020-12-05,Far North West,8,NA,173,NA,NA,NA,NA
-2020-12-05,North Central,33,NA,479,NA,NA,NA,NA
-2020-12-05,North East,10,NA,118,NA,NA,NA,NA
-2020-12-05,North West,18,NA,335,NA,NA,NA,NA
+2020-12-05,Far North East,17,294,178,0,0,115,1
+2020-12-05,Far North West,8,644,173,0,0,462,9
+2020-12-05,North Central,33,956,479,10,5,470,7
+2020-12-05,North East,10,330,118,1,0,209,3
+2020-12-05,North West,18,711,335,9,0,368,8
 2020-12-05,Regina,51,1880,993,15,9,883,4
 2020-12-05,Saskatoon,4,2856,1272,34,11,1575,9
-2020-12-05,South Central,6,NA,84,NA,NA,NA,NA
-2020-12-05,South East,13,NA,161,NA,NA,NA,NA
-2020-12-05,South West,21,NA,140,NA,NA,NA,NA
-2020-12-06,Central East,10,NA,122,NA,NA,NA,NA
-2020-12-06,Central West,5,NA,65,NA,NA,NA,NA
+2020-12-05,South Central,6,437,84,0,0,346,7
+2020-12-05,South East,13,326,161,18,0,161,4
+2020-12-05,South West,21,496,140,3,0,355,1
+2020-12-06,Central East,10,393,122,1,0,270,1
+2020-12-06,Central West,5,297,65,0,0,231,1
 2020-12-06,Far North Central,0,83,44,0,0,39,0
-2020-12-06,Far North East,18,NA,196,NA,NA,NA,NA
-2020-12-06,Far North West,15,NA,185,NA,NA,NA,NA
-2020-12-06,North Central,39,NA,521,NA,NA,NA,NA
-2020-12-06,North East,10,NA,129,NA,NA,NA,NA
-2020-12-06,North West,26,NA,334,NA,NA,NA,NA
+2020-12-06,Far North East,18,312,196,0,0,115,1
+2020-12-06,Far North West,15,659,185,0,0,464,10
+2020-12-06,North Central,39,999,521,13,5,471,7
+2020-12-06,North East,10,341,129,1,0,209,3
+2020-12-06,North West,26,736,334,8,0,394,8
 2020-12-06,Regina,60,1940,1052,18,9,883,5
 2020-12-06,Saskatoon,205,3065,1476,45,12,1580,9
-2020-12-06,South Central,12,NA,94,NA,NA,NA,NA
-2020-12-06,South East,6,NA,164,NA,NA,NA,NA
-2020-12-06,South West,6,NA,143,NA,NA,NA,NA
-2020-12-07,Central East,7,NA,121,NA,NA,NA,NA
-2020-12-07,Central West,0,NA,65,NA,NA,NA,NA
+2020-12-06,South Central,12,449,94,1,0,348,7
+2020-12-06,South East,6,331,164,19,0,161,6
+2020-12-06,South West,6,502,143,3,0,358,1
+2020-12-07,Central East,7,400,121,1,0,278,1
+2020-12-07,Central West,0,297,65,0,0,231,1
 2020-12-07,Far North Central,1,84,45,0,0,39,0
-2020-12-07,Far North East,6,NA,196,NA,NA,NA,NA
-2020-12-07,Far North West,21,NA,202,NA,NA,NA,NA
-2020-12-07,North Central,28,NA,547,NA,NA,NA,NA
-2020-12-07,North East,6,NA,135,NA,NA,NA,NA
-2020-12-07,North West,26,NA,353,NA,NA,NA,NA
+2020-12-07,Far North East,6,318,196,0,0,121,1
+2020-12-07,Far North West,21,680,202,0,0,468,10
+2020-12-07,North Central,28,1027,547,12,6,473,7
+2020-12-07,North East,6,347,135,1,0,209,3
+2020-12-07,North West,26,762,353,9,0,401,8
 2020-12-07,Regina,80,2020,1131,24,8,883,6
 2020-12-07,Saskatoon,72,3138,1538,48,11,1591,9
-2020-12-07,South Central,4,NA,94,NA,NA,NA,NA
-2020-12-07,South East,12,NA,176,NA,NA,NA,NA
-2020-12-07,South West,8,NA,134,NA,NA,NA,NA
-2020-12-08,Central East,4,NA,118,NA,NA,NA,NA
-2020-12-08,Central West,7,NA,70,NA,NA,NA,NA
+2020-12-07,South Central,4,453,94,1,0,352,7
+2020-12-07,South East,12,343,176,19,0,161,6
+2020-12-07,South West,8,510,134,2,1,375,1
+2020-12-08,Central East,4,404,118,1,0,285,1
+2020-12-08,Central West,7,304,70,0,0,233,1
 2020-12-08,Far North Central,0,84,45,0,0,39,0
-2020-12-08,Far North East,10,NA,204,NA,NA,NA,NA
-2020-12-08,Far North West,13,NA,208,NA,NA,NA,NA
-2020-12-08,North Central,30,NA,568,NA,NA,NA,NA
-2020-12-08,North East,5,NA,136,NA,NA,NA,NA
-2020-12-08,North West,18,NA,361,NA,NA,NA,NA
+2020-12-08,Far North East,10,328,204,0,0,123,1
+2020-12-08,Far North West,13,694,208,0,0,476,10
+2020-12-08,North Central,30,1057,568,16,6,481,8
+2020-12-08,North East,5,352,136,2,0,213,3
+2020-12-08,North West,18,783,361,7,0,413,9
 2020-12-08,Regina,25,2047,1112,23,8,926,9
 2020-12-08,Saskatoon,62,3200,1440,51,11,1751,9
-2020-12-08,South Central,1,NA,88,NA,NA,NA,NA
-2020-12-08,South East,1,NA,172,NA,NA,NA,NA
-2020-12-08,South West,4,NA,116,NA,NA,NA,NA
-2020-12-09,Central East,2,NA,111,NA,NA,NA,NA
-2020-12-09,Central West,4,NA,69,NA,NA,NA,NA
+2020-12-08,South Central,1,454,88,1,1,359,7
+2020-12-08,South East,1,344,172,15,0,165,7
+2020-12-08,South West,4,514,116,1,1,397,1
+2020-12-09,Central East,2,406,111,1,0,294,1
+2020-12-09,Central West,4,308,69,0,0,238,1
 2020-12-09,Far North Central,1,85,43,0,0,42,0
-2020-12-09,Far North East,15,NA,213,NA,NA,NA,NA
-2020-12-09,Far North West,14,NA,219,NA,NA,NA,NA
-2020-12-09,North Central,35,NA,597,NA,NA,NA,NA
-2020-12-09,North East,1,NA,136,NA,NA,NA,NA
-2020-12-09,North West,26,NA,376,NA,NA,NA,NA
+2020-12-09,Far North East,15,344,213,0,0,130,1
+2020-12-09,Far North West,14,709,219,0,0,480,10
+2020-12-09,North Central,35,1093,597,16,6,488,8
+2020-12-09,North East,1,353,136,2,0,214,3
+2020-12-09,North West,26,808,376,7,0,423,9
 2020-12-09,Regina,131,2177,1164,23,8,999,14
 2020-12-09,Saskatoon,59,3260,1408,51,11,1843,9
-2020-12-09,South Central,3,NA,80,NA,NA,NA,NA
-2020-12-09,South East,5,NA,163,NA,NA,NA,NA
-2020-12-09,South West,4,NA,103,NA,NA,NA,NA
-2020-12-10,Central East,6,NA,102,NA,NA,NA,NA
-2020-12-10,Central West,1,NA,66,NA,NA,NA,NA
+2020-12-09,South Central,3,457,80,1,1,370,7
+2020-12-09,South East,5,349,163,15,0,179,7
+2020-12-09,South West,4,518,103,1,1,414,1
+2020-12-10,Central East,6,412,102,1,0,309,1
+2020-12-10,Central West,1,309,66,0,0,242,1
 2020-12-10,Far North Central,3,88,45,0,0,43,0
-2020-12-10,Far North East,15,NA,224,NA,NA,NA,NA
-2020-12-10,Far North West,15,NA,226,NA,NA,NA,NA
-2020-12-10,North Central,37,NA,623,NA,NA,NA,NA
-2020-12-10,North East,9,NA,137,NA,NA,NA,NA
-2020-12-10,North West,47,NA,393,NA,NA,NA,NA
+2020-12-10,Far North East,15,360,224,0,0,135,1
+2020-12-10,Far North West,15,724,226,0,0,488,10
+2020-12-10,North Central,37,1130,623,16,8,498,9
+2020-12-10,North East,9,362,137,2,0,221,4
+2020-12-10,North West,47,856,393,7,0,454,9
 2020-12-10,Regina,53,2230,1115,25,10,1100,15
 2020-12-10,Saskatoon,109,3369,1401,47,11,1959,9
-2020-12-10,South Central,2,NA,60,NA,NA,NA,NA
-2020-12-10,South East,8,NA,151,NA,NA,NA,NA
-2020-12-10,South West,15,NA,112,NA,NA,NA,NA
-2020-12-11,Central East,6,NA,91,NA,NA,NA,NA
-2020-12-11,Central West,3,NA,66,NA,NA,NA,NA
+2020-12-10,South Central,2,459,60,1,1,391,8
+2020-12-10,South East,8,357,151,7,0,199,7
+2020-12-10,South West,15,533,112,1,1,420,1
+2020-12-11,Central East,6,418,91,2,0,326,1
+2020-12-11,Central West,3,312,66,0,0,245,1
 2020-12-11,Far North Central,1,89,46,0,0,43,0
-2020-12-11,Far North East,13,NA,217,NA,NA,NA,NA
-2020-12-11,Far North West,19,NA,245,NA,NA,NA,NA
-2020-12-11,North Central,34,NA,645,NA,NA,NA,NA
-2020-12-11,North East,9,NA,134,NA,NA,NA,NA
-2020-12-11,North West,24,NA,403,NA,NA,NA,NA
+2020-12-11,Far North East,13,374,217,0,0,156,1
+2020-12-11,Far North West,19,746,245,1,0,491,10
+2020-12-11,North Central,34,1165,645,16,6,511,9
+2020-12-11,North East,9,371,134,2,0,233,4
+2020-12-11,North West,24,881,403,6,0,469,9
 2020-12-11,Regina,50,2280,1043,26,8,1222,15
 2020-12-11,Saskatoon,65,3436,1320,45,11,2107,9
-2020-12-11,South Central,7,NA,61,NA,NA,NA,NA
-2020-12-11,South East,14,NA,154,NA,NA,NA,NA
-2020-12-11,South West,1,NA,97,NA,NA,NA,NA
-2020-12-12,Central East,13,NA,90,NA,NA,NA,NA
-2020-12-12,Central West,2,NA,49,NA,NA,NA,NA
+2020-12-11,South Central,7,466,61,1,1,397,8
+2020-12-11,South East,14,371,154,6,0,210,7
+2020-12-11,South West,1,534,97,1,1,436,1
+2020-12-12,Central East,13,431,90,2,0,342,1
+2020-12-12,Central West,2,314,49,0,0,264,1
 2020-12-12,Far North Central,0,89,28,0,0,61,0
-2020-12-12,Far North East,19,NA,209,NA,NA,NA,NA
-2020-12-12,Far North West,8,NA,179,NA,NA,NA,NA
-2020-12-12,North Central,23,NA,472,NA,NA,NA,NA
-2020-12-12,North East,5,NA,93,NA,NA,NA,NA
-2020-12-12,North West,43,NA,351,NA,NA,NA,NA
+2020-12-12,Far North East,19,394,209,0,0,184,1
+2020-12-12,Far North West,8,754,179,1,0,565,10
+2020-12-12,North Central,23,1189,472,11,6,708,9
+2020-12-12,North East,5,376,93,0,0,278,5
+2020-12-12,North West,43,924,351,7,0,546,9
 2020-12-12,Regina,57,2337,1088,25,9,1230,19
 2020-12-12,Saskatoon,78,3514,1200,41,6,2301,13
-2020-12-12,South Central,12,NA,69,NA,NA,NA,NA
-2020-12-12,South East,10,NA,160,NA,NA,NA,NA
-2020-12-12,South West,2,NA,87,NA,NA,NA,NA
-2020-12-13,Central East,8,NA,93,NA,NA,NA,NA
-2020-12-13,Central West,3,NA,52,NA,NA,NA,NA
+2020-12-12,South Central,12,478,69,2,0,401,8
+2020-12-12,South East,10,381,160,6,0,212,9
+2020-12-12,South West,2,536,87,0,1,448,1
+2020-12-13,Central East,8,439,93,2,0,345,1
+2020-12-13,Central West,3,317,52,0,0,264,1
 2020-12-13,Far North Central,0,89,23,0,0,66,0
-2020-12-13,Far North East,9,NA,188,NA,NA,NA,NA
-2020-12-13,Far North West,15,NA,185,NA,NA,NA,NA
-2020-12-13,North Central,15,NA,481,NA,NA,NA,NA
-2020-12-13,North East,6,NA,87,NA,NA,NA,NA
-2020-12-13,North West,39,NA,385,NA,NA,NA,NA
+2020-12-13,Far North East,9,405,188,0,0,216,1
+2020-12-13,Far North West,15,769,185,1,0,574,10
+2020-12-13,North Central,15,1204,481,10,6,714,9
+2020-12-13,North East,6,382,87,0,0,290,5
+2020-12-13,North West,39,965,385,6,0,571,9
 2020-12-13,Regina,57,2394,1115,25,9,1259,20
 2020-12-13,Saskatoon,53,3568,1249,42,7,2304,15
-2020-12-13,South Central,6,NA,69,NA,NA,NA,NA
-2020-12-13,South East,5,NA,164,NA,NA,NA,NA
-2020-12-13,South West,4,NA,76,NA,NA,NA,NA
-2020-12-14,Central East,16,NA,108,NA,NA,NA,NA
-2020-12-14,Central West,2,NA,54,NA,NA,NA,NA
+2020-12-13,South Central,6,484,69,2,0,407,8
+2020-12-13,South East,5,386,164,6,0,213,9
+2020-12-13,South West,4,540,76,0,1,463,1
+2020-12-14,Central East,16,455,108,2,0,346,1
+2020-12-14,Central West,2,319,54,0,0,264,1
 2020-12-14,Far North Central,3,92,26,0,0,66,0
-2020-12-14,Far North East,14,NA,195,NA,NA,NA,NA
-2020-12-14,Far North West,8,NA,187,NA,NA,NA,NA
-2020-12-14,North Central,50,NA,522,NA,NA,NA,NA
-2020-12-14,North East,17,NA,100,NA,NA,NA,NA
-2020-12-14,North West,30,NA,400,NA,NA,NA,NA
+2020-12-14,Far North East,14,418,195,0,0,222,1
+2020-12-14,Far North West,8,777,187,0,0,580,10
+2020-12-14,North Central,50,1254,522,11,6,723,9
+2020-12-14,North East,17,399,100,0,0,294,5
+2020-12-14,North West,30,995,400,8,0,585,10
 2020-12-14,Regina,59,2453,1173,30,11,1260,20
 2020-12-14,Saskatoon,51,3618,1294,41,9,2308,16
-2020-12-14,South Central,5,NA,66,NA,NA,NA,NA
-2020-12-14,South East,6,NA,163,NA,NA,NA,NA
-2020-12-14,South West,1,NA,64,NA,NA,NA,NA
-2020-12-15,Central East,5,NA,105,NA,NA,NA,NA
-2020-12-15,Central West,0,NA,42,NA,NA,NA,NA
+2020-12-14,South Central,5,489,66,1,0,415,8
+2020-12-14,South East,6,392,163,4,0,220,9
+2020-12-14,South West,1,541,64,0,1,476,1
+2020-12-15,Central East,5,460,105,1,0,354,1
+2020-12-15,Central West,0,319,42,0,0,275,2
 2020-12-15,Far North Central,1,93,17,0,0,76,0
-2020-12-15,Far North East,11,NA,198,NA,NA,NA,NA
-2020-12-15,Far North West,13,NA,190,NA,NA,NA,NA
-2020-12-15,North Central,21,NA,515,NA,NA,NA,NA
-2020-12-15,North East,2,NA,94,NA,NA,NA,NA
-2020-12-15,North West,28,NA,383,NA,NA,NA,NA
+2020-12-15,Far North East,11,429,198,0,0,230,1
+2020-12-15,Far North West,13,790,190,2,0,590,10
+2020-12-15,North Central,21,1275,515,10,5,751,9
+2020-12-15,North East,2,401,94,0,0,302,5
+2020-12-15,North West,28,1023,383,9,0,629,11
 2020-12-15,Regina,37,2493,1179,27,11,1293,21
 2020-12-15,Saskatoon,53,3671,1171,45,9,2480,20
-2020-12-15,South Central,5,NA,66,NA,NA,NA,NA
-2020-12-15,South East,14,NA,160,NA,NA,NA,NA
-2020-12-15,South West,1,NA,56,NA,NA,NA,NA
-2020-12-16,Central East,2,NA,102,NA,NA,NA,NA
-2020-12-16,Central West,1,NA,37,NA,NA,NA,NA
+2020-12-15,South Central,5,494,66,0,0,420,8
+2020-12-15,South East,14,406,160,3,0,237,9
+2020-12-15,South West,1,542,56,1,1,485,1
+2020-12-16,Central East,2,461,102,2,0,358,1
+2020-12-16,Central West,1,320,37,0,0,281,2
 2020-12-16,Far North Central,2,95,19,0,0,76,0
-2020-12-16,Far North East,13,NA,209,NA,NA,NA,NA
-2020-12-16,Far North West,3,NA,191,NA,NA,NA,NA
-2020-12-16,North Central,28,NA,527,NA,NA,NA,NA
-2020-12-16,North East,2,NA,92,NA,NA,NA,NA
-2020-12-16,North West,35,NA,400,NA,NA,NA,NA
+2020-12-16,Far North East,13,442,209,0,0,232,1
+2020-12-16,Far North West,3,793,191,2,0,592,10
+2020-12-16,North Central,28,1304,527,10,6,768,9
+2020-12-16,North East,2,403,92,0,0,306,5
+2020-12-16,North West,35,1059,400,8,1,648,11
 2020-12-16,Regina,30,2524,1156,28,12,1347,21
 2020-12-16,Saskatoon,38,3709,1181,40,10,2508,20
-2020-12-16,South Central,2,NA,63,NA,NA,NA,NA
-2020-12-16,South East,1,NA,154,NA,NA,NA,NA
-2020-12-16,South West,1,NA,50,NA,NA,NA,NA
-2020-12-17,Central East,7,NA,102,NA,NA,NA,NA
-2020-12-17,Central West,0,NA,37,NA,NA,NA,NA
+2020-12-16,South Central,2,496,63,1,0,425,8
+2020-12-16,South East,1,406,154,3,0,243,9
+2020-12-16,South West,1,542,50,0,1,491,1
+2020-12-17,Central East,7,468,102,2,0,365,1
+2020-12-17,Central West,0,320,37,1,0,281,2
 2020-12-17,Far North Central,1,97,21,0,0,76,0
-2020-12-17,Far North East,15,NA,211,NA,NA,NA,NA
-2020-12-17,Far North West,5,NA,192,NA,NA,NA,NA
-2020-12-17,North Central,32,NA,458,NA,NA,NA,NA
-2020-12-17,North East,9,NA,93,NA,NA,NA,NA
-2020-12-17,North West,26,NA,415,NA,NA,NA,NA
+2020-12-17,Far North East,15,458,211,0,0,246,1
+2020-12-17,Far North West,5,798,192,3,0,596,10
+2020-12-17,North Central,32,1339,458,16,5,871,10
+2020-12-17,North East,9,412,93,0,0,314,5
+2020-12-17,North West,26,1085,415,9,0,659,11
 2020-12-17,Regina,40,2564,936,23,8,1604,24
 2020-12-17,Saskatoon,81,3790,1242,44,9,2527,21
-2020-12-17,South Central,7,NA,65,NA,NA,NA,NA
-2020-12-17,South East,3,NA,130,NA,NA,NA,NA
-2020-12-17,South West,3,NA,41,NA,NA,NA,NA
-2020-12-18,Central East,4,NA,98,NA,NA,NA,NA
-2020-12-18,Central West,5,NA,41,NA,NA,NA,NA
+2020-12-17,South Central,7,503,65,1,0,430,8
+2020-12-17,South East,3,409,130,5,0,269,10
+2020-12-17,South West,3,545,41,0,0,502,2
+2020-12-18,Central East,4,472,98,2,0,373,1
+2020-12-18,Central West,5,325,41,1,0,282,2
 2020-12-18,Far North Central,1,99,22,0,0,77,0
-2020-12-18,Far North East,28,NA,238,NA,NA,NA,NA
-2020-12-18,Far North West,12,NA,173,NA,NA,NA,NA
-2020-12-18,North Central,16,NA,410,NA,NA,NA,NA
-2020-12-18,North East,14,NA,92,NA,NA,NA,NA
-2020-12-18,North West,53,NA,412,NA,NA,NA,NA
+2020-12-18,Far North East,28,486,238,0,0,247,1
+2020-12-18,Far North West,12,810,173,3,0,627,10
+2020-12-18,North Central,16,1361,410,20,5,941,10
+2020-12-18,North East,14,426,92,0,0,329,5
+2020-12-18,North West,53,1138,412,8,0,715,11
 2020-12-18,Regina,42,2606,779,24,3,1801,26
 2020-12-18,Saskatoon,46,3836,1248,41,9,2567,21
-2020-12-18,South Central,7,NA,52,NA,NA,NA,NA
-2020-12-18,South East,5,NA,107,NA,NA,NA,NA
-2020-12-18,South West,2,NA,27,NA,NA,NA,NA
-2020-12-19,Central East,24,NA,115,NA,NA,NA,NA
-2020-12-19,Central West,5,NA,33,NA,NA,NA,NA
+2020-12-18,South Central,7,510,52,0,0,450,8
+2020-12-18,South East,5,414,107,5,0,297,10
+2020-12-18,South West,2,547,27,0,0,518,2
+2020-12-19,Central East,24,496,115,3,0,380,1
+2020-12-19,Central West,5,330,33,1,0,295,2
 2020-12-19,Far North Central,3,102,25,1,0,77,0
-2020-12-19,Far North East,17,NA,249,NA,NA,NA,NA
-2020-12-19,Far North West,9,NA,163,NA,NA,NA,NA
-2020-12-19,North Central,42,NA,435,NA,NA,NA,NA
-2020-12-19,North East,12,NA,92,NA,NA,NA,NA
-2020-12-19,North West,41,NA,413,NA,NA,NA,NA
+2020-12-19,Far North East,17,504,249,0,0,254,1
+2020-12-19,Far North West,9,819,163,2,0,646,10
+2020-12-19,North Central,42,1406,435,20,4,959,12
+2020-12-19,North East,12,438,92,3,0,341,5
+2020-12-19,North West,41,1180,413,7,1,756,11
 2020-12-19,Regina,29,2635,790,23,4,1816,29
 2020-12-19,Saskatoon,57,3896,1232,41,10,2641,23
-2020-12-19,South Central,4,NA,52,NA,NA,NA,NA
-2020-12-19,South East,4,NA,108,NA,NA,NA,NA
-2020-12-19,South West,2,NA,23,NA,NA,NA,NA
-2020-12-20,Central East,30,NA,144,NA,NA,NA,NA
-2020-12-20,Central West,0,NA,28,NA,NA,NA,NA
+2020-12-19,South Central,4,514,52,0,0,453,9
+2020-12-19,South East,4,418,108,6,0,300,10
+2020-12-19,South West,2,549,23,0,1,524,2
+2020-12-20,Central East,30,526,144,5,0,381,1
+2020-12-20,Central West,0,330,28,1,0,300,2
 2020-12-20,Far North Central,0,103,26,1,0,77,0
-2020-12-20,Far North East,15,NA,222,NA,NA,NA,NA
-2020-12-20,Far North West,6,NA,161,NA,NA,NA,NA
-2020-12-20,North Central,38,NA,466,NA,NA,NA,NA
-2020-12-20,North East,5,NA,96,NA,NA,NA,NA
-2020-12-20,North West,30,NA,441,NA,NA,NA,NA
+2020-12-20,Far North East,15,519,222,0,0,296,1
+2020-12-20,Far North West,6,825,161,2,0,654,10
+2020-12-20,North Central,38,1446,466,18,6,968,12
+2020-12-20,North East,5,443,96,2,0,342,5
+2020-12-20,North West,30,1210,441,6,1,758,11
 2020-12-20,Regina,32,2668,819,23,2,1817,32
 2020-12-20,Saskatoon,55,3951,1261,39,9,2667,23
-2020-12-20,South Central,5,NA,49,NA,NA,NA,NA
-2020-12-20,South East,6,NA,114,NA,NA,NA,NA
-2020-12-20,South West,0,NA,21,NA,NA,NA,NA
-2020-12-21,Central East,10,NA,150,NA,NA,NA,NA
-2020-12-21,Central West,0,NA,24,NA,NA,NA,NA
+2020-12-20,South Central,5,519,49,0,0,461,9
+2020-12-20,South East,6,424,114,7,0,300,10
+2020-12-20,South West,0,549,21,0,1,526,2
+2020-12-21,Central East,10,536,150,5,0,385,1
+2020-12-21,Central West,0,330,24,1,0,304,2
 2020-12-21,Far North Central,0,103,26,1,0,77,0
-2020-12-21,Far North East,13,NA,204,NA,NA,NA,NA
-2020-12-21,Far North West,10,NA,144,NA,NA,NA,NA
-2020-12-21,North Central,38,NA,499,NA,NA,NA,NA
-2020-12-21,North East,12,NA,106,NA,NA,NA,NA
-2020-12-21,North West,37,NA,463,NA,NA,NA,NA
+2020-12-21,Far North East,13,532,204,0,0,327,1
+2020-12-21,Far North West,10,835,144,2,0,681,10
+2020-12-21,North Central,38,1484,499,18,7,973,12
+2020-12-21,North East,12,455,106,2,0,344,5
+2020-12-21,North West,37,1247,463,7,1,773,11
 2020-12-21,Regina,26,2694,841,25,2,1817,36
 2020-12-21,Saskatoon,46,3997,1306,43,8,2668,23
-2020-12-21,South Central,6,NA,52,NA,NA,NA,NA
-2020-12-21,South East,4,NA,118,NA,NA,NA,NA
-2020-12-21,South West,1,NA,22,NA,NA,NA,NA
-2020-12-22,Central East,3,NA,150,NA,NA,NA,NA
-2020-12-22,Central West,1,NA,25,NA,NA,NA,NA
+2020-12-21,South Central,6,525,52,0,0,464,9
+2020-12-21,South East,4,428,118,7,0,300,10
+2020-12-21,South West,1,550,22,0,2,526,2
+2020-12-22,Central East,3,540,150,5,0,389,1
+2020-12-22,Central West,1,331,25,1,0,304,2
 2020-12-22,Far North Central,2,106,28,0,0,78,0
-2020-12-22,Far North East,14,NA,207,NA,NA,NA,NA
-2020-12-22,Far North West,8,NA,138,NA,NA,NA,NA
-2020-12-22,North Central,36,NA,503,NA,NA,NA,NA
-2020-12-22,North East,3,NA,90,NA,NA,NA,NA
-2020-12-22,North West,35,NA,459,NA,NA,NA,NA
+2020-12-22,Far North East,14,548,207,0,0,340,1
+2020-12-22,Far North West,8,843,138,2,0,695,10
+2020-12-22,North Central,36,1522,503,17,7,1007,12
+2020-12-22,North East,3,458,90,2,0,363,5
+2020-12-22,North West,35,1282,459,5,1,811,12
 2020-12-22,Regina,43,2739,838,22,3,1863,38
 2020-12-22,Saskatoon,35,4035,1317,43,8,2695,23
-2020-12-22,South Central,0,NA,36,NA,NA,NA,NA
-2020-12-22,South East,0,NA,112,NA,NA,NA,NA
-2020-12-22,South West,1,NA,20,NA,NA,NA,NA
-2020-12-23,Central East,1,NA,140,NA,NA,NA,NA
-2020-12-23,Central West,0,NA,24,NA,NA,NA,NA
+2020-12-22,South Central,0,525,36,0,0,480,9
+2020-12-22,South East,0,428,112,6,0,306,10
+2020-12-22,South West,1,551,20,0,2,529,2
+2020-12-23,Central East,1,541,140,4,0,399,2
+2020-12-23,Central West,0,331,24,1,0,305,2
 2020-12-23,Far North Central,0,106,28,0,0,78,0
-2020-12-23,Far North East,8,NA,207,NA,NA,NA,NA
-2020-12-23,Far North West,14,NA,150,NA,NA,NA,NA
-2020-12-23,North Central,24,NA,495,NA,NA,NA,NA
-2020-12-23,North East,8,NA,74,NA,NA,NA,NA
-2020-12-23,North West,24,NA,463,NA,NA,NA,NA
+2020-12-23,Far North East,8,556,207,0,0,348,1
+2020-12-23,Far North West,14,857,150,2,0,697,10
+2020-12-23,North Central,24,1546,495,18,6,1039,12
+2020-12-23,North East,8,466,74,3,0,387,5
+2020-12-23,North West,24,1306,463,4,1,830,13
 2020-12-23,Regina,50,2789,843,23,4,1905,41
 2020-12-23,Saskatoon,21,4056,1238,43,9,2795,23
-2020-12-23,South Central,0,NA,31,NA,NA,NA,NA
-2020-12-23,South East,2,NA,109,NA,NA,NA,NA
-2020-12-23,South West,3,NA,22,NA,NA,NA,NA
-2020-12-24,Central East,10,NA,138,NA,NA,NA,NA
-2020-12-24,Central West,2,NA,21,NA,NA,NA,NA
+2020-12-23,South Central,0,525,31,0,0,485,9
+2020-12-23,South East,2,430,109,4,0,311,10
+2020-12-23,South West,3,554,22,2,1,530,2
+2020-12-24,Central East,10,551,138,4,0,411,2
+2020-12-24,Central West,2,333,21,2,0,310,2
 2020-12-24,Far North Central,0,106,29,0,0,77,0
-2020-12-24,Far North East,14,NA,197,NA,NA,NA,NA
-2020-12-24,Far North West,10,NA,154,NA,NA,NA,NA
-2020-12-24,North Central,28,NA,410,NA,NA,NA,NA
-2020-12-24,North East,3,NA,70,NA,NA,NA,NA
-2020-12-24,North West,17,NA,457,NA,NA,NA,NA
+2020-12-24,Far North East,14,570,197,0,0,372,1
+2020-12-24,Far North West,10,867,154,2,0,703,10
+2020-12-24,North Central,28,1574,410,18,6,1152,12
+2020-12-24,North East,3,469,70,3,0,394,5
+2020-12-24,North West,17,1323,457,4,1,851,15
 2020-12-24,Regina,25,2814,517,25,3,2254,43
 2020-12-24,Saskatoon,30,4086,1195,40,10,2868,23
-2020-12-24,South Central,3,NA,30,NA,NA,NA,NA
-2020-12-24,South East,3,NA,84,NA,NA,NA,NA
-2020-12-24,South West,0,NA,10,NA,NA,NA,NA
-2020-12-25,Central East,0,NA,138,NA,NA,NA,NA
-2020-12-25,Central West,0,NA,21,NA,NA,NA,NA
+2020-12-24,South Central,3,528,30,0,0,489,9
+2020-12-24,South East,3,433,84,4,0,339,10
+2020-12-24,South West,0,554,10,2,1,542,2
+2020-12-25,Central East,0,551,138,4,0,411,2
+2020-12-25,Central West,0,333,21,2,0,310,2
 2020-12-25,Far North Central,0,106,29,0,0,77,0
-2020-12-25,Far North East,0,NA,197,NA,NA,NA,NA
-2020-12-25,Far North West,0,NA,154,NA,NA,NA,NA
-2020-12-25,North Central,0,NA,410,NA,NA,NA,NA
-2020-12-25,North East,0,NA,70,NA,NA,NA,NA
-2020-12-25,North West,0,NA,457,NA,NA,NA,NA
+2020-12-25,Far North East,0,570,197,0,0,372,1
+2020-12-25,Far North West,0,867,154,2,0,703,10
+2020-12-25,North Central,0,1574,410,18,6,1152,12
+2020-12-25,North East,0,469,70,3,0,394,5
+2020-12-25,North West,0,1323,457,4,1,851,15
 2020-12-25,Regina,0,2814,517,25,3,2254,43
 2020-12-25,Saskatoon,0,4086,1195,40,10,2868,23
-2020-12-25,South Central,0,NA,30,NA,NA,NA,NA
-2020-12-25,South East,0,NA,84,NA,NA,NA,NA
-2020-12-25,South West,0,NA,10,NA,NA,NA,NA
-2020-12-26,Central East,0,NA,138,NA,NA,NA,NA
-2020-12-26,Central West,0,NA,21,NA,NA,NA,NA
+2020-12-25,South Central,0,528,30,0,0,489,9
+2020-12-25,South East,0,433,84,4,0,339,10
+2020-12-25,South West,0,554,10,2,1,542,2
+2020-12-26,Central East,0,551,138,4,0,411,2
+2020-12-26,Central West,0,333,21,2,0,310,2
 2020-12-26,Far North Central,0,106,29,0,0,77,0
-2020-12-26,Far North East,0,NA,197,NA,NA,NA,NA
-2020-12-26,Far North West,0,NA,154,NA,NA,NA,NA
-2020-12-26,North Central,0,NA,410,NA,NA,NA,NA
-2020-12-26,North East,0,NA,70,NA,NA,NA,NA
-2020-12-26,North West,0,NA,457,NA,NA,NA,NA
+2020-12-26,Far North East,0,570,197,0,0,372,1
+2020-12-26,Far North West,0,867,154,2,0,703,10
+2020-12-26,North Central,0,1574,410,18,6,1152,12
+2020-12-26,North East,0,469,70,3,0,394,5
+2020-12-26,North West,0,1323,457,4,1,851,15
 2020-12-26,Regina,0,2814,517,25,3,2254,43
 2020-12-26,Saskatoon,0,4086,1195,40,10,2868,23
-2020-12-26,South Central,0,NA,30,NA,NA,NA,NA
-2020-12-26,South East,0,NA,84,NA,NA,NA,NA
-2020-12-26,South West,0,NA,10,NA,NA,NA,NA
-2020-12-27,Central East,21,NA,148,NA,NA,NA,NA
-2020-12-27,Central West,2,NA,20,NA,NA,NA,NA
+2020-12-26,South Central,0,528,30,0,0,489,9
+2020-12-26,South East,0,433,84,4,0,339,10
+2020-12-26,South West,0,554,10,2,1,542,2
+2020-12-27,Central East,21,573,148,8,0,423,2
+2020-12-27,Central West,2,335,20,1,0,313,2
 2020-12-27,Far North Central,0,106,29,1,0,77,0
-2020-12-27,Far North East,44,NA,226,NA,NA,NA,NA
-2020-12-27,Far North West,25,NA,152,NA,NA,NA,NA
-2020-12-27,North Central,104,NA,477,NA,NA,NA,NA
-2020-12-27,North East,22,NA,89,NA,NA,NA,NA
-2020-12-27,North West,41,NA,476,NA,NA,NA,NA
+2020-12-27,Far North East,44,616,226,0,0,389,1
+2020-12-27,Far North West,25,892,152,3,0,730,10
+2020-12-27,North Central,104,1682,477,27,4,1191,14
+2020-12-27,North East,22,491,89,5,0,397,5
+2020-12-27,North West,41,1364,476,11,0,870,18
 2020-12-27,Regina,70,2884,481,28,8,2359,44
 2020-12-27,Saskatoon,126,4212,1064,58,11,3125,23
-2020-12-27,South Central,4,NA,22,NA,NA,NA,NA
-2020-12-27,South East,11,NA,90,NA,NA,NA,NA
-2020-12-27,South West,2,NA,11,NA,NA,NA,NA
-2020-12-28,Central East,0,NA,148,NA,NA,NA,NA
-2020-12-28,Central West,0,NA,20,NA,NA,NA,NA
+2020-12-27,South Central,4,532,22,0,0,501,9
+2020-12-27,South East,11,444,90,13,0,343,11
+2020-12-27,South West,2,556,11,1,3,543,2
+2020-12-28,Central East,0,573,148,8,0,423,2
+2020-12-28,Central West,0,335,20,1,0,313,2
 2020-12-28,Far North Central,0,106,29,1,0,77,0
-2020-12-28,Far North East,0,NA,226,NA,NA,NA,NA
-2020-12-28,Far North West,0,NA,152,NA,NA,NA,NA
-2020-12-28,North Central,0,NA,477,NA,NA,NA,NA
-2020-12-28,North East,0,NA,89,NA,NA,NA,NA
-2020-12-28,North West,0,NA,476,NA,NA,NA,NA
+2020-12-28,Far North East,0,616,226,0,0,389,1
+2020-12-28,Far North West,0,892,152,3,0,730,10
+2020-12-28,North Central,0,1682,477,27,4,1191,14
+2020-12-28,North East,0,491,89,5,0,397,5
+2020-12-28,North West,0,1364,476,11,0,870,18
 2020-12-28,Regina,0,2884,481,28,8,2359,44
 2020-12-28,Saskatoon,0,4212,1064,58,11,3125,23
-2020-12-28,South Central,0,NA,22,NA,NA,NA,NA
-2020-12-28,South East,0,NA,90,NA,NA,NA,NA
-2020-12-28,South West,0,NA,11,NA,NA,NA,NA
-2020-12-29,Central East,7,NA,135,NA,NA,NA,NA
-2020-12-29,Central West,4,NA,23,NA,NA,NA,NA
+2020-12-28,South Central,0,532,22,0,0,501,9
+2020-12-28,South East,0,444,90,13,0,343,11
+2020-12-28,South West,0,556,11,1,3,543,2
+2020-12-29,Central East,7,581,135,5,1,443,3
+2020-12-29,Central West,4,339,23,1,0,314,2
 2020-12-29,Far North Central,0,106,25,1,0,81,0
-2020-12-29,Far North East,36,NA,235,NA,NA,NA,NA
-2020-12-29,Far North West,4,NA,141,NA,NA,NA,NA
-2020-12-29,North Central,33,NA,514,NA,NA,NA,NA
-2020-12-29,North East,8,NA,75,NA,NA,NA,NA
-2020-12-29,North West,13,NA,414,NA,NA,NA,NA
+2020-12-29,Far North East,36,652,235,0,0,416,1
+2020-12-29,Far North West,4,896,141,1,0,744,11
+2020-12-29,North Central,33,1744,514,26,5,1214,16
+2020-12-29,North East,8,499,75,3,0,419,5
+2020-12-29,North West,13,1378,414,10,2,945,19
 2020-12-29,Regina,39,2923,503,26,11,2373,47
 2020-12-29,Saskatoon,39,4251,911,56,12,3315,25
-2020-12-29,South Central,0,NA,15,NA,NA,NA,NA
-2020-12-29,South East,15,NA,101,NA,NA,NA,NA
-2020-12-29,South West,1,NA,9,NA,NA,NA,NA
-2020-12-30,Central East,7,NA,122,NA,NA,NA,NA
-2020-12-30,Central West,0,NA,22,NA,NA,NA,NA
+2020-12-29,South Central,0,532,15,0,0,508,9
+2020-12-29,South East,15,459,101,13,0,347,11
+2020-12-29,South West,1,557,9,1,1,546,2
+2020-12-30,Central East,7,588,122,4,1,463,3
+2020-12-30,Central West,0,339,22,1,0,315,2
 2020-12-30,Far North Central,0,106,24,1,0,82,0
-2020-12-30,Far North East,25,NA,234,NA,NA,NA,NA
-2020-12-30,Far North West,4,NA,124,NA,NA,NA,NA
-2020-12-30,North Central,10,NA,496,NA,NA,NA,NA
-2020-12-30,North East,5,NA,76,NA,NA,NA,NA
-2020-12-30,North West,9,NA,400,NA,NA,NA,NA
+2020-12-30,Far North East,25,677,234,0,0,442,1
+2020-12-30,Far North West,4,900,124,1,0,765,11
+2020-12-30,North Central,10,1770,496,22,5,1258,16
+2020-12-30,North East,5,504,76,2,0,423,5
+2020-12-30,North West,9,1387,400,8,2,968,19
 2020-12-30,Regina,44,2968,477,28,10,2444,47
 2020-12-30,Saskatoon,13,4264,761,50,13,3475,28
-2020-12-30,South Central,3,NA,17,NA,NA,NA,NA
-2020-12-30,South East,17,NA,114,NA,NA,NA,NA
-2020-12-30,South West,2,NA,11,NA,NA,NA,NA
-2020-12-31,Central East,4,NA,110,NA,NA,NA,NA
-2020-12-31,Central West,2,NA,20,NA,NA,NA,NA
+2020-12-30,South Central,3,535,17,0,0,509,9
+2020-12-30,South East,17,476,114,1,0,351,11
+2020-12-30,South West,2,559,11,1,1,546,2
+2020-12-31,Central East,4,592,110,6,1,479,3
+2020-12-31,Central West,2,341,20,1,0,319,2
 2020-12-31,Far North Central,0,106,24,0,0,82,0
-2020-12-31,Far North East,22,NA,216,NA,NA,NA,NA
-2020-12-31,Far North West,9,NA,126,NA,NA,NA,NA
-2020-12-31,North Central,37,NA,461,NA,NA,NA,NA
-2020-12-31,North East,2,NA,73,NA,NA,NA,NA
-2020-12-31,North West,12,NA,395,NA,NA,NA,NA
+2020-12-31,Far North East,22,699,216,0,0,482,1
+2020-12-31,Far North West,9,909,126,2,0,772,11
+2020-12-31,North Central,37,1820,461,21,5,1343,16
+2020-12-31,North East,2,506,73,2,0,428,5
+2020-12-31,North West,12,1401,395,7,3,987,19
 2020-12-31,Regina,23,2991,479,32,11,2465,47
 2020-12-31,Saskatoon,47,4311,574,39,9,3708,29
-2020-12-31,South Central,8,NA,25,NA,NA,NA,NA
-2020-12-31,South East,10,NA,118,NA,NA,NA,NA
-2020-12-31,South West,3,NA,14,NA,NA,NA,NA
-2021-01-01,Central East,0,NA,110,NA,NA,NA,NA
-2021-01-01,Central West,0,NA,20,NA,NA,NA,NA
+2020-12-31,South Central,8,543,25,0,0,509,9
+2020-12-31,South East,10,486,118,1,0,357,11
+2020-12-31,South West,3,562,14,1,1,546,2
+2021-01-01,Central East,0,592,110,6,1,479,3
+2021-01-01,Central West,0,341,20,1,0,319,2
 2021-01-01,Far North Central,0,106,24,0,0,82,0
-2021-01-01,Far North East,0,NA,216,NA,NA,NA,NA
-2021-01-01,Far North West,0,NA,126,NA,NA,NA,NA
-2021-01-01,North Central,0,NA,461,NA,NA,NA,NA
-2021-01-01,North East,0,NA,73,NA,NA,NA,NA
-2021-01-01,North West,0,NA,395,NA,NA,NA,NA
+2021-01-01,Far North East,0,699,216,0,0,482,1
+2021-01-01,Far North West,0,909,126,2,0,772,11
+2021-01-01,North Central,0,1820,461,21,5,1343,16
+2021-01-01,North East,0,506,73,2,0,428,5
+2021-01-01,North West,0,1401,395,7,3,987,19
 2021-01-01,Regina,0,2991,479,32,11,2465,47
 2021-01-01,Saskatoon,0,4311,574,39,9,3708,29
-2021-01-01,South Central,0,NA,25,NA,NA,NA,NA
-2021-01-01,South East,0,NA,118,NA,NA,NA,NA
-2021-01-01,South West,0,NA,14,NA,NA,NA,NA
-2021-01-02,Central East,32,NA,138,NA,NA,NA,NA
-2021-01-02,Central West,3,NA,23,NA,NA,NA,NA
+2021-01-01,South Central,0,543,25,0,0,509,9
+2021-01-01,South East,0,486,118,1,0,357,11
+2021-01-01,South West,0,562,14,1,1,546,2
+2021-01-02,Central East,32,624,138,6,1,483,3
+2021-01-02,Central West,3,344,23,1,0,319,2
 2021-01-02,Far North Central,1,107,22,0,0,85,0
-2021-01-02,Far North East,90,NA,282,NA,NA,NA,NA
-2021-01-02,Far North West,13,NA,134,NA,NA,NA,NA
-2021-01-02,North Central,68,NA,475,NA,NA,NA,NA
-2021-01-02,North East,18,NA,77,NA,NA,NA,NA
-2021-01-02,North West,51,NA,410,NA,NA,NA,NA
+2021-01-02,Far North East,90,793,282,0,0,510,1
+2021-01-02,Far North West,13,922,134,2,0,777,11
+2021-01-02,North Central,68,1916,475,30,3,1424,17
+2021-01-02,North East,18,524,77,2,0,442,5
+2021-01-02,North West,51,1460,410,9,2,1031,19
 2021-01-02,Regina,81,3073,534,36,14,2491,48
 2021-01-02,Saskatoon,75,4386,380,36,11,3976,30
-2021-01-02,South Central,18,NA,43,NA,NA,NA,NA
-2021-01-02,South East,24,NA,139,NA,NA,NA,NA
-2021-01-02,South West,0,NA,11,NA,NA,NA,NA
-2021-01-03,Central East,6,NA,139,NA,NA,NA,NA
-2021-01-03,Central West,1,NA,24,NA,NA,NA,NA
+2021-01-02,South Central,18,561,43,0,1,509,9
+2021-01-02,South East,24,510,139,4,0,360,11
+2021-01-02,South West,0,562,11,1,1,549,2
+2021-01-03,Central East,6,630,139,2,1,488,3
+2021-01-03,Central West,1,345,24,0,0,319,2
 2021-01-03,Far North Central,0,107,21,0,0,86,0
-2021-01-03,Far North East,39,NA,309,NA,NA,NA,NA
-2021-01-03,Far North West,17,NA,144,NA,NA,NA,NA
-2021-01-03,North Central,50,NA,506,NA,NA,NA,NA
-2021-01-03,North East,2,NA,79,NA,NA,NA,NA
-2021-01-03,North West,23,NA,418,NA,NA,NA,NA
+2021-01-03,Far North East,39,832,309,0,0,522,1
+2021-01-03,Far North West,17,939,144,0,0,784,11
+2021-01-03,North Central,50,1967,506,29,5,1444,17
+2021-01-03,North East,2,526,79,0,0,442,5
+2021-01-03,North West,23,1484,418,8,3,1047,19
 2021-01-03,Regina,20,3093,553,36,15,2492,48
 2021-01-03,Saskatoon,42,4428,376,35,11,4022,30
-2021-01-03,South Central,13,NA,56,NA,NA,NA,NA
-2021-01-03,South East,14,NA,153,NA,NA,NA,NA
-2021-01-03,South West,1,NA,12,NA,NA,NA,NA
-2021-01-04,Central East,8,NA,144,NA,NA,NA,NA
-2021-01-04,Central West,5,NA,29,NA,NA,NA,NA
+2021-01-03,South Central,13,574,56,2,1,509,9
+2021-01-03,South East,14,524,153,1,0,360,11
+2021-01-03,South West,1,563,12,1,2,549,2
+2021-01-04,Central East,8,638,144,6,1,491,3
+2021-01-04,Central West,5,350,29,1,0,319,2
 2021-01-04,Far North Central,1,108,17,0,0,91,0
-2021-01-04,Far North East,46,NA,341,NA,NA,NA,NA
-2021-01-04,Far North West,18,NA,154,NA,NA,NA,NA
-2021-01-04,North Central,63,NA,552,NA,NA,NA,NA
-2021-01-04,North East,5,NA,74,NA,NA,NA,NA
-2021-01-04,North West,17,NA,420,NA,NA,NA,NA
+2021-01-04,Far North East,46,878,341,1,0,535,2
+2021-01-04,Far North West,18,957,154,1,0,792,11
+2021-01-04,North Central,63,2030,552,30,5,1461,17
+2021-01-04,North East,5,531,74,3,0,451,6
+2021-01-04,North West,17,1501,420,10,2,1062,19
 2021-01-04,Regina,48,3141,595,42,16,2498,48
 2021-01-04,Saskatoon,41,4469,399,42,10,4040,30
-2021-01-04,South Central,8,NA,64,NA,NA,NA,NA
-2021-01-04,South East,9,NA,161,NA,NA,NA,NA
-2021-01-04,South West,1,NA,13,NA,NA,NA,NA
-2021-01-05,Central East,13,NA,148,NA,NA,NA,NA
-2021-01-05,Central West,1,NA,29,NA,NA,NA,NA
+2021-01-04,South Central,8,582,64,3,1,509,9
+2021-01-04,South East,9,533,161,5,0,361,11
+2021-01-04,South West,1,564,13,1,0,549,2
+2021-01-05,Central East,13,651,148,5,1,500,3
+2021-01-05,Central West,1,351,29,0,0,320,2
 2021-01-05,Far North Central,0,108,17,0,0,91,0
-2021-01-05,Far North East,6,NA,347,NA,NA,NA,NA
-2021-01-05,Far North West,8,NA,157,NA,NA,NA,NA
-2021-01-05,North Central,14,NA,561,NA,NA,NA,NA
-2021-01-05,North East,5,NA,71,NA,NA,NA,NA
-2021-01-05,North West,13,NA,394,NA,NA,NA,NA
+2021-01-05,Far North East,6,884,347,1,0,535,2
+2021-01-05,Far North West,8,965,157,1,0,797,11
+2021-01-05,North Central,14,2055,561,25,4,1476,18
+2021-01-05,North East,5,538,71,3,0,461,6
+2021-01-05,North West,13,1514,394,6,2,1100,20
 2021-01-05,Regina,39,3180,630,42,14,2500,50
 2021-01-05,Saskatoon,33,4503,395,40,10,4078,30
-2021-01-05,South Central,1,NA,65,NA,NA,NA,NA
-2021-01-05,South East,6,NA,167,NA,NA,NA,NA
-2021-01-05,South West,0,NA,12,NA,NA,NA,NA
+2021-01-05,South Central,1,584,65,2,0,510,9
+2021-01-05,South East,6,539,167,8,0,360,12
+2021-01-05,South West,0,564,12,2,0,550,2
