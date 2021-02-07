@@ -2274,3 +2274,172 @@ Date,Region,Inpatient Hospitalizations,ICU Hospitalizations
 2021-01-25,South West,1,1
 2021-01-25,South Central,1,1
 2021-01-25,South East,4,0
+2021-01-26,Far North West,5,0
+2021-01-26,Far North Central,0,0
+2021-01-26,Far North East,0,0
+2021-01-26,North West,15,2
+2021-01-26,North Central,28,2
+2021-01-26,North East,2,0
+2021-01-26,Saskatoon,73,15
+2021-01-26,Central West,2,0
+2021-01-26,Central East,8,1
+2021-01-26,Regina,36,11
+2021-01-26,South West,1,1
+2021-01-26,South Central,1,1
+2021-01-26,South East,4,0
+2021-01-27,Far North West,5,0
+2021-01-27,Far North Central,0,0
+2021-01-27,Far North East,1,0
+2021-01-27,North West,15,2
+2021-01-27,North Central,30,2
+2021-01-27,North East,6,0
+2021-01-27,Saskatoon,70,18
+2021-01-27,Central West,2,0
+2021-01-27,Central East,11,1
+2021-01-27,Regina,39,12
+2021-01-27,South West,1,1
+2021-01-27,South Central,1,0
+2021-01-27,South East,3,0
+2021-01-28,Far North West,5,0
+2021-01-28,Far North Central,0,0
+2021-01-28,Far North East,1,0
+2021-01-28,North West,14,3
+2021-01-28,North Central,27,2
+2021-01-28,North East,4,0
+2021-01-28,Saskatoon,66,18
+2021-01-28,Central West,1,0
+2021-01-28,Central East,11,1
+2021-01-28,Regina,38,12
+2021-01-28,South West,1,1
+2021-01-28,South Central,1,0
+2021-01-28,South East,2,0
+2021-01-29,Far North West,4,0
+2021-01-29,Far North Central,0,0
+2021-01-29,Far North East,1,0
+2021-01-29,North West,16,3
+2021-01-29,North Central,28,1
+2021-01-29,North East,3,0
+2021-01-29,Saskatoon,68,15
+2021-01-29,Central West,1,0
+2021-01-29,Central East,14,2
+2021-01-29,Regina,42,11
+2021-01-29,South West,1,1
+2021-01-29,South Central,1,0
+2021-01-29,South East,6,0
+2021-01-30,Far North West,4,0
+2021-01-30,Far North Central,0,0
+2021-01-30,Far North East,1,0
+2021-01-30,North West,15,3
+2021-01-30,North Central,26,1
+2021-01-30,North East,3,0
+2021-01-30,Saskatoon,70,12
+2021-01-30,Central West,0,0
+2021-01-30,Central East,13,2
+2021-01-30,Regina,40,10
+2021-01-30,South West,0,0
+2021-01-30,South Central,1,0
+2021-01-30,South East,5,0
+2021-01-31,Far North West,3,0
+2021-01-31,Far North Central,0,0
+2021-01-31,Far North East,1,0
+2021-01-31,North West,19,2
+2021-01-31,North Central,25,1
+2021-01-31,North East,3,0
+2021-01-31,Saskatoon,64,13
+2021-01-31,Central West,0,0
+2021-01-31,Central East,11,4
+2021-01-31,Regina,40,11
+2021-01-31,South West,0,0
+2021-01-31,South Central,1,0
+2021-01-31,South East,5,0
+2021-02-01,Far North West,4,0
+2021-02-01,Far North Central,0,0
+2021-02-01,Far North East,1,0
+2021-02-01,North West,19,2
+2021-02-01,North Central,22,2
+2021-02-01,North East,2,0
+2021-02-01,Saskatoon,65,11
+2021-02-01,Central West,0,0
+2021-02-01,Central East,10,4
+2021-02-01,Regina,43,11
+2021-02-01,South West,0,0
+2021-02-01,South Central,1,0
+2021-02-01,South East,5,0
+2021-02-02,Far North West,4,0
+2021-02-02,Far North Central,0,0
+2021-02-02,Far North East,2,0
+2021-02-02,North West,21,1
+2021-02-02,North Central,28,2
+2021-02-02,North East,4,0
+2021-02-02,Saskatoon,77,14
+2021-02-02,Central West,1,0
+2021-02-02,Central East,12,4
+2021-02-02,Regina,49,12
+2021-02-02,South West,0,0
+2021-02-02,South Central,1,0
+2021-02-02,South East,6,0
+2021-02-03,Far North West,5,0
+2021-02-03,Far North Central,0,0
+2021-02-03,Far North East,3,0
+2021-02-03,North West,23,2
+2021-02-03,North Central,25,1
+2021-02-03,North East,3,0
+2021-02-03,Saskatoon,74,13
+2021-02-03,Central West,1,0
+2021-02-03,Central East,13,4
+2021-02-03,Regina,48,10
+2021-02-03,South West,0,0
+2021-02-03,South Central,1,0
+2021-02-03,South East,3,0
+2021-02-04,Far North West,4,0
+2021-02-04,Far North Central,0,0
+2021-02-04,Far North East,1,0
+2021-02-04,North West,21,2
+2021-02-04,North Central,26,1
+2021-02-04,North East,4,0
+2021-02-04,Saskatoon,70,13
+2021-02-04,Central West,1,0
+2021-02-04,Central East,11,4
+2021-02-04,Regina,43,10
+2021-02-04,South West,0,0
+2021-02-04,South Central,1,0
+2021-02-04,South East,4,0
+2021-02-05,Far North West,5,0
+2021-02-05,Far North Central,0,0
+2021-02-05,Far North East,1,0
+2021-02-05,North West,26,1
+2021-02-05,North Central,26,1
+2021-02-05,North East,3,0
+2021-02-05,Saskatoon,66,11
+2021-02-05,Central West,1,0
+2021-02-05,Central East,11,3
+2021-02-05,Regina,51,11
+2021-02-05,South West,0,1
+2021-02-05,South Central,1,0
+2021-02-05,South East,5,0
+2021-02-06,Far North West,2,0
+2021-02-06,Far North Central,0,0
+2021-02-06,Far North East,0,0
+2021-02-06,North West,21,1
+2021-02-06,North Central,22,1
+2021-02-06,North East,3,0
+2021-02-06,Saskatoon,67,11
+2021-02-06,Central West,1,0
+2021-02-06,Central East,10,3
+2021-02-06,Regina,50,10
+2021-02-06,South West,0,1
+2021-02-06,South Central,0,0
+2021-02-06,South East,4,0
+2021-02-07,Far North West,2,0
+2021-02-07,Far North Central,0,0
+2021-02-07,Far North East,0,0
+2021-02-07,North West,20,2
+2021-02-07,North Central,22,2
+2021-02-07,North East,2,0
+2021-02-07,Saskatoon,69,10
+2021-02-07,Central West,1,0
+2021-02-07,Central East,10,3
+2021-02-07,Regina,53,10
+2021-02-07,South West,0,1
+2021-02-07,South Central,0,0
+2021-02-07,South East,4,0
