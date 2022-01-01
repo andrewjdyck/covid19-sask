@@ -61,6 +61,7 @@ get_hospitalizations_dl <- function() {
 
 # I'm probably going to need to do something about the doses CSV file
 # Example: https://dashboard.saskatchewan.ca/export/vaccines/4327.csv
+# File has some poorly formatted data.
 
 
 cases_export <- get_cases_dl()
