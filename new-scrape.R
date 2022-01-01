@@ -17,8 +17,11 @@ get_cases_dl <- function() {
     filter(str_detect(value, 'csv')) %>%
     unlist()
   names(link_stub) <- NULL
+  # This needs to be fixed because the format of the CSV has changed.
+  # There are now columns for age groups and vaccination status
   outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub)) %>%
-    filter(!is.na(`Total Cases`))
+    # filter(!is.na(`Total Cases`))
+    group_by(Date, Region) %>% summarise_all('sum', na.rm=TRUE) %>% as_tibble()
   return(outdf)
 }
 
@@ -32,6 +35,8 @@ get_tests_dl <- function() {
     filter(str_detect(value, 'csv')) %>%
     unlist()
   names(link_stub) <- NULL
+  # This needs to be fixed too. The New Tests column can be NA for a given day (eg. '2021-06-01')
+  # but have valid data for other rows
   outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub)) %>%
     filter(!is.na(`New Tests`))
   return(outdf)
@@ -47,10 +52,16 @@ get_hospitalizations_dl <- function() {
     filter(str_detect(value, 'csv')) %>%
     unlist()
   names(link_stub) <- NULL
-  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub))%>%
+  # There is never a cases when Inpatient is NA, but ICU is not.
+  # I should probably update this to account for cases where this could be true.
+  outdf <- readr::read_csv(paste0('https://dashboard.saskatchewan.ca', link_stub)) %>%
     filter(!is.na(`Inpatient Hospitalizations`))
   return(outdf)
 }
+
+# I'm probably going to need to do something about the doses CSV file
+# Example: https://dashboard.saskatchewan.ca/export/vaccines/4327.csv
+
 
 cases_export <- get_cases_dl()
 tests_export <- get_tests_dl()
@@ -77,7 +88,7 @@ new_cases <- cases_export %>%
   filter(Date > max_agg_df_dt$dt) %>%
   select(-Region) %>%
   group_by(Date) %>%
-  summarise_all(sum)
+  summarise_all(sum, na.rm=TRUE)
 
 new_tests <- tests_export %>% 
   filter(Date > max_agg_df_dt$dt) %>%
@@ -96,6 +107,32 @@ agg_df <- agg_df %>%
 readr::write_csv(agg_df, './data/cases-sk.csv')
 
 ##################
+# vaccine scraper
+##################
+##################
+
+vaccine_url <- 'https://dashboard.saskatchewan.ca/health-wellness/covid-19-vaccines/vaccines#new-doses-tab'
+
+##################
+# New case types scraper
+##################
+##################
+
+daily_case_types_url <- 'https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases'
+url <- daily_case_types_url
+read_html(url) %>%
+  html_nodes('.indicator-main-content') %>%
+  html_nodes('.col-sm-9')
+  html_attr('.indicator-highlights')
+
+# looks like may not be able to scrape because its under the data-* tag.
+
+get_new_case_types <- function(url) {
+  
+}
+
+
+##################
 # Older updates scraper
 ##################
 ##################
@@ -105,7 +142,6 @@ latest_updates_url <- 'https://www.saskatchewan.ca/government/health-care-admini
 # older updates url is deprecated. Notices are now located at the health ministry news pages
 health_min_news_updates_url <- 'https://www.saskatchewan.ca/government/news-and-media?text=%22COVID-19+Update%3a%22&ministry=5FD58D569A72474B8D543396985C0409'
 # health_min_news_updates_url <- 'https://www.saskatchewan.ca/government/news-and-media?text=%22COVID-19+Update%3a%22&ministry=5FD58D569A72474B8D543396985C0409&page=27'
-
 
 extract_health_min_daily_update_urls <- function(base_url) {
   read_html(base_url) %>%
